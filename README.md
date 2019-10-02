@@ -1,2 +1,8 @@
 # CoralProject
-Coral white plague disease holobiont metatranscriptome. 
+## Coral white plague disease holobiont metatranscriptome. 
+
+**Team:** Naomi Huntley and Cynthia Becker
+
+**Proposed Paper:** Daniels CA, Baumgarten S, Yum LK, Michell CT, Bayer T, Arif C, Roder C, Weil E, Voolstra CR. 2015. Metatranscriptome analysis of the reef-building coral Orbicella faveolata indicates holobiont response to coral disease. Front Mar Sci. 2. doi:<10.3389/fmars.2015.00062>. [accessed 2019 Sep 15]. <http://journal.frontiersin.org/Article/10.3389/fmars.2015.00062/abstract>.    
+	We propose reanalyzing the data from the paper titled, Metatranscriptome analysis of the reef-building coral Orbicella faveolata indicates holobiont response to coral disease, by Daniels et al. (2015). This paper compares differences in gene expression between two healthy and two white plague diseased coral hosts and their associated algae and bacterial symbionts. For our project we would focus on comparing four coral transcriptomes and four bacterial transcriptomes, each from two healthy and two white plague diseased Orbicella faveolata coral colonies. To cut down the analysis, we will omit the algal symbionts from our reanalysis. These data are available on NCBI (<https://www.ncbi.nlm.nih.gov/sra/SRX1096797[accn]>) and are approximately 30Gb total.     
+	Our reanalysis will focus on recreating figure 1 and figure 3. Figure 1 is a comparison between differentially expressed genes associated with disease in the coral and bacterial “compartments” of the coral host. Figure 3 analyzes the bacteria that expressed the disease-associated genes. We found figure 3 challenging to interpret, and our reanalysis will also focus on finding a way to improve readability of the figure. 
