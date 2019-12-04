@@ -1,1 +1,766 @@
 This will be a log of all the commands and output we run for the Coral Metatranscriptome project.
+
+Made a conda environment and installed all the necessary packages:
+
+$conda create -n coral
+$conda activate coral
+$conda install -c bioconda fastqc
+$fastqc -v
+$conda install -c bioconda trimmomatic
+$trimmomatic -version
+$conda install -c biobuilds allpathslg
+$allpathslg -version
+$conda install -c biobuilds allpathslg
+$conda install -c anaconda perl
+
+October 15, 2019
+$ srun -p compute --time=24:00:00 --ntasks-per-node=4 --mem=64gb --pty bash
+$ conda activate coral
+$ fastqc SRR*.fastq.gz
+I ran this on a tmux environment [16].
+Output from the run looked like:
+Approx 10% complete for SRR2102098_1.fastq.gz
+Approx 15% complete for SRR2102098_1.fastq.gz
+.
+.
+.
+Analysis complete for SRR2102098_1.fastq.gz
+Started analysis of SRR2102098_2.fastq.gz
+.
+.
+.
+Continued until Analysis was complete for all files.
+
+Made a directory for the fastqc output files within the output folder
+$mkdir output/QC
+
+Put the generated .zip and .html files into the new directory 
+$ mv data/*.zip output/QC/
+$ mv data/*.html output/QC/
+
+Copied the html files to Cynthia's local computer:
+In new terminal window: 
+cynthiabecker$ scp cbecker@poseidon.whoi.edu:/vortexfs1/omics/env-bio/collaboration/CoralProject/output/QC/*html ~/Desktop/QCcoraltranscript/
+cbecker@poseidon.whoi.edu's password: 
+SRR2102098_1_fastqc.html                      100%  258KB   5.2MB/s   00:00    
+SRR2102098_2_fastqc.html                      100%  256KB   5.0MB/s   00:00    
+SRR2102235_1_fastqc.html                      100%  273KB   5.4MB/s   00:00    
+SRR2102235_2_fastqc.html                      100%  266KB   7.6MB/s   00:00
+
+
+October 25, 2019
+Making a blast database to compare the coral transcriptome to -- to separate coral from Symbiodinaceae: 
+We used the scp command to copy transcriptome files found on NCBI from our local computer to Poseidon. 
+Code: 
+$ scp adi_transcriptome_assembly.v1.fa.gz nhuntley@poseidon.whoi.edu:/vortexfs1/omics/env-bio/collaboration/CoralProject/transcriptome-database
+^This is the Acropora Digitifera transcriptome 
+"Coral" File Names: 
+GCF_002042975.1_ofav_dov_v1_rna.fna.gz              
+A_hyacinth_GDIF01.1.fsa_nt.gz                             
+GCF_002571385.1_Stylophora_pistillata_v1_rna.fna.gz
+adi_transcriptome_assembly.v1.fa.gz
+
+"Other Cnidarians" File Names: 
+H.vulgaris_GCF_000004095.1_Hydra_RP_1.0_rna.fna.gz
+N.vectensis_GCF_000209225.1_ASM20922v1_rna.fna.gz
+E.pallida_GCF_001417965.1_Aiptasia_genome_1.1_rna.fna.gz
+
+
+Downloading Blast into conda environment: 
+conda install -c bioconda blast
+Got an error message:
+$$ Executing transaction: / WARNING conda.gateways.disk.delete:unlink_or_rename_to_trash(140): Could not remove or rename /vortexfs1/home/nhuntley/.conda/envs/coral/lib/5.26.2/x86_64-linux-thread-multi/perllocal.pod.  Please remove this file manually (you may need to reboot to free file handles)
+
+Used makeblastdb command to create a database for each individual:
+First had to guzip all the files:
+$gunzip *.gz
+
+$makeblastdb -dbtype nucl -in GCF_002042975.1_ofav_dov_v1_rna.fna -out ofavdb.fna -parse_seqids -title "ofavDB"
+$makeblastdb -dbtype nucl -in A_hyacinth_GDIF01.1.fsa_nt -out ahyadb.fna -parse_seqids -title "ahyaDB"
+$makeblastdb -dbtype nucl -in H.vulgaris_GCF_000004095.1_Hydra_RP_1.0_rna.fna -out HvulgDB.fna -parse_seqids -title "hvulDB"
+$makeblastdb -dbtype nucl -in adi_transcriptome_assembly.v1.fa -out adigiDB.fna -parse_seqids -title "adigiDB"
+$makeblastdb --dbtype nucl -in E.pallida_GCF_001417965.1_Aiptasia_genome_1.1_rna.fna -out ApallDB.fna -parse_seqids -title "ApallDB"
+$makeblastdb -dbtype nucl -in E.pallida_GCF_001417965.1_Aiptasia_genome_1.1_rna.fna -out ApallDB.fna -parse_seqids -title "ApallDB"
+$makeblastdb -dbtype nucl -in GCF_002571385.1_Stylophora_pistillata_v1_rna.fna -out AstylDB.fna -parse_seqids -title "AstylDB"
+$makeblastdb -dbtype nucl -in N.vectensis_GCF_000209225.1_ASM20922v1_rna.fna -out NvectDB.fna -parse_seqids -title "NvectDB"
+$makeblastdb -dbtype nucl -in GCF_002571385.1_Stylophora_pistillata_v1_rna.fna -out SpistDB.fna -parse_seqids -title "SpistDB"
+
+This code is to combine the above databases together. ** Ahyan did not work** 
+$blastdb_aliastool -dblist "ApallDB.fna HvulgDB.fna NvectDB.fna SpistDB.fna adigiDB.fna ofavdb.fna" -dbtype nucl -title "Cnidarian Database" -out cnidarian_DB
+
+
+Cynthia copied all the files from personal computer to the cluster 
+
+11/5/19 
+Wrote two slurm submission scripts -- fastqc & trim in the data folder -- and submitted both jobs to slurm. 
+
+11/8/19
+Made a directory for the original fastqfiles and put all the original files in that folder.
+
+$ mkdir origfastq
+$ mv *001.fastq.gz origfastq/
+
+Moved all fastqc output files to the output/QC/ folder we made previously. 
+
+$ mv *.html ../output/QC
+$ mv *.zip ../output/QC/
+
+Moved all untrimmed data to a folder called untrimFastq
+
+$ mkdir untrimFastq
+$ mv *un.trim.fastq.gz untrimFastq/
+
+
+11/11/2019
+
+Ran Allpaths LG error-correction standalone module using default parameters since no parameters were outlined in the materials and methods
+I used the ErrorCorrectReads.pl function. 
+
+I did this using the scavenger compute node. I ran the following commands individually because my for-loop script was unsuccessful on two occasions due to excess memory. 
+
+These are the commands I ran. The script is very verbose. I have included the output files of importance.
+$ /vortexfs1/home/cbecker/.conda/envs/coral/bin/ErrorCorrectReads.pl PAIRED_READS_A_IN=M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_1.trim.fastq.gz PAIRED_READS_B_IN=M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_2.trim.fastq.gz PHRED_ENCODING=33 READS_OUT=M_faveolata__Mfav_DD_euk_1_corrected_out
+
+$ /vortexfs1/home/cbecker/.conda/envs/coral/bin/ErrorCorrectReads.pl PAIRED_READS_A_IN=M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_1.trim.fastq.gz PAIRED_READS_B_IN=M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_2.trim.fastq.gz PHRED_ENCODING=33 READS_OUT=M_faveolata__Mfav_DD_euk_31_corrected_out
+
+$ /vortexfs1/home/cbecker/.conda/envs/coral/bin/ErrorCorrectReads.pl PAIRED_READS_A_IN=M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1.trim.fastq.gz PAIRED_READS_B_IN=M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2.trim.fastq.gz PHRED_ENCODING=33 READS_OUT=M_faveolata__Mfav_HH_euk_3_corrected_out
+
+$ /vortexfs1/home/cbecker/.conda/envs/coral/bin/ErrorCorrectReads.pl PAIRED_READS_A_IN=M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1.trim.fastq.gz PAIRED_READS_B_IN=M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2.trim.fastq.gz PHRED_ENCODING=33 READS_OUT=M_faveolata__Mfav_HH_euk_33_corrected_out
+ 
+I am struggling to find the correctly outputted .fastq file. There are only .fastb files. I am wondering if it doesn't work well with .gz files, even though I found some example code that used that. 
+
+$ srun -p scavenger --time=2:00:00 --ntasks-per-node=36 --mem=40gb --pty bash
+
+$ gunzip M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001*
+
+$ /vortexfs1/home/cbecker/.conda/envs/coral/bin/ErrorCorrectReads.pl PAIRED_READS_A_IN=M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_1.trim.fastq PAIRED_READS_B_IN=M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_2.trim.fastq PHRED_ENCODING=33 READS_OUT=M_faveolata__Mfav_DD_euk_1_corrected_out2
+
+It sort of almost worked, but there was a problem:
+
+Mon Nov 11 12:13:51 2019 : ALLPATHS-LG Pipeline Finished.
+
+Run directory: ./M_faveolata__Mfav_DD_euk_1_corrected_out2.allpaths-lg/data/run
+Log directory: ./M_faveolata__Mfav_DD_euk_1_corrected_out2.allpaths-lg/make_log/data/run/test/2019-11-11T11:57:52
+
+Running SplitReadsByLibrary.
+Can't exec "/vortexfs1/home/cbecker/.conda/envs/coral/bin/SplitReadsByLibrary": No such file or directory at /vortexfs1/home/cbecker/.conda/envs/coral/bin//PerlRunTime.pm line 66.
+Use of uninitialized value $signal in hash element at /vortexfs1/home/cbecker/.conda/envs/coral/bin//PerlRunTime.pm line 101.
+
+Mon Nov 11 12:13:51 2019 - /vortexfs1/home/cbecker/.conda/envs/coral/bin/ErrorCorrectReads.pl
+A shell command Use of uninitialized value $signal in concatenation (.) or string at /vortexfs1/home/cbecker/.conda/envs/coral/bin//PerlRunTime.pm line 117.
+Use of uninitialized value $signal in hash element at /vortexfs1/home/cbecker/.conda/envs/coral/bin//PerlRunTime.pm line 117.
+Use of uninitialized value in concatenation (.) or string at /vortexfs1/home/cbecker/.conda/envs/coral/bin//PerlRunTime.pm line 117.
+detected signal SIG ().
+Exiting Perl.
+
+Stack trace:
+	Shell command '/vortexfs1/home/cbecker/.conda/envs/coral/bin/SplitReadsByLibrary READS_IN=./M_faveolata__Mfav_DD_euk_1_corrected_out2.allpaths-lg/data/run/frag_reads_corr SPLIT_PAIRS=True QUALS=True'
+ at /vortexfs1/home/cbecker/.conda/envs/coral/bin//PerlRunTime.pm line 127.
+	PerlRunTime::run_or_die('/vortexfs1/home/cbecker/.conda/envs/coral/bin/SplitReadsByLib...') called at /vortexfs1/home/cbecker/.conda/envs/coral/bin/ErrorCorrectReads.pl line 315
+
+*****From some internet searches, it looks like the AllpathsLG package I have loaded may not have the SplitReadsByList perl script. 
+It seems like I should try and install the type of AllpathsLG they used in the paper: v.47609
+
+$ conda remove allpathslg
+$ conda install -c biobuilds allpathslg=47609 #THIS DIDN"T WORK
+
+Online, I found a tool called rCorrector, which is designed for RNAseq data and has good online documentation. 
+I will install this and try to use it.
+
+$ conda activate coral
+$ conda install -c bioconda rcorrector
+
+I made a document called rCorrectScript.txt to correct the sequences using rCorrector
+I executed the script with the following code:
+
+$ sbatch rCorrectScript.txt M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_1.trim.fastq M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_2.trim.fastq
+$ sbatch rCorrectScript.txt M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_1.trim.fastq.gz M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_2.trim.fastq.gz
+$ sbatch rCorrectScript.txt M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1.trim.fastq.gz,M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1.trim.fastq.gz M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2.trim.fastq.gz,M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2.trim.fastq.gz
+
+This created the following files (note the "cor" part of the extension)
+M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_1.trim.cor.fq.gz
+M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_2.trim.cor.fq.gz
+M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_1.trim.cor.fq.gz
+M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_2.trim.cor.fq.gz
+M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1.trim.cor.fq.gz
+M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2.trim.cor.fq.gz
+M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1.trim.cor.fq.gz
+M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2.trim.cor.fq.gz
+
+November 11 2019
+Naomi: I added perl to the conda environment using the code: conda install -c anaconda perl
+	and added the author provided perl script called merge_fastq.pl
+	and ran the script using the codes: 
+		perl merge_fastq.pl M_faveolata__Mfav_DD_prok_31-_2512__L2_GGCTAC_L002_1.trim.fastq.gz M_faveolata__Mfav_DD_prok_31-_2512__L2_GGCTAC_L002_2.trim.fastq.gz Mfav_DD_prok2512.fastq.gz
+		perl merge_fastq.pl M_faveolata__Mfav_HH_prok_3-_2508__L2_CAGATC_L002_1.trim.fastq.gz M_faveolata__Mfav_HH_prok_3-_2508__L2_CAGATC_L002_2.trim.fastq.gz Mfav_DD_prok2508.fastq.gz
+		perl merge_fastq.pl M_faveolata__Mfav_DD_prok_1-_2511__L2_TAGCTT_L002_1.trim.fastq.gz M_faveolata__Mfav_DD_prok_1-_2511__L2_TAGCTT_L002_2.trim.fastq.gz Mfav_DD_prok2511.fastq.gz
+		perl merge_fastq.pl M_faveolata__Mfav_HH_prok_33-_2509__L2_ACTTGA_L002_1.trim.fastq.gz M_faveolata__Mfav_HH_prok_33-_2509__L2_ACTTGA_L002_2.trim.fastq.gz Mfav_DD_prok2509.fastq.gz
+  	Next these new files need to go through MG RAST
+
+
+Back to working with the eukaryotic sequences...
+
+The rCorrector affects the file headers, so I have to use a python script to remove the unfixable reads and to remove "cor" from the header of each corrected sequence.
+The python script is from a github repository, which I will use. 
+I have begun following some suggestions from this site: https://informatics.fas.harvard.edu/best-practices-for-de-novo-transcriptome-assembly-with-trinity.html
+This is because the ALLPATHS-LG was not working 
+
+$ git clone git@github.com:harvardinformatics/TranscriptomeAssemblyTools.git
+
+The script works with python 2, so I have to load that into the SBATCH script I wrote.
+My SBATCH script for this is called FilterUnfixableSeqs.txt
+
+Execute with the following commands:
+$ sbatch FilterUnfixableSeqs.txt M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_1.trim.cor.fq.gz M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_2.trim.cor.fq.gz Mfav_DD_euk_1
+$ sbatch FilterUnfixableSeqs.txt M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_1.trim.cor.fq.gz M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_2.trim.cor.fq.gz Mfav_DD_euk_31
+$ sbatch FilterUnfixableSeqs.txt M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1.trim.cor.fq.gz M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2.trim.cor.fq.gz Mfav_HH_euk_3
+$ sbatch FilterUnfixableSeqs.txt M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1.trim.cor.fq.gz M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2.trim.cor.fq.gz Mfav_HH_euk_33
+
+This output the following files:
+unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_1.trim.cor.fq
+unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_2.trim.cor.fq
+unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_1.trim.cor.fq
+unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_2.trim.cor.fq
+unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1.trim.cor.fq
+unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2.trim.cor.fq
+unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1.trim.cor.fq
+unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2.trim.cor.fq
+And some log files with some summaries on the sequences removed:
+rmunfixable_Mfav_DD_euk_1.log
+rmunfixable_Mfav_DD_euk_31.log
+rmunfixable_Mfav_HH_euk_33.log
+rmunfixable_Mfav_HH_euk_3.log
+
+I will create a dedicated conda environment for Trinity since it didn't work in class, and just to be safe.
+
+$ conda deactivate
+$ conda create --name trinity
+$ conda install -c bioconda trinity
+
+Wrote a batch script to execute the denovo transcriptome assembly and executed it with the code:
+
+$ sbatch trinity.sh unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_1.trim.cor.fq,unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_1.trim.cor.fq,unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1.trim.cor.fq,unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1.trim.cor.fq unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_2.trim.cor.fq,unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_2.trim.cor.fq,unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2.trim.cor.fq,unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2.trim.cor.fq trinity_out_dir
+
+
+11/15/19
+
+copied perl script files to Naomi's computer to be uploaded to MG RAST
+	Waiting for MG RAST account approval to move forward 
+
+Downloaded SwissProt/trEMBL DataBase to Cynthia's local computer, and copied it to poseidon. This will be used to query against and annotate our de novo reference transcriptome using blastx. 
+	/vortexfs1/omics/env-bio/collaboration/CoralProject/data/swissprot_TrEMBL_DB/uniprot_sprot.fasta.gz
+
+	Unzipped the file  > gunzip uniprot_sprot.fasta.gz
+	makeblastdb -in uniprot_sprot.fasta -dbtype prot -out SwissProtDB
+
+	Building a new DB, current time: 11/15/2019 11:55:29
+	New DB name:   /vortexfs1/omics/env-bio/collaboration/CoralProject/data/swissprot_TrEMBL_DB/SwissProtDB
+	New DB title:  uniprot_sprot.fasta
+	Sequence type: Protein
+	Keep MBits: T
+	Maximum file size: 1000000000B
+	Adding sequences from FASTA; added 561356 sequences in 12.9412 seconds.
+
+	Made an sbatch script and ran it to annotate our de novo transcriptome against the SwissProt/TrEMBLE Database 
+		Used the following resource as a guide to write this script, as the paper was a bit confusing/lacking of detail: http://sfg.stanford.edu/BLAST.html
+		The only parameter specified is the e value: <1e^-5, therefore the rest of the parameters we used the default settings  ++ outfmt 7
+		Script File: Annotate.sh 
+
+
+11/18/2019
+
+Cynthis will set up and map the reference transcriptome using Bowtie2 and use SAMtools to create sorted BAM files, which will then be analyzed ni eXpress.
+Add these packages to the coral conda environment. 
+
+$ conda activate coral
+$ conda install -c bioconda bowtie2
+
+Note: This installs bowtie2 v2.3.5, which is different than the original version used (Bowtie2-2.1.0) in the paper. 
+
+$ conda install -c bioconda samtools
+
+Note: This installs SAMtools v1.9, which is different than the versions used by the paper (SAMtools-0.1.18). 
+
+Just noticed that the Annotation didn't work. It terminated prematurely. As a result, Naomi and I worked together to re-write and resubmit the script. 
+
+Back to mapping reads against the de novo assembly:
+I wrote a script to make an index of the Trinity.fasta de novo assembly. 
+
+$ nano index.sh
+
+Executed with:
+
+I wrote a script to map the fastq reads (trimmed, corrected, and unfixable reads removed fastq files) against the denovo assembly. This script also wraps samtools so that it outputs BAM files that are namesorted. 
+
+$ nano bowtie.sh
+
+Executed with:
+
+Earlier I couldnt check the run stats of the Trinity assembly, and I just figured it out. I checked what the stats looked like.
+
+$ perl /vortexfs1/home/cbecker/.conda/envs/trinity/opt/TRINITY_HOME/util/TrinityStats.pl Trinity.fasta > Trinity.assemblystats.txt
+
+The above command saved a document "Trinity.assemblystats.txt" which contains the contig info. 
+Contig N50 is 656 based on Longest Isoform Per Gene
+Contig N50 is 724 for all transcript contigs
+
+We will need eXpress for quantifying treanscript abundances for each gene. 
+
+$ conda activate coral 
+$ conda install -c bioconda express
+
+Note: We installed eXpress-1.5.1, but The Daniels et al paper used eXpress-1.3.0. 
+
+11/19/19
+
+Naomi and Cynthia met with Carolyn to check in on progress. 
+Action items:
+Re-run alignment
+Do GO analysis. NH and CB found an online tool to turn uniprot IDs to GO IDs. Naomi will complete this. 
+Carolyn helped us figure out what was wrong with our Bowtie2 code. We will run this all separately. 
+Run Bowtie2, Samtools, and maybe express or picard. CB will finish this.
+
+NH ran the updated Annotate.sh script in the data/swissprot_TrEMBL_DB/ directory:
+
+$sbatch Annotate.sh
+
+11/20/2019
+
+CB edited and ran the updated Bowtie2 script in the data/eukSeqs/ folder"
+
+$sbatch bowtie.sh
+
+Underlying code in this script:
+for x in *1.trim.cor.fq
+do
+name=$(basename ${x} 1.trim.cor.fq)
+echo ${name}
+bowtie2 -p 16 --local -x denovoTrinityIndex -q \
+-1 ${name}1.trim.cor.fq \
+-2 ${name}2.trim.cor.fq \
+-S ${name}bt2.sam
+done
+
+Edited a samtools/express script:
+
+In the data/eukSeqs/ folder:
+$ cp bowtie.sh samtools.sh
+
+Script written in samtools is:
+for x in *bt2.sam
+do
+name=$(basename ${x} bt2.sam)
+samtools view -bS $x > ${name}bt2.bam
+samtools sort ${name}bt2.bam -o ${name}bt2.sorted.bam
+done
+
+$ sbatch samtools.sh #executed the command
+
+Wrote a script for express:
+
+$ cp samtools.sh eXpress.sh
+
+Script written in the file:
+for x in *sorted.bam
+do
+express Trinity.fasta $x -o ${x}_express_output
+done
+
+Executed the script:
+
+$ sbatch eXpress.sh
+
+It generated the following files:
+unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_bt2.sorted.bam_express_output
+unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_bt2.sorted.bam_express_output
+unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_bt2.sorted.bam_express_output
+unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_bt2.sorted.bam_express_output
+
+I used the mv command to rename all these directories 
+$ mv unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_bt2.sorted.bam_express_output Mfav_DD_euk_1_express_output
+$ mv unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_bt2.sorted.bam_express_output Mfav_DD_euk_31_express_output
+$ mv unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_bt2.sorted.bam_express_output Mfav_HH_euk_3_express_output
+$ mv unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_bt2.sorted.bam_express_output Mfav_HH_euk_33_express_output
+
+Now I have these files:
+Mfav_DD_euk_1_express_output
+Mfav_DD_euk_31_express_output
+Mfav_HH_euk_33_express_output
+Mfav_HH_euk_3_express_output
+
+For some reason all the counts aren't in the same order. Maybe this is normal???
+
+11/23/2019
+
+Goal: Make an ouputed counts files with all the sample and counts in it
+
+Copy the results from express and rename them and put them all into one folder
+
+$ Mkdir counts
+$ cp Mfav_DD_euk_1_express_output/results.xprs counts/Mfav_DD_euk_1_express_output_counts.xprs
+$  cp Mfav_DD_euk_31_express_output/results.xprs counts/Mfav_DD_euk_31_express_output_counts.xprs
+$ cp Mfav_HH_euk_33_express_output/results.xprs counts/Mfav_HH_euk_33_express_output_counts.xprs
+$  cp Mfav_HH_euk_3_express_output/results.xprs counts/Mfav_HH_euk_3_express_output_counts.xprs
+
+Now the following files are in the counts folder
+Mfav_DD_euk_1_express_output_counts.xprs
+Mfav_DD_euk_31_express_output_counts.xprs
+Mfav_HH_euk_33_express_output_counts.xprs
+Mfav_HH_euk_3_express_output_counts.xprs
+
+Check that they all have the same number of lines:
+
+$ for x in counts/*xprs
+> do
+> wc -l $x
+> done
+
+They sure do! They each have 239337 lines in the file
+This is because there are 239336 file in the fasta file plus the header.
+
+Created a Jupyter notebook to turn the counts files into a tab-delimited output that we can use with edgeR (hopefully). 
+
+The Jupyter notebook is called “express_results_to_count_table.ipynb”
+
+Removed the .sam and .bam files generated from the indexing:
+$ rm -r excessfiles.SAMBAM
+
+Then I moved all the sorted bam files into a folder called sortedBAM
+$ mkdir sortedBAM
+$ mv *sorted.bam sorted BAM
+
+Next steps: take the files through edgeR. 
+
+11/24/2019
+
+BLASTN the transcriptome assembly (denovoTrinity.fasta I think) against our coral database to identify contigs that are part of the coral holobiont. 
+
+Our coral database is called cnidarian_DB.nal. I am not sure what the cnidarian_DB.nal is, but we should theoretically be able to use this for the blastn query. 
+
+
+
+
+
+WORKING ON THE SYMBIODINIUM DATABASE
+
+Download sequences from the transcriptome assembly from Bayer T, Aranda M, Sunagawa S, et al. Symbiodinium transcriptomes: genome insights into the dinoflagellate symbionts of reef-building corals. PLoS ONE. 2012;7(4):e35269.
+These were from the website: http://medinalab.org/zoox/
+
+Downloaded sequences from the NCBI - these were transcriptome shotgun assemblies downloaded in .fasta files. 
+https://www.ncbi.nlm.nih.gov/Traces/wgs/?val=GAFO01
+https://www.ncbi.nlm.nih.gov/Traces/wgs/?val=GAFP01
+
+
+COMPARE SEQUENCES TO CUSTOM CORAL DB:
+Made the sbatch script: coralAnnotate.sh and used blastn to compare our sequences to out custom coral db. The output of this was saved as: coralAnnotate.tab
+
+Making and comparing to SYMBIODINIUM DB:
+
+Copied files over from local computer:
+Unzipped them using:
+
+$ gunzip *gz
+$ bunzip2 *bz2
+
+Now I need to make the databases:
+
+$ makeblastdb -dbtype nucl -in GAFP01.1.fsa_nt -out cladeD -parse_seqids -title "CladeD"
+
+
+Building a new DB, current time: 11/24/2019 16:18:40
+New DB name:   /vortexfs1/omics/env-bio/collaboration/CoralProject/transcriptome-database/algaefastas/cladeD
+New DB title:  CladeD
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 23657 sequences in 0.583877 seconds.
+
+$ makeblastdb -dbtype nucl -in GAFO01.1.fsa_nt -out cladeC -parse_seqids -title "CladeC"
+
+
+Building a new DB, current time: 11/24/2019 16:19:56
+New DB name:   /vortexfs1/omics/env-bio/collaboration/CoralProject/transcriptome-database/algaefastas/cladeC
+New DB title:  CladeC
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 26947 sequences in 0.595418 seconds.
+
+
+NOTE - the annotations from the cladeA and CladeB are online
+
+$ makeblastdb -dbtype nucl -in kb8_assembly.fasta -out cladeA -parse_seqids -title "CladeA"
+
+
+Building a new DB, current time: 11/24/2019 16:21:06
+New DB name:   /vortexfs1/omics/env-bio/collaboration/CoralProject/transcriptome-database/algaefastas/cladeA
+New DB title:  CladeA
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 72152 sequences in 1.49363 seconds.
+
+$ makeblastdb -dbtype nucl -in mf105_assembly.fasta -out cladeB -parse_seqids -title "CladeB"
+
+
+Building a new DB, current time: 11/24/2019 16:23:45
+New DB name:   /vortexfs1/omics/env-bio/collaboration/CoralProject/transcriptome-database/algaefastas/cladeB
+New DB title:  CladeB
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 76284 sequences in 1.51082 seconds.
+
+Use the blastdb_alias tool to create a database to blast against:
+
+$ blastdb_aliastool -dblist "cladeA cladeB cladeC cladeD" -dbtype nucl -title "All-Symbiodinium-database" -out algaeDB_all
+Created nucleotide BLAST (alias) database algaeDB_all with 199040 sequences
+
+Made a script to map the denovoAssembly_Trinity.fasta to the symbiodinium database:
+
+IT is here: /transcriptome-database/algaefastas/algaeAnnotate.sh
+
+Executed the command:
+
+$sbatch algaeAnnotate.sh
+
+IT worked!
+
+11.25.19
+
+Ran Mfav_counts_all.tab counts file through edgeR. I used Rstudio which was running R version 3.6.1 (action of the toes)
+
+R script used for analysis is annotated and at the location: /CoralProject/output/edgeR/edgeR_coral_FinalProject.R
+
+Output tab files represent all differentially expressed genes and only genes with a p-value < 0.1.
+These files are in the same ~/edgeR/ folder and named:
+DEgenes_coral.tsv
+DEgenes_pval0.1_coral.tsv
+
+Copied all these files from CB local computer.
+
+
+
+
+
+
+
+11/28/2019
+
+CB re-ran longest isoform script: 
+$ perl /vortexfs1/home/cbecker/.conda/envs/trinity/opt/TRINITY_HOME/util/misc/get_longest_isoform_seq_per_trinity_gene.pl Trinity.fasta > Trinity.longest.fasta
+
+
+        NOTE - longest transcript isn't always the best transcript!... consider filtering based on relative expression support ... 
+
+
+
+ok.  Done.
+
+Number of genes now:
+
+$ grep ">" Trinity.longest.fasta | wc -l
+197483
+
+Calculated assembly stats
+
+$ perl /vortexfs1/home/cbecker/.conda/envs/trinity/opt/TRINITY_HOME/util/TrinityStats.pl Trinity.longest.fasta > Trinity.longest.assemblystats.txt
+
+$ less Trinity.longest.assemblystats.txt
+
+OUTPUT:
+################################
+## Counts of transcripts, etc.
+################################
+Total trinity 'genes':  197483
+Total trinity transcripts:      197483
+Percent GC: 44.22
+
+########################################
+Stats based on ALL transcript contigs:
+########################################
+
+        Contig N10: 1517
+        Contig N20: 1164
+        Contig N30: 948
+        Contig N40: 789
+        Contig N50: 656
+
+        Median contig length: 399
+        Average contig: 532.02
+        Total assembled bases: 105064153
+
+
+
+11/29/2019
+
+Samtools, express on longest isoform stuff
+
+$ sbatch samtools.Longest.sh
+
+Output files:
+unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_bt2.sam
+unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_bt2.sorted.bam
+unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_bt2.sam
+unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_bt2.sorted.bam
+unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_bt2.sam
+unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_bt2.sorted.bam
+unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_bt2.sam
+unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_bt2.sorted.bam
+
+$ sbatch eXpress.Longests.sh Trinity.longest.fasta
+
+Changed names of output folders:
+
+$ mv unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_bt2.sorted.bam_express_output Mfav_DD_euk_1_Longest_express_output
+$ mv unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_bt2.sorted.bam_express_output Mfav_DD_euk_31_Longest_express_output
+$ mv unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_bt2.sorted.bam_express_output Mfav_HH_euk_3_Longest_express_output
+$ mv unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_bt2.sorted.bam_express_output Mfav_HH_euk_33_Longest_express_output
+
+Copied the results.xprs files in each folder into a counts_longest-isoform folder:
+
+$ mkdir counts_longest-isoform
+$ cd Mfav_DD_euk_1_Longest_express_output/
+$ cp results.xprs ../counts_longest-isoform/Mfav_DD_1_counts.xprs
+$ cp Mfav_DD_euk_31_Longest_express_output/results.xprs counts_longest-isoform/Mfav_DD_31_counts.xprs
+$ cp Mfav_HH_euk_3_Longest_express_output/results.xprs counts_longest-isoform/Mfav_HH_3_counts.xprs
+$ cp Mfav_HH_euk_33_Longest_express_output/results.xprs counts_longest-isoform/Mfav_HH_33_counts.xprs
+
+
+11/28-29 
+Naomi: 
+
+Ran trinity perl script to get a single longest isoform per gene. 
+perl /vortexfs1/home/nhuntley/.conda/envs/trinity/opt/TRINITY_HOME/util/get_longest_isoform_seq_per_trinity_gene.pl Trinity.fasta > Trinity.longest.fasta
+
+bowtie2 assembly 
+— index transcriptome
+index.longest.sh 
+
+bowtie.longest.sh.save
+	sbatch bowtie.longest.sh.save denovoTrinity.longest.Index
+
+output: 
+Mfav_DD_1_test_bt2.sam                                            unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_bt2.sam
+unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_bt2.sam   unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_bt2.sam
+unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_bt2.sam
+
+Ran a pseudo aligner against denovo transcriptome 
+1. index.sh  >> saved as trinity-longest-index ## Used the file with the longest isoforms as the salmon index 
+2. salmon.sh >> dir: /vortexfs1/omics/env-bio/collaboration/CoralProject/data/eukSeqs/salmon ## mapped the fastq samples files back to the index created in the previous step
+	quant is the file of interest 
+	need to decide on a TPM cutoff point.
+
+
+Wrote a code to sort coralalgaeAnnotation file into either coral or algae based on e-value and bitscore.
+
+11/30/2019
+
+Combined the SwissProt annotation from the BLASTX query (data/swissprot_TrEMBL_DB/denovo_annotateSwissProt.tab) and from the GO annotation (data/swissprot_TrEMBL_DB/uniprotKB.tab) to create one master tab file.
+This was done in a Jupyter notebook: Combine_BLASTX-and-GO-Annotations.ipynb
+This created an ouptu file: data/swissprot_TrEMBL_DB/BLASTX_and_GO_merged.tab
+
+12/1/2019
+Following the instructions on the website: 
+	https://github.com/trinityrnaseq/trinityrnaseq/wiki/Trinity-Transcript-Quantification
+We created Gene Expression Matrices and Filtering Transcripts Based on Expression Values
+
+Started an srun thing:
+
+$ srun -p compute --time=00:30:00 --ntasks-per-node=2 --mem=20gb --pty bash
+
+Generated an abundance estimate using a perl script included with trinit:
+
+$ perl /vortexfs1/home/cbecker/.conda/envs/trinity/opt/TRINITY_HOME/util/abundance_estimates_to_matrix.pl --est_method salmon --cross_sample_norm TMM --out_prefix salmon_quant --gene_trans_map none ./salmon/quant.sf 
+-reading file: ./salmon/quant.sf
+
+* Outputting combined matrix.
+
+Warning, only one sample, so not performing cross-sample normalization
+Done.
+
+Output files:
+salmon_quant.isoform.counts.matrix
+salmon_quant.isoform.TPM.not_cross_norm 
+
+THEN - Generated a TPM-filtered txm
+
+$ perl /vortexfs1/home/cbecker/.conda/envs/trinity/opt/TRINITY_HOME/util/filter_low_expr_transcripts.pl --matrix salmon_quant.isoform.TPM.not_cross_norm --transcripts Trinity.longest.fasta --min_expr_any 1 > Trinity.longest.TPMfilt.fasta
+
+This will generate an output file called: Trinity.longest.TPMfilt.fasta
+
+Lots of sequences were removed and outputs like the following were called:
+
+ -excluding TRINITY_DN175299_c0_g1_i1, max_expr: 0.529875 < 1
+-excluding TRINITY_DN57235_c1_g1_i1, max_expr: 0.246791 < 1
+-excluding TRINITY_DN149853_c0_g1_i1, max_expr: 0.493582 < 1
+-excluding TRINITY_DN121029_c0_g1_i1, max_expr: 0.370187 < 1
+-excluding TRINITY_DN125156_c0_g1_i1, max_expr: 0.256289 < 1
+
+Retained 66044 / 197483 = 33.44% of total transcripts.
+
+WE RETAINED ABOUT 66,000 TRANSCRIPTS, WHICH IS CLOSE TO 67,000!!!
+
+Note, this is ony 33% of the transcripts. We will use this .fasta file for indexing and running Bowtie2.
+
+Made a new index script called index.TPMfilt.sh and ran it
+
+$ sbatch index.TPMfilt.sh
+
+It outputted the following files:
+
+denovoTrinity.longest.TPMfilt.Index.1.bt2
+denovoTrinity.longest.TPMfilt.Index.2.bt2
+denovoTrinity.longest.TPMfilt.Index.3.bt2
+denovoTrinity.longest.TPMfilt.Index.4.bt2
+denovoTrinity.longest.TPMfilt.Index.rev.1.bt2
+denovoTrinity.longest.TPMfilt.Index.rev.2.bt2
+
+copied the bowtie script for use with the bowtie.longest.TPMfilt.sh
+
+$ cp bowtie.longest.sh.save bowtie.longest.TPMfilt.sh
+
+Ran the script with:
+$ sbatch bowtie.longest.TPMfilt.sh denovoTrinity.longest.TPMfilt.Index
+
+Output files:
+unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_bt2.sam
+unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_bt2.sam
+unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_bt2.sam
+unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_bt2.sam
+
+Ran samtools using the script: samtools.Longest.sh
+
+$ sbatch samtools.Longest.sh
+
+Code in the script:
+for x in *bt2.sam
+do
+name=$(basename ${x} bt2.sam)
+samtools view -bS $x > ${name}longfilt.bt2.bam
+samtools sort ${name}longfilt.bt2.bam -o ${name}longfilt.bt2.sorted.bam
+done
+
+Output files:
+*longfilt.bt2.bam
+*longfilt.bt2.sorted.bam
+
+
+Ran eXpress using the script: eXpress.Longest.sh
+
+$ sbatch eXpress.Longest.sh Trinity.longest.TPMfilt.fasta
+
+Generated the following output directories:
+
+unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_longfilt.bt2.sorted.bam_LongestTPMfilt_express_output
+ unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_longfilt.bt2.sorted.bam_LongestTPMfilt_express_output
+unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_longfilt.bt2.sorted.bam_LongestTPMfilt_express_output
+unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_longfilt.bt2.sorted.bam_LongestTPMfilt_express_output
+
+copied over the results.xprs file in each and put it in the /data/counts_longest_TPMfilt/ folder:
+
+cp unfixrm_M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_longfilt.bt2.sorted.bam_LongestTPMfilt_express_output/results.xprs counts_longest_TPMfilt/Mfav_DD_euk_1_counts.xprs
+cp unfixrm_M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_longfilt.bt2.sorted.bam_LongestTPMfilt_express_output/results.xprs counts_longest_TPMfilt/Mfav_DD_euk_31_counts.xprs
+cp unfixrm_M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_longfilt.bt2.sorted.bam_LongestTPMfilt_express_output/results.xprs counts_longest_TPMfilt/Mfav_HH_euk_3_counts.xprs
+cp unfixrm_M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_longfilt.bt2.sorted.bam_LongestTPMfilt_express_output/results.xprs counts_longest_TPMfilt/Mfav_HH_euk_33_counts.xprs
+

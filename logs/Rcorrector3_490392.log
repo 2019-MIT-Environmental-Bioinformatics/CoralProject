@@ -1,0 +1,13 @@
+Put the kmers into bloom filter
+jellyfish bc -m 23 -s 100000000 -C -t 1 -o tmp_709e2b73f34a008239bdfb51e8876feb.bc <(gzip -cd M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1.trim.fastq.gz) <(gzip -cd M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1.trim.fastq.gz) <(gzip -cd M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2.trim.fastq.gz) <(gzip -cd M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2.trim.fastq.gz) 
+Count the kmers in the bloom filter
+jellyfish count -m 23 -s 100000 -C -t 1 --bc tmp_709e2b73f34a008239bdfb51e8876feb.bc -o tmp_709e2b73f34a008239bdfb51e8876feb.mer_counts <(gzip -cd M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1.trim.fastq.gz) <(gzip -cd M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1.trim.fastq.gz) <(gzip -cd M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2.trim.fastq.gz) <(gzip -cd M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2.trim.fastq.gz) 
+Dump the kmers
+jellyfish dump -L 2 tmp_709e2b73f34a008239bdfb51e8876feb.mer_counts > tmp_709e2b73f34a008239bdfb51e8876feb.jf_dump
+Error correction
+/vortexfs1/home/cbecker/.conda/envs/coral/bin/rcorrector   -p M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1.trim.fastq.gz M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2.trim.fastq.gz -p M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1.trim.fastq.gz M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2.trim.fastq.gz -c tmp_709e2b73f34a008239bdfb51e8876feb.jf_dump
+Stored 93444667 kmers
+Weak kmer threshold rate: 0.007261 (estimated from 0.950/1 of the chosen kmers)
+Bad quality threshold is '7'
+Processed 105017108 reads
+	Corrected 16781984 bases.

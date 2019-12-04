@@ -1,0 +1,40 @@
+TrimmomaticPE: Started with arguments:
+ M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_R1_001.fastq.gz M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_R2_001.fastq.gz M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_1.trim.fastq.gz M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_1un.trim.fastq.gz M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_2.trim.fastq.gz M_faveolata__Mfav_DD_euk_1_2505__L1_TGACCA_L001_2un.trim.fastq.gz SLIDINGWINDOW:4:20
+Quality encoding detected as phred33
+Input Read Pairs: 31583073 Both Surviving: 31073964 (98.39%) Forward Only Surviving: 404248 (1.28%) Reverse Only Surviving: 75721 (0.24%) Dropped: 29140 (0.09%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_R1_001.fastq.gz M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_R2_001.fastq.gz M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_1.trim.fastq.gz M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_1un.trim.fastq.gz M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_2.trim.fastq.gz M_faveolata__Mfav_DD_euk_31_2506__L1_ACAGTG_L001_2un.trim.fastq.gz SLIDINGWINDOW:4:20
+Quality encoding detected as phred33
+Input Read Pairs: 31669465 Both Surviving: 31149540 (98.36%) Forward Only Surviving: 415493 (1.31%) Reverse Only Surviving: 75098 (0.24%) Dropped: 29334 (0.09%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ M_faveolata__Mfav_DD_prok_1-_2511__L2_TAGCTT_L002_R1_001.fastq.gz M_faveolata__Mfav_DD_prok_1-_2511__L2_TAGCTT_L002_R2_001.fastq.gz M_faveolata__Mfav_DD_prok_1-_2511__L2_TAGCTT_L002_1.trim.fastq.gz M_faveolata__Mfav_DD_prok_1-_2511__L2_TAGCTT_L002_1un.trim.fastq.gz M_faveolata__Mfav_DD_prok_1-_2511__L2_TAGCTT_L002_2.trim.fastq.gz M_faveolata__Mfav_DD_prok_1-_2511__L2_TAGCTT_L002_2un.trim.fastq.gz SLIDINGWINDOW:4:20
+Quality encoding detected as phred33
+Input Read Pairs: 24095258 Both Surviving: 23756006 (98.59%) Forward Only Surviving: 256285 (1.06%) Reverse Only Surviving: 57489 (0.24%) Dropped: 25478 (0.11%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ M_faveolata__Mfav_DD_prok_31-_2512__L2_GGCTAC_L002_R1_001.fastq.gz M_faveolata__Mfav_DD_prok_31-_2512__L2_GGCTAC_L002_R2_001.fastq.gz M_faveolata__Mfav_DD_prok_31-_2512__L2_GGCTAC_L002_1.trim.fastq.gz M_faveolata__Mfav_DD_prok_31-_2512__L2_GGCTAC_L002_1un.trim.fastq.gz M_faveolata__Mfav_DD_prok_31-_2512__L2_GGCTAC_L002_2.trim.fastq.gz M_faveolata__Mfav_DD_prok_31-_2512__L2_GGCTAC_L002_2un.trim.fastq.gz SLIDINGWINDOW:4:20
+Quality encoding detected as phred33
+Input Read Pairs: 27924252 Both Surviving: 26709991 (95.65%) Forward Only Surviving: 1117870 (4.00%) Reverse Only Surviving: 59151 (0.21%) Dropped: 37240 (0.13%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_R1_001.fastq.gz M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_R2_001.fastq.gz M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1.trim.fastq.gz M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_1un.trim.fastq.gz M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2.trim.fastq.gz M_faveolata__Mfav_HH_euk_3_2502__L1_ATCACG_L001_2un.trim.fastq.gz SLIDINGWINDOW:4:20
+Quality encoding detected as phred33
+Input Read Pairs: 26336354 Both Surviving: 25934627 (98.47%) Forward Only Surviving: 317331 (1.20%) Reverse Only Surviving: 60786 (0.23%) Dropped: 23610 (0.09%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_R1_001.fastq.gz M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_R2_001.fastq.gz M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1.trim.fastq.gz M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_1un.trim.fastq.gz M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2.trim.fastq.gz M_faveolata__Mfav_HH_euk_33_2503__L1_CGATGT_L001_2un.trim.fastq.gz SLIDINGWINDOW:4:20
+Quality encoding detected as phred33
+Input Read Pairs: 27117911 Both Surviving: 26573927 (97.99%) Forward Only Surviving: 446767 (1.65%) Reverse Only Surviving: 70868 (0.26%) Dropped: 26349 (0.10%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ M_faveolata__Mfav_HH_prok_3-_2508__L2_CAGATC_L002_R1_001.fastq.gz M_faveolata__Mfav_HH_prok_3-_2508__L2_CAGATC_L002_R2_001.fastq.gz M_faveolata__Mfav_HH_prok_3-_2508__L2_CAGATC_L002_1.trim.fastq.gz M_faveolata__Mfav_HH_prok_3-_2508__L2_CAGATC_L002_1un.trim.fastq.gz M_faveolata__Mfav_HH_prok_3-_2508__L2_CAGATC_L002_2.trim.fastq.gz M_faveolata__Mfav_HH_prok_3-_2508__L2_CAGATC_L002_2un.trim.fastq.gz SLIDINGWINDOW:4:20
+Quality encoding detected as phred33
+Input Read Pairs: 23875435 Both Surviving: 23546454 (98.62%) Forward Only Surviving: 246834 (1.03%) Reverse Only Surviving: 57192 (0.24%) Dropped: 24955 (0.10%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ M_faveolata__Mfav_HH_prok_33-_2509__L2_ACTTGA_L002_R1_001.fastq.gz M_faveolata__Mfav_HH_prok_33-_2509__L2_ACTTGA_L002_R2_001.fastq.gz M_faveolata__Mfav_HH_prok_33-_2509__L2_ACTTGA_L002_1.trim.fastq.gz M_faveolata__Mfav_HH_prok_33-_2509__L2_ACTTGA_L002_1un.trim.fastq.gz M_faveolata__Mfav_HH_prok_33-_2509__L2_ACTTGA_L002_2.trim.fastq.gz M_faveolata__Mfav_HH_prok_33-_2509__L2_ACTTGA_L002_2un.trim.fastq.gz SLIDINGWINDOW:4:20
+Quality encoding detected as phred33
+Input Read Pairs: 42198041 Both Surviving: 41541326 (98.44%) Forward Only Surviving: 497009 (1.18%) Reverse Only Surviving: 112745 (0.27%) Dropped: 46961 (0.11%)
+TrimmomaticPE: Completed successfully

@@ -1,0 +1,9 @@
+total PE reads:26573927
+removed PE reads:4250449
+retained PE reads:22323478
+R1 corrected:3122948
+R2 corrected:3244662
+pairs corrected:5749453
+R1 unfixable:1129172
+R2 unfixable:2671684
+both reads unfixable:449593
