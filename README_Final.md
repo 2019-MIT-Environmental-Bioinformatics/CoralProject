@@ -65,11 +65,7 @@
 	
 ### /output/ : contains the output of all analyses.
 - /output/counts_longest_TPMfilt/: this is the count file for the longest isoforms that were TPM filtered. 
-- /output/edgeR-first-attempt/
-    - /DEgenes_coral.tsv  : differentially expressed genes
-    - /DEgenes_pval0.1_coral.tsv  : differentially expressed genes with a p-value cut off of 
-0.1.
--/output/FinalDE_Table/
+- /output/FinalDE_Table/
     - /algae-Copy1.tab : tab file containing contigs assigned to algae based on e-val and bitscore.           
     - /BLASTX_and_GO_merged.tab : This is a tab file containing the blastx and gene ontology annotations merged together into one file.  
     - /coral-Copy1.tab: tab file containing contigs assigned to coral based on e-val and bitscore.            
