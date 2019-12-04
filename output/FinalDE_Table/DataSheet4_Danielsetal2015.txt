@@ -1,0 +1,965 @@
+trinity_mixed 	description	logFC	logCPM	PValue	FDR	uniprot_id	organism	evalue	Name	length	Domains	Protein Families							
+comp20584_c0_seq1	Stathmin	-14.41480902	8.838309675	2.57213E-07	0.000171405	Q6DUB7	Sus scrofa	7.99424E-11	coral	149	SLD (stathmin-like) domain (1)	Stathmin family							
+comp24214_c0_seq1	Radial spoke head 1 homolog	-14.37099767	6.366769785	1.94169E-07	0.000145083	Q8WYR4	Homo sapiens	5.89905E-61	coral	309	MORN repeats (6)	-							
+comp15471_c0_seq1	Predicted protein	-14.30168905	5.743127905	1.61764E-11	8.092E-08	A7S0Y3	Nematostella vectensis	7.31083E-47	coral	362	-	-							
+comp30985_c0_seq1	Histone H1.0	-13.02211039	7.445702311	1.2752E-06	0.000549708	Q5NVN9	Pongo abelii	3.34161E-20	coral	194	H15 (linker histone H1/H5 globular) domain (1)	Histone H1/H5 family							
+comp33223_c0_seq3	Predicted protein	-12.75757119	4.752345173	3.19588E-07	0.000198997	A7SMH1	Nematostella vectensis	7.4874E-21	coral	755	-	-							
+comp34063_c3_seq1	"Sushi, nidogen and EGF-like domain-containing protein 1"	-12.66411776	4.658809296	3.51594E-07	0.000210169	Q70E20	Mus musculus	6.286E-79	coral	1403	EGF-like domains (15); Fibronectin type-III domains (3); NIDO domain (1); Sushi (CCP/SCR) domain (1)								
+comp26647_c0_seq1	High mobility group-T protein	-12.54736082	6.970886637	7.76615E-07	0.000370396	P07746	Oncorhynchus mykiss	1.07765E-27	coral	204	HMG box DNA-binding domains (2)	HMGB family							
+comp35391_c0_seq9	Egg protein	-11.96125808	3.366914204	8.29816E-07	0.000387524	Q1HA50	Galaxea fascicularis	3.56639E-66	coral	272	-	-							
+comp34670_c0_seq1	Putative uncharacterized protein	-11.8932308	11.72639518	1.25718E-06	0.000547202	C3YLI8	Branchiostoma floridae	2.91932E-08	coral	184	-	-							
+comp22029_c0_seq1	Bromodomain testis-specific protein	-11.70864629	3.701000836	5.70173E-07	0.000286206	Q58F21	Homo sapiens	2.77134E-18	coral	947	-	Bromo domains (2); NET domain (1)							
+comp20308_c0_seq1	Predicted protein	-11.41976421	3.072520104	2.64103E-09	5.39105E-06	A7RU90	Nematostella vectensis	2.17076E-22	coral	278	-	-							
+comp34879_c1_seq2	Predicted protein	-10.81773597	10.27522842	8.72691E-06	0.002460658	A7RFU6	Nematostella vectensis	3.78275E-08	coral	532	-	-							
+comp29529_c0_seq2	Meiosis-specific with OB domain-containing protein	-10.31154766	4.735677447	9.86768E-06	0.002681137	Q4R8G6	Macaca fascicularis	3.5668E-101	coral	471	OB DNA-binding domain (1)	MEIOB family							
+comp30470_c0_seq3	Predicted protein	-10.26926547	2.236463945	9.4785E-06	0.002623088	A7SXA5	Nematostella vectensis	7.093E-39	coral	333	-	-							
+comp8237_c0_seq1	Predicted protein	-10.20722892	5.490410078	4.99379E-06	0.001569083	B3SDV8	Trichoplax adhaerens	1.86696E-15	coral	414	-	-							
+comp19367_c0_seq1	Peregrin (BRPF1)	-10.09571687	2.042570227	1.57213E-05	0.003709555	P55201	Homo sapiens	3.86549E-09	coral	1214	Bromo domain (1); C2H2-type zinc finger (1); PHD-type zinc finger (1); PWWP domain (1)								
+comp34823_c0_seq2	Predicted protein	-10.08239592	7.25049847	2.03301E-06	0.000806583	A7T0X8	Nematostella vectensis	2.42739E-32	coral	747									
+comp19270_c0_seq2	Beta-2-syntrophin	-10.02612121	1.974088652	2.32092E-05	0.004954834	Q13425	Homo sapiens	7.63012E-66	coral	540	PDZ (DHR) domain (1); PH domains (2); SU (syntrophin unique) domain (1)	Syntrophin family							
+comp23466_c0_seq2	Uncharacterized protein	-9.999771347	8.392544658	2.69741E-05	0.005547266	K1PCN1	Crassostrea gigas	1.80317E-17	coral	293	-	-							
+comp33101_c0_seq3	Putative uncharacterized protein	-9.948704938	4.372659489	7.75986E-06	0.002270698	C3ZMR0	Branchiostoma floridae	6.13653E-16	coral	130	-	-							
+comp33533_c0_seq2	Predicted protein	-9.896839389	3.72844326	2.5773E-05	0.005349322	A7RJV7	Nematostella vectensis	4.22262E-85	coral	361	-	-							
+comp21453_c0_seq1	Synaptonemal complex protein 3	-9.862008721	7.478701096	9.76776E-06	0.002670172	Q60547	Mesocricetus auratus	9.52691E-42	coral	234	-	XLR/SYCP3 family							
+comp7046_c0_seq1	Predicted protein	-9.603034209	1.593414784	0.000611515	0.04784545	A7SEV0	Nematostella vectensis	6.04542E-10	coral	316	-	-							
+comp36032_c0_seq1	Predicted protein	-9.582401495	1.551417189	0.000264899	0.027615783	A7T1V2	Nematostella vectensis	2.72676E-31	coral	282	SH3 domains (3)	-							
+comp6215_c0_seq1	Predicted protein	-9.547344044	1.208284156	0.000395857	0.035780368	A7RGA3	Nematostella vectensis	4.16364E-50	coral	637	-	-							
+comp33449_c1_seq3	Hemicentin-1 (Hmcn1)	-9.506799916	6.080726806	1.29558E-05	0.003263116	Q96RW7	Homo sapiens	2.27862E-41	coral	5635	EGF-like domains (7); Ig-like C2-type (immunoglobulin-like) domains (44); Nidogen G2 beta-barrel domain (1); TSP type-1 domains (6); VWFA domain (1)								
+comp28986_c0_seq5	Uncharacterized protein (Fragment)	-9.437219025	6.202994489	3.33122E-06	0.001188708	L1IAD2	Guillardia theta CCMP2712	2.1407E-14	coral	406	-	-							
+comp45097_c0_seq1	DnaJ homolog subfamily C member 5B	-9.436750811	1.426543905	0.001058425	0.066458389	Q9UF47	Homo sapiens	2.04196E-14	coral	199	J domain (1)	-							
+comp34864_c0_seq11	Ryncolin-4	-9.396050194	4.674246081	2.59982E-07	0.000171405	D8VNT0	Cerberus rynchops	5.10618E-67	coral	345	Collagen-like domain (1); Fibrinogen C-terminal domain (1)	"Ficolin lectin family, Veficolin subfamily"							
+comp15129_c0_seq1	Pod-EPPT protein (Fragment)	-9.382088354	1.286259778	0.000443347	0.038949596	Q25677	Podocoryne carnea	6.97706E-26	coral	353	-	-							
+comp19604_c2_seq1	Tubulin beta chain	-9.298701564	9.873114141	7.42907E-07	0.000358129	P11833	Paracentrotus lividus	0	coral	447		Tubulin family							
+comp16545_c0_seq1	Hydrocephalus-inducing protein	-9.274727189	1.165580224	0.000691763	0.05160254	Q80W93	Mus musculus	8.37605E-37	coral	5154	-	-							
+comp21591_c0_seq1	PREDICTED: putative ATP-dependent RNA helicase TDRD9-like 	-9.149408035	0.950972051	0.001358305	0.077082927	XP_002155991	Hydra vulgaris	5.41678E-09	coral	587	-	-							
+comp32351_c1_seq4	Actin-3	-9.114094731	10.61943956	1.6832E-06	0.000684445	P41340	Limulus polyphemus	0	coral	376	-	Actin family							
+comp20953_c0_seq1	Histone acetyltransferase KAT2B	-9.092177852	0.965020207	0.001476872	0.081095691	Q92831	Homo sapiens	4.32468E-63	coral	832	Bromo domain (1); N-acetyltransferase domain (1)	"Acetyltransferase family, GCN5 subfamily"							
+comp19007_c0_seq1	"Dynein heavy chain 8, axonemal"	-8.817557369	5.801360653	0.000106897	0.014745883	Q96JB1	Homo sapiens	0	coral	4490	-	Dynein heavy chain family							
+comp19528_c0_seq1	F-box only protein 43	-8.645541147	3.06689088	1.09766E-05	0.002894736	Q8AXF4	Xenopus laevis	2.2951E-11	coral	651	F-box domain (1); IBR-type zinc finger (1)								
+comp27876_c0_seq1	Ovochymase-1	-8.385384684	5.598020171	2.4392E-09	5.39105E-06	Q7RTY7	Homo sapiens	3.26028E-36	coral	1134	CUB domains (3); Peptidase S1 domains (2)	Peptidase S1 family							
+comp21027_c0_seq2	Calcium and integrin-binding family member 2 (KIP2)	-8.339103264	2.756692358	2.88893E-05	0.005816767	Q9Z309	Mus musculus	2.74588E-52	coral	187	EF-hand domains (3)	-							
+comp19253_c0_seq2	Cyclin-dependent kinase 2	-8.176485297	3.997815477	4.42625E-05	0.007969378	P43450	Carassius auratus	3.4941E-164	coral	298	Protein kinase domain (1)	"Protein kinase superfamily, CMGC Ser/Thr protein kinase family, CDC2/CDKX subfamily"							
+comp22875_c0_seq1	Uncharacterized protein C1orf101	-8.113484523	3.400497233	8.86257E-05	0.013113101	Q5SY80	Homo sapiens	2.27268E-22	coral	951	-	-							
+comp25323_c0_seq2	Latent-transforming growth factor beta-binding protein 2	-8.108186758	2.534630335	0.00029179	0.029134771	Q28019	Bos taurus	2.05779E-22	coral	1842	EGF-like domains (20); TB (TGF-beta binding) domains (4)	LTBP family							
+comp42850_c0_seq1	PR domain zinc finger protein 14	-8.058575424	4.270346396	7.55541E-05	0.011761256	Q9GZV8	Homo sapiens	1.1093E-135	coral	571	C2H2-type zinc fingers (6); SET domain (1)	Class V-like SAM-binding methyltransferase superfamily							
+comp30159_c0_seq1	NheA	-8.029498041	4.274614391	8.58104E-07	0.000396603	Q09KI5	Bacillus cereus	1.11768E-11	coral	387	-	-							
+comp37754_c0_seq1	Histone H4	-7.812547965	5.671466616	0.000173853	0.02067417	Q6LAF1	Dendronephthya klunzingeri	1.2385E-47	coral	103		Histone H4 family							
+comp7786_c0_seq2	Toxin APEKTx1	-7.810744295	7.409645687	4.04864E-05	0.007461052	P86862	Anthopleura elegantissima	7.65781E-15	coral	65	BPTI/Kunitz inhibitor domain (1)	Cnidaria Kunitz-type proteinase inhibitor family							
+comp46445_c0_seq1	C-type lectin	-7.754462901	3.684489014	0.000399996	0.03586524	C0KTQ4	Pocillopora damicornis	4.54059E-12	coral	162	-	-							
+comp33832_c0_seq1	Reversion-inducing cysteine-rich protein with Kazal motifs	-7.721439643	6.041141978	1.98279E-05	0.004422502	O95980	Homo sapiens	5.05616E-21	coral	971	Kazal-like domains (3)								
+comp6284_c0_seq1	DNA replication ATP-dependent helicase/nuclease DNA2	-7.361101249	1.779837756	0.000590262	0.047086499	D3ZG52	Rattus norvegicus	1.53807E-33	coral	1059	-	DNA2/NAM7 helicase family							
+comp29695_c1_seq11	Protease inhibitor textilinin-4	-7.240566788	8.883666041	2.27802E-05	0.004910008	Q90W98	Pseudonaja textilis textilis	6.81614E-06	coral	83	BPTI/Kunitz inhibitor domain (1)	Venom Kunitz-type family							
+comp9422_c1_seq1	Putative flagellar-associated protein (Fragment)	-7.157103681	4.96318321	0.000421118	0.037608705	M1T236	Stylophora pistillata	1.131E-172	coral	479	-	-							
+comp27345_c0_seq1	Serine/threonine-protein kinase Nek2	-6.594791654	3.585262318	0.000159982	0.019596484	P51955	Homo sapiens	1.8031E-141	coral	445	Protein kinase domain (1)	"Protein kinase superfamily, NEK Ser/Thr protein kinase family, NIMA subfamily"							
+comp23274_c0_seq1	Atrial natriuretic peptide receptor 1	-6.577856292	1.866120452	0.001955607	0.09581831	P16066	Homo sapiens	2.8178E-112	coral	1061	Guanylate cyclase domain (1); Protein kinase domain (1)	Adenylyl cyclase class-4/guanylyl cyclase family							
+comp27539_c0_seq1	Uncharacterized protein C1orf146	-6.459943102	4.424860894	2.89333E-05	0.005816767	Q5VVC0	Homo sapiens	3.28451E-23	coral	180	-	-							
+comp25680_c0_seq1	Cation channel sperm-associated protein 3	-6.336504869	4.955369424	0.000499615	0.042421819	Q80W99	Mus musculus	1.15725E-53	coral	395	-	Cation channel sperm-associated (TC 1.A.1.19) family							
+comp34049_c0_seq1	Fibronectin type 3 and ankyrin repeat domains 1 protein	-6.32010025	6.265182313	1.47216E-05	0.003542982	Q66H07	Rattus norvegicus	8.87144E-83	coral	344	ANK repeats (6); Fibronectin type-III domain (1)								
+comp26864_c0_seq2	Doublecortin domain-containing protein 2	-6.054294021	4.383906356	0.00047672	0.041100558	D3ZR10	Rattus norvegicus	2.12102E-08	coral	475	Doublecortin domains (2)								
+comp29139_c1_seq1	Uncharacterized protein (Fragment)	-5.400520467	2.360127816	0.000360889	0.033407357	H3JN32	Strongylocentrotus purpuratus	3.11682E-10	coral	545	-	-							
+comp20204_c0_seq1	Predicted protein	-5.297678773	2.499346795	0.000920249	0.061577017	A7SCX2	Nematostella vectensis	7.79557E-25	coral	716	-	-							
+comp14428_c0_seq1	Predicted protein	-5.271673462	2.036005865	0.001068341	0.066788531	A7SR58	Nematostella vectensis	1.1832E-25	coral	1520	-	-							
+comp35535_c0_seq1	Alpha/beta hydrolase domain-containing protein 14A	-5.206445025	2.368120818	0.000472549	0.040819501	Q922Q6	Mus musculus	2.31721E-44	coral	247	-	"AB hydrolase superfamily, ABHD14 family"							
+comp8735_c0_seq1	Predicted protein	-5.168346291	2.158756092	0.000902606	0.060668134	A7SUV3	Nematostella vectensis	1.03191E-25	coral	435	-	-							
+comp24029_c0_seq1	F-box only protein 36	-5.161922824	5.298202722	0.000281626	0.02859876	Q5R796	Pongo abelii	3.52735E-36	coral	188	F-box domain (1)	-							
+comp27159_c0_seq1	Cyclin-J	-5.119221392	2.293299147	0.001156472	0.070444249	Q6DFJ9	Xenopus laevis	3.88407E-58	coral	384	Cyclin N-terminal domain (1)	"Cyclin family, Cyclin J subfamily"							
+comp26548_c0_seq1	Predicted protein	-5.019480082	3.193609667	0.000862484	0.059214204	A7RG01	Nematostella vectensis	7.27063E-13	coral	553	-	-							
+comp18771_c0_seq2	Predicted protein	-4.944464816	6.810390867	0.00030571	0.029990392	A7RSB5	Nematostella vectensis	1.17191E-29	coral	212	-	-							
+comp42161_c0_seq1	Phosphoribosyl pyrophosphate synthase-associated protein 2	-4.835842569	3.535725101	0.000981368	0.063579028	Q5ZL26	Gallus gallus	4.0211E-154	coral	369	-	Ribose-phosphate pyrophosphokinase family							
+comp25922_c0_seq1	Predicted protein	-4.757195941	4.404074036	0.000217303	0.024260634	A7RLK1	Nematostella vectensis	7.76976E-08	coral	243	-	-							
+comp26737_c0_seq1	Predicted protein	-4.477694736	3.214303748	0.000339789	0.032137982	A7RVR8	Nematostella vectensis	4.52236E-52	coral	412	-	-							
+comp27466_c0_seq1	Estradiol 17-beta-dehydrogenase 8	-4.448572435	3.259348103	0.000283232	0.02859876	Q92506	Homo sapiens	3.0626E-86	coral	261	-	Short-chain dehydrogenases/reductases (SDR) family							
+comp19556_c0_seq1	2-epi-5-epi-valiolone synthase	-4.386755781	3.885371628	0.001503536	0.081903431	Q9ZAE9	Actinoplanes sp. (strain ATCC 31044 / CBS 674.73 /	1.19554E-09	coral	398	-	Dehydroquinate synthase family							
+comp29751_c0_seq1	Cation channel sperm-associated protein 4	-4.344754436	5.655449073	0.000633241	0.048875871	Q7RTX7	Homo sapiens	5.32006E-38	coral	472	-	Cation channel sperm-associated (TC 1.A.1.19) family							
+comp26608_c0_seq2	Meiosis-specific protein MEI4-like	-4.302698437	3.41073982	0.000511961	0.043062396	A8MW99	Homo sapiens	3.13992E-06	coral	386	-	MEI4L family							
+comp14944_c0_seq1	ATP-dependent DNA helicase PIF1	-4.272886167	3.202793673	0.000890715	0.060321054	Q0R4F1	Xenopus laevis	1.0267E-101	coral	635	-	"Helicase family, PIF1 subfamily"							
+comp32800_c0_seq1	G2/mitotic-specific cyclin-B	-4.13761763	4.60587739	0.001152686	0.070404922	P15206	Marthasterias glacialis	2.2464E-106	coral	388	-	"Cyclin family, Cyclin AB subfamily"							
+comp28544_c0_seq1	Cyclin-dependent kinases regulatory subunit	-4.097645354	4.911266885	0.001269533	0.074790684	P41384	Patella vulgata	1.7842E-25	coral	76	-	CKS family							
+comp26508_c0_seq1	EF-hand domain-containing protein D2 (Swisprosin-1)	-4.093351991	3.575161925	0.001785225	0.090372299	Q9D8Y0	Mus musculus	7.37587E-51	coral	240	EF-hand domains (2)								
+comp20123_c0_seq1	Bifunctional lysine-specific demethylase and histidyl-hydroxylase MINA	-4.051021297	4.839253291	0.000879162	0.060083213	Q5EA24	Bos taurus	6.30826E-50	coral	462	JmjC domain (1)	MINA53/NO66 family							
+comp20775_c0_seq2	Uncharacterized protein C15orf43 homolog	-4.033857378	4.139411529	0.000838847	0.058305725	Q5BJD2	Danio rerio	1.15224E-09	coral	212	-	-							
+comp27310_c0_seq1	Histone H2B.1/H2B.2	-3.986647898	4.000453183	0.000520827	0.043400968	P35068	Tigriopus californicus	1.32587E-56	coral	123	-	Histone H2B family							
+comp35256_c0_seq14	Putative uncharacterized protein	-3.95399923	3.135053942	0.001570467	0.084018136	C3YLI7	Branchiostoma floridae	1.76902E-07	coral	234	-	-							
+comp30519_c0_seq2	Origin recognition complex subunit 5	-3.845640086	3.010712406	0.001285718	0.075249761	Q9WUV0	Mus musculus	1.9977E-161	coral	435	-	ORC5 family							
+comp26532_c1_seq1	"PREDICTED: ubiquitin protein ligase E3A-like, partial "	-3.775353625	3.980566083	0.000639806	0.049200345	XP_002732646	Saccoglossus kowalevskii	1.62274E-09	coral	1513									
+comp35278_c0_seq1	Collagen triple helix repeat-containing protein 1	-3.559199866	3.751344604	0.001035324	0.065760527	Q96CG8	Homo sapiens	1.6842E-43	coral	243	Collagen-like domain (1)	-							
+comp24119_c0_seq1	Hydrocephalus-inducing protein	-3.434347142	4.840960588	0.001656632	0.086461122	Q80W93	Mus musculus	8.73451E-45	coral	5154	-	-							
+comp34382_c0_seq1	Basic protein N23	3.252479056	9.598414937	0.001217168	0.072757436	I1Z9K2	Pinctada fucata	8.64753E-31	coral	233	-	-							
+comp21215_c0_seq1	Predicted protein	3.315975139	6.69967625	0.000990772	0.063877798	A7RMY8	Nematostella vectensis	5.34336E-30	coral	551	-	-							
+comp34394_c1_seq4	Putative bifunctional amine oxidase DDB_G0291301	3.318643856	3.786500037	0.000953001	0.062847109	Q54EW2	Dictyostelium discoideum	1.30727E-17	coral	1080	-	MSOX/MTOX family; Flavin monoamine oxidase family							
+comp28115_c0_seq1	E3 ubiquitin-protein ligase RNF213	3.459149033	3.440882198	0.001126355	0.069079012	Q63HN8	Homo sapiens	2.45444E-09	coral	5207	RING-type zinc finger (1)								
+comp19724_c0_seq1	Multiple coagulation factor deficiency protein 2 homolog	3.472649959	3.775053488	0.001649758	0.086202756	Q8K5B2	Mus musculus	2.6404E-15	coral	145	EF-hand domains (2)								
+comp27852_c0_seq1	Egg protein	3.565189235	5.755435596	0.000599631	0.047412111	Q1HA50	Galaxea fascicularis	1.41891E-63	coral	272	-	-							
+comp35122_c0_seq1	Uncharacterized protein	3.571521123	5.124701036	0.000503234	0.042645803	A8ZML7	Acaryochloris marina (strain MBIC 11017)	4.10929E-19	coral	147	-	-							
+comp37288_c0_seq1	ATP synthase subunit a	3.607361772	3.07981181	0.000747856	0.053990131	O47494	Metridium senile	2.38739E-54	coral	229	-	ATPase A chain family							
+comp27963_c0_seq1	Uncharacterized protein	3.636664118	6.379806107	0.00049049	0.04188507	I1FQQ1	Amphimedon queenslandica	7.75217E-16	coral	360	-	-							
+comp33216_c0_seq1	Oncoprotein-induced transcript 3 protein	3.68193273	8.086064692	0.000636592	0.049037304	Q6V0K7	Rattus norvegicus	1.42826E-44	coral	546	EGF-like domain (1); ZP domain (1)								
+comp28569_c0_seq1	Golgi-associated plant pathogenesis-related protein 1	3.737413166	2.967780057	0.000710687	0.05249013	Q9CYL5	Mus musculus	2.72573E-23	coral	154	SCP domain (1)	CRISP family							
+comp24491_c0_seq5	Cyano fluorescent protein (Fragment)	3.748183743	3.546221484	0.001332728	0.075919793	B0ZZ78	Hydnophora rigida	4.10675E-12	coral	134	-	-							
+comp34949_c0_seq6	Insoluble matrix shell protein 1 (Fragment)	3.755468367	6.802857339	0.001069641	0.066788531	P86982	Venerupis philippinarum	1.31371E-23	coral	148	-	-							
+comp34793_c0_seq2	hypothetical protein LOTGIDRAFT_168623 	3.874907897	6.880437681	0.000262762	0.027459497	ESO84554	Lottia gigantea	1.03657E-10	coral	252	-	-							
+comp28188_c0_seq1	Mono [ADP-ribose] polymerase PARP16	3.892629412	7.567718367	0.000331909	0.031863271	Q5U2Q4	Rattus norvegicus	6.33998E-76	coral	322	PARP alpha-helical domain (1); PARP catalytic domain (1)								
+comp21855_c0_seq1	Probable ATP-dependent RNA helicase DDX60	3.909878962	3.789731568	0.000750418	0.054087993	Q8IY21	Homo sapiens	5.27291E-19	coral	1712	Helicase ATP-binding domain (1); Helicase C-terminal domain (1)	Helicase family							
+comp25852_c0_seq1	Predicted protein	4.37545162	4.910854218	0.001730379	0.08835575	A7SZN3	Nematostella vectensis	1.53644E-14	coral	257	-	-							
+comp34316_c0_seq2	N-lysine methyltransferase SETD8	4.379969014	4.094769512	5.13777E-05	0.008997519	Q0V9E9	Xenopus tropicalis	5.99611E-10	coral	336	SET domain (1)	"Class V-like SAM-binding methyltransferase superfamily, Histone-lysine methyltransferase family, PR/SET subfamily"							
+comp22588_c0_seq2	Histone H2A-IV	4.40249673	2.17378871	0.001715556	0.088100563	P16866	Volvox carteri	1.21876E-36	coral	129	-	Histone H2A family							
+comp19579_c0_seq1	Predicted protein	4.810080523	3.007513292	0.000722714	0.053028992	A7SUL5	Nematostella vectensis	2.98349E-07	coral	65	-	-							
+comp26465_c0_seq4	Scleractinian cysteine-rich protein	4.843452532	8.590300941	8.6843E-05	0.012977815	B2ZG38	Montastraea faveolata	2.98771E-32	coral	74	-	-							
+comp22331_c0_seq1	Protein translation factor SUI1 homolog 1	4.877723171	2.262648021	0.000528928	0.043831582	P41568	Arabidopsis thaliana	2.85993E-42	coral	113	-	SUI1 family							
+comp25851_c0_seq1	Cytochrome P450 3A13	4.934696844	7.391817507	2.55099E-05	0.005344213	Q64464	Mus musculus	3.88686E-24	coral	503	-	Cytochrome P450 family							
+comp43384_c0_seq1	Uncharacterized protein	5.017788051	2.078171074	0.001068147	0.066788531	E6PKC3	mine drainage metagenome	8.44455E-14	coral	164	-	-							
+comp46400_c0_seq1	60S ribosomal protein L10	5.095810651	1.971001203	0.000959134	0.063049669	O22431	Pinus taeda	1.08911E-70	coral	228	-	Ribosomal protein L10e family							
+comp6138_c0_seq1	40S ribosomal protein S18	5.253634627	1.885087447	0.000900641	0.060667069	Q962R1	Spodoptera frugiperda	1.25561E-48	coral	152	-	Ribosomal protein S13P family							
+comp9443_c0_seq1	Cytochrome c	5.320522232	1.700927171	0.001459909	0.080604251	P15451	Chlamydomonas reinhardtii	1.15318E-19	coral	112		Cytochrome c family							
+comp7901_c0_seq1	Histone H4	5.400772238	2.679103745	5.74124E-05	0.009676363	P0CG89	Glycine max	4.06753E-52	coral	103		Histone H4 family							
+comp16662_c0_seq1	GTP-binding nuclear protein Ran1A (Fragment)	5.423115228	1.71360155	0.00147955	0.081095691	P54765	Lotus japonicus	2.03538E-59	coral	209	-	"Small GTPase superfamily, Ran family"							
+comp14429_c0_seq1	"Peroxiredoxin-5, mitochondrial"	5.441552458	2.413043426	0.000321789	0.031091446	Q9GLW9	Papio hamadryas	2.07901E-31	coral	215	Thioredoxin domain (1)	Peroxiredoxin 2 family							
+comp25108_c0_seq1	Toxin AvTX-60A	5.482968547	3.656876679	5.92363E-05	0.009872416	Q76DT2	Actineria villosa	4.3999E-15	coral	498	EGF-like domain (1); MACPF domain (1)								
+comp35409_c0_seq64	Cytochrome c oxidase subunit 1	5.703299127	2.828868317	0.000661206	0.050157712	P68539	Triticum aestivum	6.65709E-68	coral	524	-	Heme-copper respiratory oxidase family							
+comp36832_c0_seq1	Transmembrane protein 68	5.778629699	2.154719581	0.000247842	0.026144169	Q9D850	Mus musculus	5.89407E-09	coral	329	-								
+comp20913_c1_seq1	Ribosomal RNA small subunit methyltransferase NEP1	6.049899382	2.738680943	0.000210309	0.023689894	O35130	Mus musculus	7.97111E-70	coral	244	-	NEP1 family							
+comp20180_c1_seq2	Eukaryotic translation initiation factor 4 gamma 3	6.188278414	1.126066746	0.001893112	0.093677692	Q80XI3	Mus musculus	1.52972E-21	coral	1579	HEAT repeats (5); MI domain (1); MIF4G domain (1); W2 domain (1)	Eukaryotic initiation factor 4G family							
+comp29389_c0_seq2	Cyclo(L-leucyl-L-leucyl) synthase	6.196905776	9.660104831	3.34085E-06	0.001188708	Q65EX3	Bacillus licheniformis (strain DSM 13 / ATCC 14580)	4.7965E-07	coral	249	-	CDPS family							
+comp35611_c0_seq1	60S ribosomal protein L38	6.495148086	1.292038743	0.000838805	0.058305725	Q56FC8	Lysiphlebus testaceipes	1.88343E-12	coral	76		Ribosomal protein L38e family							
+comp7979_c0_seq1	Inverted formin-2	6.503500503	1.598464403	0.000316111	0.030721466	Q0GNC1	Mus musculus	2.70134E-20	coral	1273	FH1 (formin homology 1) domain (1); FH2 (formin homology 2) domain (1); GBD/FH3 (Rho GTPase-binding/formin homology 3) domain (1); WH2 domain (1)	Formin homology family							
+comp23680_c0_seq1	hypothetical protein STCU_11256 	6.583806613	5.242919244	0.001662289	0.086554845	EPY16445	Strigomonas culicis	2.69047E-13	coral	330	-	-							
+comp37155_c0_seq1	40S ribosomal protein S29	6.796442864	2.03694566	0.000241885	0.025747413	Q7XYB0	Griffithsia japonica	1.55095E-25	coral	56	-	Ribosomal protein S14P family							
+comp31816_c0_seq2	Uncharacterized protein	6.831766135	2.063324105	4.33944E-05	0.007866227	D3BLA3	Polysphondylium pallidum	6.17911E-23	coral	425	-	-							
+comp13901_c0_seq1	60S ribosomal protein L19-2	6.881561585	2.176704408	1.42775E-05	0.003516965	Q9LUQ6	Arabidopsis thaliana	1.28809E-24	coral	209	-	Ribosomal protein L19e family							
+comp24553_c1_seq1	Histone H4	6.997702352	3.256735109	4.98784E-07	0.000263076	P0CG89	Glycine max	4.36188E-34	coral	103	-	Histone H4 family							
+comp9727_c0_seq1	Uncharacterized protein	7.375388218	4.096444485	6.89311E-05	0.011007787	I1GIW2	Amphimedon queenslandica	1.85806E-31	coral	107	-	-	-						
+comp27678_c0_seq1	Williams-Beuren syndrome chromosomal region 27 protein	7.45336198	3.141546509	3.03353E-07	0.000191548	Q8N6F8	Homo sapiens	9.29713E-09	coral	245	-	-							
+comp47850_c0_seq1	Probable arginine kinase F46H5.3	9.028383968	1.192810845	0.001741413	0.088717065	Q10454	Caenorhabditis elegans	2.84036E-40	coral	396	Phosphagen kinase C-terminal domain (1); Phosphagen kinase N-terminal domain (1)	ATP:guanido phosphotransferase family							
+comp23615_c0_seq1	Uncharacterized protein	9.099217866	1.116302993	0.000870521	0.059583485	R7TPC6	Capitella teleta	6.38273E-07	coral	256	-	-							
+comp16501_c0_seq2	Predicted protein (Fragment)	9.110692628	0.941753457	0.001381604	0.077814183	A7RL12	Nematostella vectensis	1.17781E-10	coral	65	-	-							
+comp51782_c0_seq1	NADH-quinone oxidoreductase subunit B	9.144579269	1.261724144	0.00074632	0.053990131	Q9ZDH2	Rickettsia prowazekii (strain Madrid	9.89383E-15	coral	174	-	Complex I 20 kDa subunit family							
+comp33494_c1_seq4	Cyano fluorescent protein (Fragment)	9.230892596	4.932239699	1.49882E-08	2.08905E-05	B0ZZ78	Hydnophora rigida	6.4833E-14	coral	134	-	-							
+comp46493_c0_seq1	Peroxisomal biogenesis factor 3	9.262434732	1.078516535	0.000754808	0.054211564	Q9JJK3	Cricetulus longicaudatus	3.10966E-57	coral	373	-	Peroxin-3 family							
+comp45086_c0_seq1	14 kDa zinc-binding protein (Protein kinase C inhibitor)	9.303011462	1.008763569	0.000958074	0.063049669	P42856	Zea mays	6.87435E-33	coral	128	HIT domain (1)	-							
+comp9350_c0_seq1	Nucleoside diphosphate kinase 1	9.332712193	0.954260505	0.001227667	0.073039072	O81372	Mesembryanthemum crystallinum	4.02026E-32	coral	148	-	NDK family							
+comp9587_c0_seq1	Ribonuclease Z	9.409048769	0.862516854	0.001977078	0.096239265	C0ZBP8	Brevibacillus brevis (strain 47 / JCM 6285 /	4.32012E-13	coral	318	-	RNase Z family							
+comp9735_c0_seq1	60S ribosomal protein L17-2	9.436664818	1.596888995	0.000337776	0.032137982	P35267	Hordeum vulgare	9.22138E-41	coral	172	-	Ribosomal protein L22P family							
+comp7590_c0_seq1	Polyubiquitin-B	9.454786141	1.549491797	0.000175088	0.020711189	Q8MKD1	Equus caballus	6.58792E-06	coral	305	Ubiquitin-like domains (4)	Ubiquitin family							
+comp9740_c0_seq1	60S ribosomal protein L31	9.481548361	1.156420558	0.000496704	0.042335057	P45841	Chlamydomonas reinhardtii	1.22402E-41	coral	116	-	Ribosomal protein L31e family							
+comp25759_c0_seq2	60S ribosomal protein L44	9.481548361	1.239889224	0.000344584	0.032388438	P49213	Chlamydomonas reinhardtii	1.78417E-46	coral	99	-	Ribosomal protein L44e family							
+comp44333_c0_seq1	Diphthamide biosynthesis protein 3	9.507823166	1.002968971	0.001076197	0.067067781	Q7SC15	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	6.5278E-19	coral	82	DPH-type zinc finger (1)	DPH3 family							
+comp23772_c0_seq1	Formyl transferase domain protein	9.507823166	1.631296369	0.000158816	0.019560563	A1VNN8	Polaromonas naphthalenivorans (strain CJ2)	5.36845E-08	coral	602	-	-							
+comp38323_c0_seq1	40S ribosomal protein S15	9.516476161	1.096484426	0.000660175	0.050157712	P31674	Oryza sativa subsp. japonica	3.22409E-43	coral	154	-	Ribosomal protein S19P family							
+comp20917_c0_seq1	Lysophosphatidic acid receptor 1-B	9.542128042	1.32540745	0.000229264	0.025008166	Q9PU16	Xenopus laevis	7.22676E-09	coral	366		G-protein coupled receptor 1 family							
+comp6695_c0_seq1	Polyubiquitin-B	9.624482692	1.768233868	0.000113284	0.015251507	P0CG53	Bos taurus	6.16077E-46	coral	305	Ubiquitin-like domains (4)	Ubiquitin family							
+comp16039_c0_seq2	Cytochrome c oxidase subunit 3	9.632465385	1.807741831	0.000286884	0.02877312	Q37620	Prototheca wickerhamii	1.3677E-121	coral	262		Cytochrome c oxidase subunit 3 family							
+comp25884_c0_seq1	Spondin-1	9.656151818	1.684097414	6.19514E-05	0.010109101	Q9W770	Gallus gallus	2.59241E-10	coral	802	Reelin domain (1); Spondin domain (1); TSP type-1 domains (6)								
+comp8445_c0_seq1	40S ribosomal protein S16	9.717477858	1.385495497	0.000162391	0.019797423	O22647	Fritillaria agrestis	1.18498E-68	coral	145	-	Ribosomal protein S9P family							
+comp40144_c0_seq1	C-factor	9.811886782	1.504564304	8.46784E-05	0.01282534	P21158	Myxococcus xanthus	5.9727E-18	coral	166		-							
+comp44919_c0_seq1	Protein disulfide isomerase-like 5-1	9.860274137	1.576090038	5.52254E-05	0.009522563	Q10N04	Oryza sativa subsp. japonica	6.41547E-26	coral	147	Thioredoxin domain (1)	Protein disulfide isomerase family							
+comp19315_c0_seq2	"Monothiol glutaredoxin-S15, mitochondrial"	9.873806163	1.917493936	1.88275E-05	0.004283746	Q8LBK6	Arabidopsis thaliana	2.90391E-41	coral	169	Glutaredoxin domain (1)	"Glutaredoxin family, CGFS subfamily"							
+comp15814_c0_seq1	SJCHGC03019 protein (Fragment)	9.965134769	1.642800697	3.82876E-05	0.007238302	Q5C0I9	Schistosoma japonicum	9.00094E-11	coral	99	-	-							
+comp24270_c0_seq1	60S ribosomal protein L22-2	9.983975052	1.832931786	1.47279E-05	0.003542982	Q9M9W1	Arabidopsis thaliana	5.03041E-43	coral	124		Ribosomal protein L22e family							
+comp8890_c0_seq1	"Adrenodoxin homolog, mitochondrial"	10.03906318	1.451279873	0.000168137	0.020208734	Q12184	Saccharomyces cerevisiae (strain ATCC 204508 /	3.96105E-36	coral	172	2Fe-2S ferredoxin-type domain (1)	Adrenodoxin/putidaredoxin family							
+comp5874_c0_seq1	Ras-related protein ced-10	10.14330417	2.30517681	1.55672E-05	0.003692643	Q03206	Caenorhabditis elegans	2.13929E-81	coral	191	-	"Small GTPase superfamily, Rho family"							
+comp22859_c0_seq1	Uncharacterized FAD-linked oxidoreductase YgaK	10.2300345	2.265519411	2.25633E-06	0.000879615	Q796Y5	Bacillus subtilis (strain 168)	5.9905E-07	coral	451	FAD-binding PCMH-type domain (1)	Oxygen-dependent FAD-linked oxidoreductase family							
+comp25511_c0_seq1	Galaxin-like 1	10.47166704	2.582344213	1.02445E-06	0.000459283	D9IQ17	Acropora millepora	7.77146E-17	coral	660	-	-							
+comp49194_c0_seq1	60S ribosomal protein L27a	10.59525794	2.750247773	1.69462E-06	0.000684445	Q5REY2	Pongo abelii	9.29247E-38	coral	148		Ribosomal protein L15P family							
+comp8043_c0_seq1	MACPF domain containing protein	10.66307218	2.821510662	1.48701E-06	0.000617274	G0YL88	Mytilus galloprovincialis	4.54365E-07	coral	576	-	-							
+comp22489_c0_seq1	60S ribosomal protein L37-B	10.82508311	2.566823311	7.67945E-08	7.02623E-05	P51402	Saccharomyces cerevisiae (strain ATCC 204508 /	3.20339E-27	coral	88	-	Ribosomal protein L37e family							
+comp10011_c0_seq1	Ras-related C3 botulinum toxin substrate 1	10.83203204	2.997214631	1.06373E-06	0.000472169	Q6RUV5	Rattus norvegicus	8.28181E-20	coral	192	-	"Small GTPase superfamily, Rho family"							
+comp20144_c0_seq1	Phosphoenolpyruvate carboxykinase [GTP]	10.95807457	2.773100745	2.66191E-08	3.14049E-05	P20007	Drosophila melanogaster	2.93479E-16	coral	647	-	Phosphoenolpyruvate carboxykinase [GTP] family							
+comp38793_c0_seq1	Eukaryotic translation initiation factor 5A-1	11.1593376	3.321383598	2.42443E-07	0.000167544	P10160	Oryctolagus cuniculus	5.41899E-58	coral	154	-	EIF-5A family							
+comp15418_c0_seq1	Sodium/potassium-transporting ATPase subunit alpha	12.48088718	4.667813348	4.44895E-07	0.000249319	P35317	Hydra vulgaris	2.98935E-38	coral	1031	-	"Cation transport ATPase (P-type) (TC 3.A.3) family, Type IIC subfamily"							
+comp24371_c0_seq1	Uvs124	14.40553651	5.699875346	1.67023E-09	4.15998E-06	Q6XE63	uncultured bacterium	1.12175E-06	coral	235	-	-							
+comp20021_c0_seq1	-	-14.19332219	5.594265753	2.47E-07	0.000167544	-	-	-	coral	-									
+comp32327_c0_seq1	-	-13.82452418	5.820193213	2.85E-07	0.000185328	-	-	-	coral	-									
+comp32527_c0_seq1	-	-12.85037996	4.845730242	6.66E-07	0.000324558	-	-	-	coral	-									
+comp8318_c0_seq1	-	-12.81861762	8.101539709	1.67E-06	0.000684445	-	-	-	coral	-									
+comp15828_c0_seq1	-	-11.97451493	3.8653879	6.02E-10	2.01E-06	-	-	-	coral	-									
+comp25234_c0_seq1	-	-11.63708806	3.557568802	3.52E-09	6.87E-06	-	-	-	coral	-									
+comp28265_c0_seq1	-	-11.13810682	2.662604782	8.58E-08	7.40E-05	-	-	-	coral	-									
+comp27761_c0_seq1	-	-11.06562732	2.471123558	2.46E-05	0.005221979	-	-	-	coral	-									
+comp8234_c0_seq1	-	-10.56216341	6.769497808	3.90E-06	0.001323148	-	-	-	coral	-									
+comp22229_c0_seq1	-	-10.27993383	5.563094318	4.66E-06	0.001502617	-	-	-	coral	-									
+comp36227_c0_seq1	-	-10.19848109	4.029128698	3.46E-06	0.001211713	-	-	-	coral	-									
+comp22002_c0_seq1	-	-9.892824287	1.878343125	0.000123411	0.01617761	-	-	-	coral	-									
+comp19174_c0_seq1	-	-9.870305617	1.556011663	6.23E-05	0.010123982	-	-	-	coral	-									
+comp20469_c0_seq1	-	-9.858913087	1.754693896	4.08E-05	0.007461052	-	-	-	coral	-									
+comp9512_c0_seq1	-	-9.806503207	1.446657153	0.000119684	0.015902675	-	-	-	coral	-									
+comp21719_c0_seq1	-	-9.669753635	1.092858553	0.001591712	0.084449278	-	-	-	coral	-									
+comp9265_c0_seq1	-	-9.582401495	1.010086726	0.001966696	0.09615147	-	-	-	coral	-									
+comp22349_c0_seq1	-	-9.421343155	1.400499213	0.000663736	0.050179758	-	-	-	coral	-									
+comp14275_c0_seq1	-	-9.062688266	0.870393836	0.001849462	0.092482961	-	-	-	coral	-									
+comp31902_c0_seq1	-	-9.028225787	3.719273729	2.57E-05	0.005349322	-	-	-	coral	-									
+comp30922_c0_seq1	-	-8.650207527	4.826818382	0.000168586	0.020208734	-	-	-	coral	-									
+comp35497_c0_seq2	-	-8.510803029	12.39829687	2.54E-05	0.005344213	-	-	-	coral	-									
+comp34267_c0_seq18	-	-8.454822678	3.736288296	4.81E-06	0.00152801	-	-	-	coral	-									
+comp15228_c0_seq1	-	-8.385224162	4.204646067	3.05E-05	0.006046291	-	-	-	coral	-									
+comp16038_c0_seq1	-	-8.317653169	6.712236189	9.30E-05	0.013487005	-	-	-	coral	-									
+comp6290_c0_seq1	-	-8.292540838	7.560331627	3.16E-06	0.001153219	-	-	-	coral	-									
+comp14587_c1_seq1	-	-8.231548157	2.070167513	0.001054356	0.066295795	-	-	-	coral	-									
+comp17352_c0_seq1	-	-7.958485374	4.13478389	8.95E-05	0.013196974	-	-	-	coral	-									
+comp33749_c0_seq2	-	-7.382103416	2.664458998	7.38E-05	0.01153179	-	-	-	coral	-									
+comp33158_c0_seq1	-	-7.364890656	3.00231977	9.91E-05	0.014105593	-	-	-	coral	-									
+comp26144_c0_seq1	-	-6.837459106	2.666633674	0.000974768	0.06346454	-	-	-	coral	-									
+comp31961_c1_seq2	-	-6.296451725	7.166631294	5.71E-05	0.009651714	-	-	-	coral	-									
+comp24643_c0_seq1	-	-6.269799027	8.503159629	0.001823437	0.091646098	-	-	-	coral	-									
+comp29497_c0_seq4	-	-6.177579402	2.700667024	0.000608008	0.047654188	-	-	-	coral	-									
+comp32811_c2_seq1	-	-6.096473262	4.06422946	0.000283231	0.02859876	-	-	-	coral	-									
+comp29765_c0_seq2	-	-5.884759633	3.841459088	5.24E-05	0.009097705	-	-	-	coral	-									
+comp20780_c0_seq1	-	-5.626298449	2.151622221	0.001063518	0.066684835	-	-	-	coral	-									
+comp26428_c0_seq1	-	-5.503915798	2.291257244	0.001979733	0.096263963	-	-	-	coral	-									
+comp28210_c1_seq1	-	-5.439476137	3.515576601	0.00021754	0.024260634	-	-	-	coral	-									
+comp23554_c1_seq1	-	-5.404569664	3.649049673	0.000768162	0.054750781	-	-	-	coral	-									
+comp28305_c1_seq1	-	-5.356864569	3.492202083	8.79E-05	0.013056369	-	-	-	coral	-									
+comp23655_c0_seq1	-	-5.244456539	3.644533836	7.65E-05	0.011872469	-	-	-	coral	-									
+comp34264_c0_seq4	-	-5.067834851	2.422530081	0.001258219	0.074221661	-	-	-	coral	-									
+comp21941_c0_seq2	-	-4.92808139	6.015427765	0.000939384	0.062351745	-	-	-	coral	-									
+comp28977_c0_seq3	-	-4.701329476	4.163313767	0.001667328	0.086616049	-	-	-	coral	-									
+comp18518_c0_seq1	-	-4.641248576	5.773724121	0.000103864	0.014551289	-	-	-	coral	-									
+comp20115_c0_seq1	-	-4.372244497	8.96502786	0.000848799	0.058711451	-	-	-	coral	-									
+comp23282_c0_seq1	-	-4.289181428	4.79288496	0.001119236	0.068925254	-	-	-	coral	-									
+comp25615_c0_seq1	-	-4.165723715	5.384967873	0.001388543	0.078106866	-	-	-	coral	-									
+comp21623_c0_seq1	-	-3.595210842	5.590650118	0.001677694	0.087053655	-	-	-	coral	-									
+comp30445_c0_seq1	-	3.209831145	6.696784581	0.00122699	0.073039072	-	-	-	coral	-									
+comp32531_c0_seq1	-	3.334190751	3.395581057	0.001214477	0.07269352	-	-	-	coral	-									
+comp24764_c1_seq1	-	3.438144035	8.495211823	0.000645384	0.049459544	-	-	-	coral	-									
+comp28086_c0_seq2	-	3.728005246	6.50994096	0.000370053	0.033996377	-	-	-	coral	-									
+comp19375_c0_seq2	-	4.19444422	6.102312399	0.000336995	0.032137982	-	-	-	coral	-									
+comp13878_c0_seq1	-	4.229179472	4.747343425	0.000119894	0.015902675	-	-	-	coral	-									
+comp27987_c0_seq1	-	4.326896624	6.144477729	0.000852817	0.058769676	-	-	-	coral	-									
+comp25899_c0_seq1	-	4.371571274	3.354148278	0.002022504	0.097393014	-	-	-	coral	-									
+comp19231_c0_seq1	-	4.376329869	3.493300534	0.000576369	0.046390945	-	-	-	coral	-									
+comp26534_c0_seq2	-	4.388768542	3.282357314	0.0008376	0.058305725	-	-	-	coral	-									
+comp23309_c0_seq1	-	4.471407016	4.088562814	0.001643892	0.085996449	-	-	-	coral	-									
+comp21462_c0_seq1	-	4.516411879	3.648711407	0.000483179	0.04157753	-	-	-	coral	-									
+comp28016_c0_seq1	-	4.55902196	4.133463878	0.000301507	0.029905222	-	-	-	coral	-									
+comp35508_c0_seq8	-	4.584889328	3.043129671	0.000203865	0.02310689	-	-	-	coral	-									
+comp16535_c0_seq1	-	4.626547571	4.39669473	0.000694907	0.05175093	-	-	-	coral	-									
+comp11679_c0_seq1	-	4.729956397	2.81020057	0.000155253	0.019174428	-	-	-	coral	-									
+comp32459_c0_seq2	-	4.75913936	8.42635407	1.93E-05	0.004337628	-	-	-	coral	-									
+comp7996_c0_seq1	-	4.763102819	3.638855678	0.000106647	0.014745883	-	-	-	coral	-									
+comp34673_c0_seq3	-	4.885699621	3.864913373	1.48E-05	0.003542982	-	-	-	coral	-									
+comp32417_c0_seq1	-	4.984773268	3.979158184	0.000188784	0.021813272	-	-	-	coral	-									
+comp30997_c0_seq2	-	5.066235437	5.269161477	6.94E-05	0.011039021	-	-	-	coral	-									
+comp29204_c0_seq1	-	5.085333965	2.446652943	0.000271397	0.027970765	-	-	-	coral	-									
+comp6406_c0_seq1	-	5.313185724	3.872987534	0.000197778	0.02263227	-	-	-	coral	-									
+comp31603_c0_seq5	-	5.353725304	3.00311371	1.12E-05	0.002926062	-	-	-	coral	-									
+comp26735_c0_seq3	-	5.371009367	8.468218336	0.001542511	0.083317888	-	-	-	coral	-									
+comp30596_c0_seq1	-	5.382479367	4.936500873	9.32E-05	0.013487005	-	-	-	coral	-									
+comp15043_c0_seq1	-	5.409885079	8.292969837	1.24E-05	0.00314356	-	-	-	coral	-									
+comp29484_c0_seq1	-	5.432350797	5.127596522	5.92E-05	0.009872416	-	-	-	coral	-									
+comp20802_c0_seq1	-	5.711590075	2.246947981	0.000382339	0.034768803	-	-	-	coral	-									
+comp18581_c0_seq1	-	5.762072884	1.412571479	0.00173018	0.08835575	-	-	-	coral	-									
+comp34961_c0_seq13	-	5.855588701	5.435959295	0.000366614	0.033749596	-	-	-	coral	-									
+comp28980_c0_seq5	-	5.948600765	5.129775598	4.61E-07	0.00025201	-	-	-	coral	-									
+comp6972_c0_seq1	-	5.976821071	6.55385759	8.35E-06	0.002370011	-	-	-	coral	-									
+comp25734_c0_seq1	-	6.004459938	3.443697482	0.000462662	0.040197776	-	-	-	coral	-									
+comp25583_c0_seq3	-	6.149833428	7.998066036	1.21E-05	0.003091879	-	-	-	coral	-									
+comp21726_c0_seq1	-	6.191442588	2.550461932	1.00E-05	0.002694479	-	-	-	coral	-									
+comp26148_c0_seq1	-	6.364340447	4.252583002	1.97E-05	0.004407525	-	-	-	coral	-									
+comp31315_c0_seq1	-	6.53792146	11.02380167	2.28E-07	0.000164717	-	-	-	coral	-									
+comp16663_c0_seq1	-	6.675988033	1.887353203	0.000429478	0.038203067	-	-	-	coral	-									
+comp27403_c0_seq3	-	6.754736248	2.882321682	1.46E-06	0.000610472	-	-	-	coral	-									
+comp23028_c0_seq1	-	6.775408891	2.320231036	1.17E-05	0.003019842	-	-	-	coral	-									
+comp20156_c0_seq1	-	6.928898431	1.284385126	0.001936887	0.095108988	-	-	-	coral	-									
+comp34783_c0_seq1	-	6.979582117	9.19586346	3.00E-08	3.36E-05	-	-	-	coral	-									
+comp25871_c0_seq1	-	6.984585008	2.025208357	6.02E-05	0.009962408	-	-	-	coral	-									
+comp8142_c0_seq1	-	7.186274905	5.704531637	5.23E-07	0.000272891	-	-	-	coral	-									
+comp22506_c0_seq1	-	7.192566128	2.803705588	3.39E-06	0.001196062	-	-	-	coral	-									
+comp18950_c0_seq1	-	7.200716293	1.136300078	0.001574593	0.084052572	-	-	-	coral	-									
+comp38730_c0_seq1	-	7.283716965	3.677438238	0.00062825	0.048729576	-	-	-	coral	-									
+comp20293_c0_seq1	-	7.413602364	1.49752603	0.000334979	0.032020803	-	-	-	coral	-									
+comp7173_c0_seq1	-	7.473801023	4.689427135	4.59E-07	0.00025201	-	-	-	coral	-									
+comp25086_c0_seq1	-	7.483073953	9.922729844	6.62E-06	0.001979324	-	-	-	coral	-									
+comp43547_c0_seq1	-	7.547602308	10.33564013	2.86E-08	3.29E-05	-	-	-	coral	-									
+comp7422_c0_seq1	-	7.740201913	2.860745321	4.90E-07	0.00026166	-	-	-	coral	-									
+comp9205_c0_seq1	-	7.785428077	2.143499658	0.00039693	0.03580514	-	-	-	coral	-									
+comp21601_c0_seq1	-	7.976685325	1.810896649	5.17E-05	0.009016997	-	-	-	coral	-									
+comp46510_c0_seq1	-	8.056879529	7.049518693	0.000170671	0.020404078	-	-	-	coral	-									
+comp16194_c0_seq1	-	8.941093796	0.990877877	0.001552165	0.083448833	-	-	-	coral	-									
+comp22086_c1_seq2	-	9.064235602	1.03387609	0.001122447	0.068935529	-	-	-	coral	-									
+comp49771_c0_seq1	-	9.155700218	1.310911297	0.000943913	0.062497071	-	-	-	coral	-									
+comp7837_c0_seq1	-	9.283871797	3.690295922	1.30E-06	0.000554153	-	-	-	coral	-									
+comp46447_c0_seq1	-	9.399724684	1.088045955	0.000678544	0.051126856	-	-	-	coral	-									
+comp21942_c0_seq1	-	9.418312979	1.578205115	0.000355878	0.033179767	-	-	-	coral	-									
+comp25133_c0_seq1	-	9.418312979	0.925521447	0.001472933	0.081023977	-	-	-	coral	-									
+comp43411_c0_seq1	-	9.454786141	1.124266455	0.000577786	0.046412122	-	-	-	coral	-									
+comp37747_c0_seq1	-	9.463762155	1.35258685	0.000227968	0.02492752	-	-	-	coral	-									
+comp15508_c0_seq1	-	9.567331777	1.519097019	0.000109384	0.015042697	-	-	-	coral	-									
+comp33770_c0_seq7	-	9.747190228	1.460465616	0.000111311	0.015076392	-	-	-	coral	-									
+comp41710_c0_seq1	-	9.769079697	1.798077709	3.37E-05	0.006535281	-	-	-	coral	-									
+comp27588_c0_seq2	-	9.783931803	3.841093688	5.18E-10	1.94E-06	-	-	-	coral	-									
+comp32511_c1_seq3	-	9.83282325	1.330408562	0.000241066	0.025747413	-	-	-	coral	-									
+comp13024_c0_seq1	-	9.860274137	1.383901335	0.000180231	0.021152185	-	-	-	coral	-									
+comp23232_c1_seq1	-	9.860274137	1.930079659	2.15E-05	0.004729269	-	-	-	coral	-									
+comp7841_c0_seq1	-	9.920193031	1.517695108	7.91E-05	0.01213689	-	-	-	coral	-									
+comp19564_c0_seq1	-	9.997960984	7.5622993	6.53E-07	0.000321886	-	-	-	coral	-									
+comp11983_c0_seq1	-	10.1150957	1.599398604	6.02E-05	0.009962408	-	-	-	coral	-									
+comp46647_c0_seq1	-	10.15996825	1.968084131	5.79E-06	0.001777937	-	-	-	coral	-									
+comp23487_c0_seq2	-	10.28677417	1.750645989	2.76E-05	0.005620915	-	-	-	coral	-									
+comp24233_c0_seq1	-	10.35590365	2.113801196	1.89E-06	0.000758269	-	-	-	coral	-									
+comp48598_c0_seq1	-	10.72037069	2.446731492	1.69E-07	0.000130673	-	-	-	coral	-									
+comp11107_c0_seq1	-	10.73156228	2.907768934	3.69E-06	0.001272023	-	-	-	coral	-									
+comp35087_c0_seq3	-	10.82228698	4.744957562	1.62E-11	8.09E-08	-	-	-	coral	-									
+comp23561_c0_seq1	-	11.71054717	3.551619769	2.69E-10	1.10E-06	-	-	-	coral	-									
+comp24066_c0_seq1	-	11.85740771	3.381178854	6.28E-10	2.01E-06	-	-	-	coral	-									
+comp18767_c0_seq1	-	12.03953605	4.189903887	1.10E-08	1.70E-05	-	-	-	coral	-									
+comp21805_c0_seq1	-	12.05298119	4.235167269	2.07E-07	0.000152462	-	-	-	coral	-									
+comp22531_c0_seq2	-	12.96782014	4.807219386	4.58E-12	3.42E-08	-	-	-	coral	-									
+comp15313_c0_seq2	-	13.59954096	5.302849743	4.67E-13	5.23E-09	-	-	-	coral	-									
+comp26549_c0_seq1	-	14.68352461	6.175111519	8.32E-14	1.24E-09	-	-	-	coral	-									
+comp12377_c0_seq2	-	14.83475363	6.531028564	8.50E-15	3.81E-10	-	-	-	coral	-									
+comp22120_c0_seq1	-	14.86068232	6.347210735	5.22E-14	1.17E-09	-	-	-	coral	-									
+comp15295_c0_seq1	V-type proton ATPase 16 kDa proteolipid subunit (Fragment)	3.946980262	5.333451682	0.000580773	0.046412122	Q41773	Zea mays	1.75668E-14	algae	109	-	V-ATPase proteolipid subunit family							
+comp19433_c0_seq1	Polyubiquitin (Fragment)	4.016571934	4.92796186	0.00075782	0.054272497	P62972	Xenopus laevis	2.44299E-53	algae	167	Ubiquitin-like domains (3)	Ubiquitin family							
+comp25782_c0_seq1	UPF0051 protein slr0074	4.088061224	3.671194353	0.001603549	0.084877041	Q55790	Synechocystis sp. (strain	0	algae	480	-	UPF0051 (ycf24) family							
+comp34466_c0_seq14	Uncharacterized protein ORF91	4.437310905	6.433666329	0.000198396	0.02263227	Q3BAI2	Phalaenopsis aphrodite subsp. formosana	3.63608E-06	algae	91	-	-							
+comp16191_c0_seq1	"Photosystem I reaction center subunit III, chloroplastic"	4.484061622	3.076235265	0.000380425	0.034665073	P12356	Chlamydomonas reinhardtii	2.311E-78	algae	227	-	PsaF family							
+comp45533_c0_seq1	Iron-sulfur cluster assembly protein 1	4.537514715	4.845199064	0.00059319	0.04715227	O49627	Arabidopsis thaliana	3.28729E-66	algae	167	-	NifU family							
+comp17427_c0_seq1	"Ferredoxin, chloroplastic"	4.584770171	3.573074295	0.000219655	0.024375158	P07839	Chlamydomonas reinhardtii	7.06489E-41	algae	126	2Fe-2S ferredoxin-type domain (1)	2Fe2S plant-type ferredoxin family							
+comp37504_c0_seq1	Zinc transporter ZupT	4.636786811	2.759374565	0.00068896	0.051479065	Q3AU90	Chlorobium chlorochromatii (strain CaD3)	1.2028E-41	algae	268	-	"ZIP transporter (TC 2.A.5) family, ZupT subfamily"							
+comp23784_c0_seq1	Vacuolar proton ATPase a2	4.676631654	2.59489956	0.000604133	0.047650726	Q9SJT7	Arabidopsis thaliana	7.43616E-30	algae	821	-	V-ATPase 116 kDa subunit family							
+comp38285_c0_seq1	60S ribosomal protein L21-1	5.229077028	1.637731909	0.001923384	0.094653292	Q43291	Arabidopsis thaliana	9.36544E-52	algae	164	-	Ribosomal protein L21e family							
+comp30957_c0_seq1	Uncharacterized protein	5.389769471	4.295651723	0.000721337	0.053014743	A4VYJ1	Streptococcus suis (strain 98HAH33)	7.83845E-21	algae	186	-	-							
+comp34814_c1_seq3	Uncharacterized protein ORF91	5.50529367	5.892143105	0.000461831	0.040197776	Q3BAI2	Phalaenopsis aphrodite subsp. formosana	1.41576E-14	algae	91	-	-							
+comp22671_c0_seq1	Peptidyl-prolyl cis-trans isomerase CYP19-4	5.531631699	2.451715625	0.000144285	0.018428978	Q8LDP4	Arabidopsis thaliana	1.82521E-09	algae	201	PPIase cyclophilin-type domain (1)	Cyclophilin-type PPIase family							
+comp16349_c0_seq1	"Cytochrome b6-f complex iron-sulfur subunit, chloroplastic"	5.627930572	1.775074227	0.001706057	0.087898315	P49728	Chlamydomonas reinhardtii	1.12538E-71	algae	206	Rieske domain (1)	-							
+comp43057_c0_seq1	"Ferredoxin, chloroplastic"	6.138919867	2.376168375	3.72052E-05	0.007078964	P07839	Chlamydomonas reinhardtii	3.41056E-37	algae	126	2Fe-2S ferredoxin-type domain (1)	2Fe2S plant-type ferredoxin family							
+comp21254_c0_seq2	Heat shock cognate protein 80	6.242717798	1.420172191	0.001039666	0.065926867	P36181	Solanum lycopersicum	1.17033E-38	algae	699	-	Heat shock protein 90 family							
+comp26150_c0_seq1	"Superoxide dismutase [Mn], mitochondrial"	6.404087177	2.19424073	7.27904E-05	0.011460588	Q42684	Chlamydomonas reinhardtii	3.02525E-85	algae	218	-	Iron/manganese superoxide dismutase family							
+comp47580_c0_seq1	"50S ribosomal protein L22, chloroplastic"	6.68651701	1.757705026	0.000237347	0.025497261	A2CI46	Chlorokybus atmophyticus	5.13258E-44	algae	119	-	Ribosomal protein L22P family							
+comp19090_c0_seq1	60S ribosomal protein L13a	6.888605217	1.421151094	0.000544624	0.044801072	O65055	Picea mariana	2.40198E-58	algae	206	-	Ribosomal protein L13P family							
+comp22356_c0_seq2	40S ribosomal protein S28-1	7.362638865	2.191200546	4.75307E-06	0.001522068	Q9SR73	Arabidopsis thaliana	1.89626E-10	algae	64		Ribosomal protein S28e family							
+comp11291_c0_seq1	60S ribosomal protein L27a	7.905285094	1.711465095	9.32586E-05	0.013487005	Q00454	Tetrahymena thermophila	5.12291E-22	algae	149		Ribosomal protein L15P family							
+comp7885_c0_seq1	Peptidyl-prolyl cis-trans isomerase CYP19-2	8.728020355	6.633824755	2.64526E-06	0.000996574	Q9SKQ0	Arabidopsis thaliana	1.39109E-74	algae	174	PPIase cyclophilin-type domain (1)	Cyclophilin-type PPIase family							
+comp21605_c0_seq2	"Chlorophyll a-b binding protein of LHCII type I, chloroplastic"	8.878711377	5.540094661	7.33222E-09	1.17399E-05	P22686	Chlamydomonas moewusii	9.334E-116	algae	256		Light-harvesting chlorophyll a/b-binding (LHC) protein family							
+comp16538_c0_seq2	"Chlorophyll a-b binding protein 4, chloroplastic"	9.064235602	1.20621609	0.001155548	0.070444249	P27521	Arabidopsis thaliana	2.36992E-29	algae	251		Light-harvesting chlorophyll a/b-binding (LHC) protein family							
+comp53223_c0_seq1	Glyceraldehyde-3-phosphate dehydrogenase	9.099217866	1.264558456	0.001397286	0.078401897	Q5R2J2	Pelodiscus sinensis	4.48497E-88	algae	333		Glyceraldehyde-3-phosphate dehydrogenase family							
+comp8954_c0_seq1	40S ribosomal protein S15a	9.210054314	1.382103111	0.001183189	0.071201007	P62246	Rattus norvegicus	7.86473E-65	algae	130	-	Ribosomal protein S8P family							
+comp23918_c0_seq1	Calmodulin	9.303011462	0.876151828	0.001694214	0.08770784	Q7T3T2	Epinephelus akaara	5.63938E-19	algae	149	EF-hand domains (4)	Calmodulin family							
+comp41792_c0_seq1	40S ribosomal protein S27-like	9.342478096	1.48697791	0.000398107	0.03583923	P24051	Rattus norvegicus	1.36233E-21	algae	84	-	Ribosomal protein S27e family							
+comp15234_c0_seq3	Ras-related protein Rab-1A	9.418312979	1.578205595	0.000355984	0.033179767	Q05974	Lymnaea stagnalis	1.74169E-54	algae	205	-	"Small GTPase superfamily, Rab family"							
+comp9617_c0_seq1	Probable mitochondrial chaperone bcs1	9.507823166	0.890432066	0.002078783	0.098481871	Q9P6Q3	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	1.77641E-10	algae	449		"AAA ATPase family, BCS1 subfamily"							
+comp46913_c0_seq1	40S ribosomal protein S30	9.608383563	1.771326226	0.000174461	0.020691581	O96269	Plasmodium falciparum (isolate 3D7)	1.60469E-12	algae	58		Ribosomal protein S30e family							
+comp46324_c0_seq1	60S ribosomal protein L27	9.679455636	1.158914696	0.000558326	0.045371197	Q02984	Pyrobotrys stellata	3.23091E-41	algae	134	KOW domain (1)	Ribosomal protein L27e family							
+comp37702_c0_seq1	12 kDa FK506-binding protein	9.739819306	1.302793673	0.000257606	0.027046772	P48375	Drosophila melanogaster	4.85954E-45	algae	108	PPIase FKBP-type domain (1)	"FKBP-type PPIase family, FKBP1 subfamily"							
+comp15018_c0_seq1	Chlorophyll a-b binding protein of LHCII type 1 (Fragment)	9.804839892	1.960293801	6.10542E-05	0.010026304	P12327	Euglena gracilis	4.29668E-08	algae	127	-	Light-harvesting chlorophyll a/b-binding (LHC) protein family							
+comp7760_c0_seq1	40S ribosomal protein S23	9.893869151	2.041428896	3.35607E-05	0.006535281	Q9M5Z9	Euphorbia esula	1.92654E-48	algae	142		Ribosomal protein S12P family							
+comp42399_c0_seq1	60S ribosomal protein L31	10.05696816	2.231926388	4.50961E-05	0.008022812	Q9XGL4	Cyanophora paradoxa	4.86047E-36	algae	119		Ribosomal protein L31e family							
+comp9279_c0_seq1	Probable 60S ribosomal protein L37-A	10.10365604	2.242470121	9.99397E-06	0.002694479	Q9VXX8	Drosophila melanogaster	1.27365E-27	algae	93		Ribosomal protein L37e family							
+comp8285_c0_seq1	Iron-sulfur cluster assembly protein 1	10.23528586	2.4064339	1.62205E-05	0.00376786	O49627	Arabidopsis thaliana	1.04565E-43	algae	167	-	NifU family							
+comp24498_c0_seq1	Heat shock protein 90-4	10.62356853	2.355785248	3.46823E-07	0.000210169	O03986	Arabidopsis thaliana	1.33498E-17	algae	699		Heat shock protein 90 family							
+comp24193_c0_seq2	Photosystem Q(B) protein	10.835494	2.980611587	4.44737E-07	0.000249319	Q3ZJ60	Pseudendoclonium akinetum	0	algae	353	-	Reaction center PufL/M/PsbA/D family							
+comp21352_c0_seq1	"Ferredoxin-thioredoxin reductase catalytic chain, chloroplastic"	10.89974035	3.079007551	2.8602E-06	0.001068571	Q9SJ89	Arabidopsis thaliana	1.81566E-59	algae	146	-	Ferredoxin thioredoxin reductase beta subunit family							
+comp9106_c0_seq1	Peptidyl-prolyl cis-trans isomerase CYP19-1	11.37689598	3.481436867	1.37065E-08	1.98222E-05	Q38900	Arabidopsis thaliana	1.98965E-81	algae	173	PPIase cyclophilin-type domain (1)	Cyclophilin-type PPIase family							
+comp42074_c0_seq1	60S acidic ribosomal protein P2	11.52360822	3.642923369	1.20871E-08	1.80629E-05	Q9UUZ6	Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100)	1.9022E-08	algae	111		Ribosomal protein L12P family							
+comp44608_c0_seq1	N5-carboxyaminoimidazole ribonucleotide mutase	11.74040115	3.925264454	9.03256E-07	0.000409038	O58058	Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 /	1.17715E-51	algae	177	-	AIR carboxylase family							
+comp15515_c0_seq1	"Cytochrome b6-f complex iron-sulfur subunit 1, cyanelle"	12.32337502	4.508718142	2.93188E-07	0.000187774	Q5CC93	Cyanophora paradoxa	7.34038E-67	algae	239	Rieske domain (1)	-							
+comp45130_c0_seq1	"UPF0051 protein ABCI8, chloroplastic"	12.67984248	4.867161299	3.8319E-07	0.000226041	Q9ZS97	Arabidopsis thaliana	3.415E-113	algae	557	-	UPF0051 (ycf24) family							
+comp45316_c0_seq1	40S ribosomal protein S29	12.97646976	5.132428714	1.58082E-09	4.15998E-06	Q757G1	Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 /	2.26586E-15	algae	56	-	Ribosomal protein S14P family							
+comp16555_c0_seq1	-	5.877340858	5.53080804	0.000110872	0.015062434	-	-	-	algae	-									
+comp37343_c0_seq1	-	7.332177573	1.108405688	0.001788363	0.090389933	-	-	-	algae	-									
+comp20871_c0_seq1	-	9.133371928	0.81961488	0.002095866	0.098802046	-	-	-	algae	-									
+comp40434_c0_seq1	-	9.724963515	1.885955548	9.82E-05	0.014023703	-	-	-	algae	-									
+comp23480_c0_seq1	hypothetical protein LOTGIDRAFT_234483 	-14.06286772	5.985277217	4.43749E-12	3.4215E-08	ESO88689	Lottia gigantea	4.67351E-28	NaN	148	-	-							
+comp11490_c0_seq1	Uncharacterized protein (Fragment)	-10.86099418	2.854425125	1.12401E-05	0.002929553	R7T8E2	Capitella teleta	8.0734E-14	NaN	221	-	-							
+comp30639_c0_seq2	Predicted protein (Fragment)	-8.426806074	4.304479928	1.06794E-09	2.99235E-06	A7SB25	Nematostella vectensis	4.10375E-14	NaN	178	-	-							
+comp33558_c0_seq3	Predicted protein	-7.920532459	5.779372121	0.000399433	0.03586524	A7RF22	Nematostella vectensis	1.08896E-16	NaN	274	-	-							
+comp16637_c0_seq1	Twisted gastrulation protein homolog 1-B	-7.879344581	3.167112739	0.000140594	0.018060452	Q98SR9	Danio rerio	1.22471E-25	NaN	222	-	Twisted gastrulation protein family							
+comp24167_c0_seq1	Predicted protein	-5.833743051	5.172137373	1.1964E-05	0.003064977	A7S0I8	Nematostella vectensis	2.52544E-14	NaN	1028	-	-							
+comp16516_c1_seq2	Predicted protein (Fragment)	3.541775494	4.240456944	0.001570343	0.084018136	A7T9U1	Nematostella vectensis	6.65579E-18	NaN	216	-	-							
+comp15887_c0_seq1	Serine protease 30	3.604819279	4.401588412	0.001421948	0.079487239	P83748	Rattus norvegicus	1.39329E-13	NaN	304	Peptidase S1 domain (1)	Peptidase S1 family							
+comp34639_c0_seq1	Retrotransposable element Tf2 155 kDa protein type 3	3.657894041	3.696655605	0.002041308	0.097731287	Q9UR07	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	7.18044E-11	NaN	1333	Integrase catalytic domain (1); Peptidase A2 domain (1); Reverse transcriptase domain (1)								
+comp14991_c0_seq1	Derlin-2.1	3.743489003	4.393084716	0.000904957	0.060699669	Q4G2J4	Zea mays	3.91834E-21	NaN	249	-	-							
+comp35199_c0_seq1	Transposon Ty3-I Gag-Pol polyprotein	3.756320297	4.764185196	0.000605869	0.047650726	Q7LHG5	Saccharomyces cerevisiae (strain ATCC 204508 /	4.51884E-13	NaN	1498	CCHC-type zinc finger (1); Integrase catalytic domain (1); Peptidase A2 domain (1); Reverse transcriptase domain (1); RNase H Ty3/gyspy-type domain (1)								
+comp25887_c0_seq1	Lipase	3.775481906	5.83512364	0.000631282	0.048875871	P19515	Rhizomucor miehei	2.57821E-09	NaN	363	-	"AB hydrolase superfamily, Lipase family"							
+comp36382_c0_seq1	Predicted protein	3.776743405	3.708892581	0.001857538	0.092556842	C1FE06	Micromonas sp. (strain RCC299 /	6.28361E-07	NaN	99	-	-							
+comp15376_c0_seq1	"NADH dehydrogenase [ubiquinone] iron-sulfur protein 6, mitochondrial"	3.946980262	2.162052275	0.000243381	0.025747413	Q9M9M6	Arabidopsis thaliana	8.75213E-14	NaN	110	-	Complex I NDUFS6 subunit family							
+comp5611_c0_seq1	"Photosystem II 10 kDa polypeptide, chloroplastic"	3.9737629	6.801968748	0.000232681	0.025136234	P49108	Brassica campestris	4.5123E-15	NaN	141	-	PsbR family							
+comp27145_c0_seq1	Calcium-dependent protein kinase 22	4.057299779	3.763424838	0.000633407	0.048875871	Q9ZSA3	Arabidopsis thaliana	6.14137E-08	NaN	498	EF-hand domains (4); Protein kinase domain (1)	"Protein kinase superfamily, Ser/Thr protein kinase family, CDPK subfamily"							
+comp15742_c0_seq1	"H+-or Na+-translocating f-type, v-type and A-type ATPase superfamily"	4.074574319	2.544790818	0.001822878	0.091646098	K8EDL8	Bathycoccus prasinos	9.21497E-07	NaN	68	-	-							
+comp40290_c0_seq1	Carbonic anhydrase 1	4.154191434	4.227618485	0.00123282	0.07319438	P20507	Chlamydomonas reinhardtii	7.1132E-08	NaN	377	-	Alpha-carbonic anhydrase family							
+comp47756_c0_seq1	"Uncharacterized protein At4g01150, chloroplastic"	4.16115533	2.756230561	0.001437263	0.079853399	O04616	Arabidopsis thaliana	2.86594E-20	NaN	164	-	CURT family							
+comp14895_c0_seq1	Putative uncharacterized protein	4.174676466	2.696022886	0.00055858	0.045371197	D8U0A5	Volvox carteri	2.36036E-06	NaN	189	-	-							
+comp12970_c0_seq1	"Photosystem I reaction center subunit IV, chloroplastic"	4.252516489	3.830300935	0.001376616	0.077728545	P12352	Chlamydomonas reinhardtii	1.45291E-30	NaN	97	-	PsaE family							
+comp15171_c0_seq1	Probable protein phosphatase 2C 68	4.29728669	4.000875805	0.000112143	0.015143374	Q0J2L7	Oryza sativa subsp. japonica	4.36843E-25	NaN	358	PP2C-like domain (1)	PP2C family							
+comp7616_c0_seq1	Uncharacterized protein	4.310180395	3.467776433	0.002114058	0.099243408	I0Z1S4	Coccomyxa subellipsoidea C-169	7.88545E-07	NaN	322	-	-							
+comp19130_c0_seq1	"Uncharacterized protein At4g01150, chloroplastic"	4.385015709	3.975252749	0.00014698	0.018561677	O04616	Arabidopsis thaliana	4.13925E-27	NaN	164		CURT family							
+comp7924_c0_seq1	"NifU-like protein 2, chloroplastic"	4.410908683	3.738819115	0.001608595	0.085043092	Q93W20	Arabidopsis thaliana	1.36483E-51	NaN	235	-	NifU family							
+comp15388_c0_seq1	"Photosystem I reaction center subunit V, chloroplastic"	4.481697361	3.893914539	0.000506231	0.042660438	Q9S7N7	Arabidopsis thaliana	6.50373E-29	NaN	160	-	PsaG/PsaK family							
+comp18775_c0_seq1	"NifU-like protein 1, chloroplastic"	4.500398754	3.416727917	0.000963572	0.06315621	Q93W77	Arabidopsis thaliana	5.38928E-35	NaN	231		NifU family							
+comp9125_c0_seq1	PXMP2/4 family protein 3	4.566219028	3.435686497	0.001458511	0.080604251	Q54GD8	Dictyostelium discoideum	4.99544E-10	NaN	184		Peroxisomal membrane protein PXMP2/4 family							
+comp7431_c0_seq1	"Iron-sulfur assembly protein IscA-like 1, mitochondrial"	4.593348549	3.365626487	0.001427334	0.079589873	Q8LBM4	Arabidopsis thaliana	8.80894E-45	NaN	137	-	HesB/IscA family							
+comp15232_c0_seq1	Predicted protein	4.61596354	2.585175763	0.001552381	0.083448833	A8I9X7	Chlamydomonas reinhardtii	1.73022E-28	NaN	175	-	-							
+comp8269_c0_seq1	Chlorophyll a-b binding protein CP29	4.618687969	2.490819927	0.000983571	0.063629805	Q93WD2	Chlamydomonas reinhardtii	1.04943E-41	NaN	280	-	Light-harvesting chlorophyll a/b-binding (LHC) protein family							
+comp37581_c0_seq1	Predicted protein	4.667360192	2.261391704	0.001785998	0.090372299	C1FG66	Micromonas sp. (strain RCC299 /	4.12003E-15	NaN	156	-	-							
+comp42734_c0_seq1	"Iron-sulfur assembly protein IscA-like 2, mitochondrial"	4.717417019	2.250073297	0.000801616	0.056595354	Q8LCY2	Arabidopsis thaliana	1.83511E-32	NaN	158	-	HesB/IscA family							
+comp19524_c0_seq1	Predicted protein	4.743095169	2.590351585	0.000544273	0.044801072	G0RLX6	Hypocrea jecorina (strain QM6a)	6.85804E-33	NaN	136	-	-							
+comp11513_c0_seq1	Rubredoxin	4.756946551	2.307048284	0.001707696	0.087898315	P73068	Synechocystis sp. (strain	5.10391E-09	NaN	115	Rubredoxin-like domain (1)	Rubredoxin family							
+comp20816_c0_seq1	Thioredoxin-1	4.816113543	2.629977911	0.000940172	0.062351745	O14463	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	1.99494E-27	NaN	103	Thioredoxin domain (1)	Thioredoxin family							
+comp8160_c0_seq1	Animal heme peroxidase homologue	4.840822558	1.837336734	0.00198195	0.096267363	R7QNU2	Chondrus crispus	4.45849E-06	NaN	703	-	-							
+comp7047_c0_seq1	Uncharacterized protein	4.858565395	2.53766385	0.000886545	0.060223462	I0Z5J9	Coccomyxa subellipsoidea C-169	1.19802E-12	NaN	114	-	-							
+comp21997_c0_seq1	Copper transport protein ATX1	4.917129494	3.878897427	0.000163311	0.019797423	Q94BT9	Arabidopsis thaliana	4.965E-20	NaN	106	HMA domain (1)	ATX1 family							
+comp9580_c0_seq1	"Heme oxygenase 1, chloroplastic"	4.951523812	2.901043549	0.000861359	0.059214204	Q69XJ4	Oryza sativa subsp. japonica	2.06886E-23	NaN	289	-	Heme oxygenase family							
+comp28189_c0_seq1	Putative uncharacterized protein	4.969979696	2.219219609	0.001077106	0.067067781	Q2H756	Chaetomium globosum (strain ATCC 6205 / CBS 148.51 / DSM 1962 /	6.77443E-62	NaN	410	-	-							
+comp41347_c0_seq1	Ankyrin repeat domain-containing protein 2	5.13066946	2.382080002	0.000444821	0.038949596	Q9SAR5	Arabidopsis thaliana	5.34852E-28	NaN	342	ANK repeats (3)								
+comp11726_c0_seq1	"Thioredoxin F-type, chloroplastic"	5.135650004	2.459915941	0.000442673	0.038949596	O48897	Brassica napus	3.87155E-10	NaN	182	Thioredoxin domain (1)	"Thioredoxin family, Plant F-type subfamily"							
+comp16165_c1_seq1	Putative uncharacterized protein	5.25870768	2.420255741	0.000514942	0.043151147	F0YIC7	Aureococcus anophagefferens	6.00048E-08	NaN	837	-	-							
+comp7443_c0_seq1	Oxysterol-binding protein-related protein 1	5.295782309	3.438651781	3.72644E-05	0.007078964	Q9BXW6	Homo sapiens	4.8647E-07	NaN	950	ANK repeats (3); PH domain (1)	OSBP family							
+comp27030_c0_seq1	"Photosystem I reaction center subunit XI, chloroplastic"	5.307006738	3.174850298	3.89954E-05	0.00731481	Q9SUI4	Arabidopsis thaliana	6.31742E-36	NaN	219	-	PsaL family							
+comp37595_c0_seq1	Carbonic anhydrase 1	5.333002558	2.441782297	0.000373185	0.034214012	P20507	Chlamydomonas reinhardtii	6.7691E-18	NaN	377	-	Alpha-carbonic anhydrase family							
+comp25131_c0_seq2	RNA-splicing ligase RtcB	5.42860644	1.749007122	0.001234274	0.07319438	P46850	Escherichia coli (strain K12)	1.174E-16	NaN	408	-	RtcB family							
+comp15585_c0_seq1	Cyanovirin-n family protein	5.429413999	3.529701861	4.02093E-06	0.001345272	N4V753	Colletotrichum orbiculare (strain 104-T / ATCC 96160 / CBS 514.97 / LARS 414 / MAFF 240422)	2.22378E-07	NaN	127	-	-							
+comp7976_c0_seq1	Transmembrane protease serine 11E	5.432459862	2.51413732	0.000683925	0.051359711	Q5S248	Mus musculus	7.03626E-10	NaN	423	Peptidase S1 domain (1); SEA domain (1)	Peptidase S1 family							
+comp23515_c0_seq2	Putative uncharacterized protein	5.442038644	2.081473366	0.000338356	0.032137982	D7FVU9	Ectocarpus siliculosus	3.5498E-23	NaN	82	-	-							
+comp13873_c1_seq1	Putative uncharacterized protein	5.452486563	2.673882024	0.000154514	0.019135894	C9SN26	Verticillium albo-atrum (strain	5.83108E-30	NaN	214	-	-							
+comp48310_c0_seq1	P protein	5.46882812	3.369885436	8.99934E-05	0.013203396	Q62052	Mus musculus	3.9481E-10	NaN	833	-	CitM (TC 2.A.11) transporter family							
+comp7754_c0_seq1	Putative uncharacterized protein (Fragment)	5.482799752	2.364197177	0.000747596	0.053990131	D8TGY5	Volvox carteri	4.38397E-52	NaN	194	-	-							
+comp25486_c0_seq1	Probable 60S ribosomal protein L14	5.54808387	2.930908865	2.99179E-05	0.005961251	P55844	Pisum sativum	3.98202E-24	NaN	133	-	Ribosomal protein L14e family							
+comp45944_c0_seq1	Uncharacterized protein (Fragment)	5.568973922	1.689070202	0.001014953	0.064910636	K3YDZ5	Setaria italica	1.01126E-06	NaN	84	-	-							
+comp39345_c0_seq1	Cytoplasmic tRNA 2-thiolation protein 1	5.599793489	3.662775195	5.79796E-05	0.00973536	A2Q879	Aspergillus niger (strain CBS 513.88 / FGSC A1513)	1.72804E-09	NaN	341	-	"TtcA family, CTU1/NCS6/ATPBD3 subfamily"							
+comp41852_c0_seq1	Cytochrome c oxidase subunit 6B	5.614376072	2.295358151	0.000266741	0.027660602	O94581	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	1.17337E-26	NaN	86	-	Cytochrome c oxidase subunit 6B family							
+comp40031_c0_seq1	Probable V-type proton ATPase subunit H	5.618820449	2.229492894	0.00074464	0.053990131	Q84ZC0	Oryza sativa subsp. japonica	8.87616E-44	NaN	452	-	V-ATPase H subunit family							
+comp7251_c0_seq1	"Magnesium-protoporphyrin IX monomethyl ester [oxidative] cyclase 2, chloroplastic"	5.625506817	1.589550312	0.002099348	0.098802046	Q9AR22	Chlamydomonas reinhardtii	1.44124E-31	NaN	407	-	AcsF family							
+comp36763_c0_seq1	Heme-binding protein 2	5.650199718	3.050489518	0.000706295	0.052424893	Q9WU63	Mus musculus	1.24968E-20	NaN	205	-	HEBP family							
+comp15538_c0_seq1	Putative uncharacterized protein	5.703299127	2.021140076	0.000975354	0.06346454	E1ZLE4	Chlorella variabilis	3.21655E-21	NaN	174	-	-							
+comp43978_c0_seq1	Calcium-binding protein 7	5.71739717	2.322285361	0.001542358	0.083317888	Q66H96	Rattus norvegicus	1.93527E-08	NaN	215	EF-hand domains (2)	-							
+comp7028_c0_seq1	Cytochrome b-c1 complex subunit 9	5.790444078	1.818228794	0.000498063	0.042370346	P46270	Solanum tuberosum	9.73885E-12	NaN	72		UQCR10/QCR9 family							
+comp19827_c0_seq1	Putative uncharacterized protein	5.849453087	3.392949291	2.54724E-05	0.005344213	E1ZT71	Chlorella variabilis	8.15789E-09	NaN	90	-	-							
+comp7602_c0_seq1	"Photosystem I reaction center subunit IV, chloroplastic"	5.945089795	3.34792762	3.11193E-06	0.001143557	P12352	Chlamydomonas reinhardtii	1.07199E-26	NaN	97	-	PsaE family							
+comp19895_c0_seq1	"Calvin cycle protein CP12, chloroplastic"	5.962179712	1.798365727	0.000580341	0.046412122	A6Q0K5	Chlamydomonas reinhardtii	2.40234E-16	NaN	107	-	CP12 family							
+comp23594_c0_seq1	WAP four-disulfide core domain protein 18 (Fragment)	6.014834823	2.884809407	9.74444E-06	0.002670172	P14730	Rattus norvegicus	5.12472E-08	NaN	74	WAP domain (1)								
+comp15841_c0_seq1	Tubulin-specific chaperone A	6.023530567	1.998056822	0.000184908	0.021420698	O75347	Homo sapiens	1.78842E-17	NaN	108		TBCA family							
+comp40176_c0_seq1	Protein PLANT CADMIUM RESISTANCE 3	6.074475427	2.242601304	4.96426E-05	0.008727745	P0CW97	Arabidopsis thaliana	2.64985E-06	NaN	152	-	Cornifelin family							
+comp19668_c0_seq1	N-acetylmuramoyl-L-alanine amidase sle1	6.123023492	1.511191074	0.001784291	0.090372299	Q8CMN2	Staphylococcus epidermidis (strain ATCC 12228)	2.207E-07	NaN	324	LysM repeats (3); Peptidase C51 domain (1)								
+comp45163_c0_seq1	"NADH-ubiquinone oxidoreductase 12 kDa subunit, mitochondrial"	6.193384864	1.974407816	0.001545349	0.083370733	Q03015	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	1.43648E-27	NaN	104		Complex I NDUFS6 subunit family							
+comp18948_c0_seq1	Putative uncharacterized protein	6.207013239	1.663227527	0.000730397	0.053417844	Q9XFU2	Chlamydomonas sp. HS-5	4.41E-18	NaN	84	-	-							
+comp46836_c0_seq1	Putative uncharacterized protein	6.208855134	1.420693337	0.001375783	0.077728545	Putative uncharacterized protein	Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)	4.33576E-32	NaN	114	-	-							
+comp39279_c0_seq1	Photosystem I reaction centre subunit VI	6.270168686	1.568575467	0.000485851	0.041727339	I0Z284	Coccomyxa subellipsoidea C-169	1.43801E-07	NaN	133	-	-							
+comp40473_c0_seq1	Glutathione S-transferase P 1	6.395417256	1.700860775	0.001612615	0.08515517	P19157	Mus musculus	5.03085E-25	NaN	210	GST C-terminal domain (1); GST N-terminal domain (1)	"GST superfamily, Pi family"							
+comp8955_c0_seq1	"Rhodanese-like domain-containing protein 14, chloroplastic"	6.443991893	1.183184538	0.00132627	0.075744355	Q94A65	Arabidopsis thaliana	2.07376E-13	NaN	224	Rhodanese domain (1)								
+comp45619_c0_seq1	Protein lifeguard 1	6.553198718	1.548283229	0.000838026	0.058305725	Q7Z429	Homo sapiens	2.95399E-23	NaN	371		"BI1 family, LFG subfamily"							
+comp45120_c0_seq1	5'-nucleotidase domain-containing protein	6.560651418	1.299684948	0.000800612	0.056595354	E3Q5G4	Colletotrichum graminicola (strain M1.001 / M2 / FGSC 10212)	7.87101E-15	NaN	590	5'-nucleotidase family								
+comp42504_c0_seq1	60S ribosomal protein L24-2	6.564329463	1.659300706	0.000363452	0.033527343	P38666	Arabidopsis thaliana	7.3989E-28	NaN	163	-	Ribosomal protein L24e family							
+comp20479_c0_seq1	60S ribosomal protein L30-3	6.661132242	1.286101712	0.000901237	0.060667069	Q9LSA3	Arabidopsis thaliana	1.17304E-08	NaN	112	-	Ribosomal protein L30e family							
+comp8604_c0_seq1	"Ferritin-1, chloroplastic"	6.690692408	1.220405374	0.001355535	0.07702324	P19976	Glycine max	2.54431E-13	NaN	250	Ferritin-like diiron domain (1)	Ferritin family							
+comp39262_c0_seq1	40S ribosomal protein S21	6.768991976	1.582244753	0.000198075	0.02263227	P35687	Oryza sativa subsp. japonica	4.73755E-14	NaN	82		Ribosomal protein S21e family							
+comp41528_c0_seq1	Uncharacterized protein	6.908015324	2.661651811	2.62386E-05	0.005420868	I0YW04	Coccomyxa subellipsoidea C-169	4.65198E-07	NaN	102	-								
+comp31121_c0_seq6	5'-3' exoribonuclease 3	6.967917267	1.97481561	9.73083E-05	0.013937786	Q9FQ03	Arabidopsis thaliana	6.92085E-18	NaN	1020	CCHC-type zinc finger (1)	"5'-3' exonuclease family, XRN2/RAT1 subfamily"							
+comp5875_c0_seq1	Uncharacterized protein	7.236960368	1.221968022	0.001080586	0.067191168	I0Z5R6	Coccomyxa subellipsoidea C-169	1.11151E-08	NaN	83	-	-							
+comp7384_c0_seq1	Phosphatidyl-N-methylethanolamine N-methyltransferase	7.380887885	2.504432179	3.06326E-06	0.001134975	P05375	Saccharomyces cerevisiae (strain ATCC 204508 /	4.7639E-33	NaN	206	-	"Class VI-like SAM-binding methyltransferase superfamily, PEMT/PEM2 methyltransferase family"							
+comp15032_c0_seq1	"ATP synthase subunit epsilon, mitochondrial"	7.429350031	1.184558197	0.001317713	0.07553415	Q96253	Arabidopsis thaliana	2.44805E-13	NaN	70	-	Eukaryotic ATPase epsilon family							
+comp20985_c0_seq1	"ATP synthase subunit beta, mitochondrial (Fragment)"	7.498161729	1.182619886	0.001483687	0.081095691	P43395	Actinidia deliciosa	4.5177E-07	NaN	173	-	ATPase alpha/beta chains family							
+comp20908_c0_seq1	Uncharacterized protein	7.505608746	1.270862741	0.000905783	0.060699669	I0YMS9	Coccomyxa subellipsoidea C-169	5.67147E-10	NaN	257	-	-							
+comp15878_c0_seq1	LYR motif-containing protein 9	7.59533886	2.823353071	6.38534E-06	0.001934239	B6NK32	Branchiostoma floridae	2.95307E-12	NaN	78	-	-							
+comp9796_c0_seq1	Thioredoxin	7.92207849	1.595852543	0.00022526	0.024812955	Q9UW02	Coprinus comatus	1.764E-26	NaN	106	Thioredoxin domain (1)	Thioredoxin family							
+comp6879_c0_seq1	60S ribosomal protein L28	8.065021569	1.774251866	7.7448E-05	0.011931784	Q9GS21	Dictyostelium discoideum	1.96465E-12	NaN	132		Ribosomal protein L28e family							
+comp18742_c0_seq4	"Ferritin-3, chloroplastic"	8.258152752	2.012954581	1.63773E-05	0.003784677	Q948P6	Glycine max	1.46069E-60	NaN	256	Ferritin-like diiron domain (1)	Ferritin family							
+comp36964_c0_seq1	"ATP-dependent zinc metalloprotease FTSH 2, chloroplastic"	8.636092812	2.21207442	1.70692E-05	0.003924334	Q655S1	Oryza sativa subsp. japonica	2.45929E-47	NaN	676		AAA ATPase family; Peptidase M41 family							
+comp5973_c0_seq1	"Photosystem I reaction center subunit II, chloroplastic"	8.915151954	1.040077703	0.00184127	0.092335362	P12353	Spinacia oleracea	1.5518E-55	NaN	212		PsaD family							
+comp47546_c0_seq1	Nascent polypeptide-associated complex subunit beta	9.110692628	1.259496468	0.001041225	0.065932482	Q7SDU4	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	1.03138E-14	NaN	152	NAC-A/B (NAC-alpha/beta) domain (1)	NAC-beta family							
+comp25254_c0_seq1	Predicted protein	9.110692628	0.941752292	0.001380519	0.077814183	A9SG47	Physcomitrella patens subsp. patens	3.0438E-21	NaN	84									
+comp7918_c0_seq1	Transmembrane protein 230	9.144579269	0.870594645	0.001697017	0.087727546	Q5R8X3	Pongo abelii	2.93959E-08	NaN	120	-	TMEM134/TMEM230 family							
+comp39331_c0_seq1	Tripartite motif-containing protein 45	9.155700218	0.985834538	0.001122478	0.068935529	Q6PFY8	Mus musculus	4.4867E-13	NaN	580	B box-type zinc fingers (2); Filamin repeat (1); RING-type zinc finger (1)	TRIM/RBCC family							
+comp38687_c0_seq1	Predicted protein	9.188557783	1.33389743	0.000736989	0.053724731	A8JBM6	Chlamydomonas reinhardtii	4.07564E-11	NaN	282	-	Mitochondrial carrier family							
+comp18320_c0_seq2	"20 kDa chaperonin, chloroplastic"	9.241710217	0.902844095	0.001486899	0.081095691	Q02073	Spinacia oleracea	3.29943E-32	NaN	255	-	GroES chaperonin family							
+comp8816_c0_seq1	Predicted protein	9.312979799	0.911715998	0.001448461	0.080185134	A8IIR9	Chlamydomonas reinhardtii	1.24377E-11	NaN	252	-	-							
+comp7126_c0_seq1	Uncharacterized protein	9.352178336	1.147327114	0.000538467	0.044457776	I0YKH9	Coccomyxa subellipsoidea C-169	1.64652E-14	NaN	113	-	-							
+comp6599_c0_seq1	Protein ISD11	9.36181379	1.525445308	0.000489132	0.041848802	Q6Q560	Saccharomyces cerevisiae (strain ATCC 204508 /	7.73909E-14	NaN	94		Complex I LYR family							
+comp9793_c0_seq1	Putative uncharacterized protein	9.371385317	1.060440028	0.000764011	0.054628628	D8TN51	Volvox carteri	1.06182E-14	NaN	321	-	-							
+comp39260_c0_seq1	Predicted protein	9.409048769	1.124704476	0.000580693	0.046412122	A9SM97	Physcomitrella patens subsp. patens	2.76295E-09	NaN	65	-	-							
+comp14108_c0_seq1	Derlin-2.1	9.418312979	0.89842326	0.001664451	0.086566905	Q4G2J4	Zea mays	6.21416E-28	NaN	249	-	Derlin family							
+comp14634_c0_seq1	Probable gamma-secretase subunit PEN-2	9.418312979	1.42670378	0.000211189	0.023729334	Q9FY84	Arabidopsis thaliana	1.0576E-07	NaN	146	-	PEN-2 family							
+comp46464_c0_seq1	Putative uncharacterized protein	9.418312979	0.978231461	0.001110631	0.068489404	E1ZSW0	Chlorella variabilis	4.33326E-31	NaN	789	-	-							
+comp43507_c0_seq1	"Photosystem I reaction center subunit psaK, chloroplastic"	9.472682667	1.338342092	0.000231337	0.025051436	P36886	Hordeum vulgare	5.11862E-15	NaN	131	-	PsaG/PsaK family							
+comp6052_c0_seq1	Mitochondrial fission 1 protein B	9.472682667	1.238894968	0.000350592	0.032813644	Q94CK3	Arabidopsis thaliana	3.46341E-15	NaN	167	HMA domain (1)	ATX1 family							
+comp35579_c0_seq1	Uncharacterized bolA-like protein C8C9.11	9.499117959	0.949914193	0.001431884	0.079744359	O14280	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	3.23283E-14	NaN	84	-	BolA/yrbA family							
+comp13001_c0_seq1	Cystatin/monellin	9.516476161	0.912200888	0.001849951	0.092482961	I0YL91	Coccomyxa subellipsoidea C-169	2.17589E-07	NaN	224	-	-							
+comp15823_c0_seq1	"Chlorophyll a-b binding protein 4, chloroplastic"	9.525077566	1.144495132	0.000520049	0.043400968	P27521	Arabidopsis thaliana	3.33255E-29	NaN	251		Light-harvesting chlorophyll a/b-binding (LHC) protein family							
+comp41651_c0_seq1	50S ribosomal protein L33	9.567331777	1.260500009	0.00030533	0.029990392	B2ULP6	Akkermansia muciniphila (strain ATCC BAA-835)	1.19385E-14	NaN	57	-	Ribosomal protein L33P family							
+comp19778_c0_seq1	Predicted protein (Fragment)	9.600266124	1.699642412	9.01195E-05	0.013203396	A7RLR7	Nematostella vectensis	4.46704E-06	NaN	142									
+comp47817_c0_seq1	40S ribosomal protein S21	9.608383563	1.743824093	0.00011001	0.015049948	Q54BN4	Dictyostelium discoideum	3.08616E-18	NaN	78	-	Ribosomal protein S21e family							
+comp42843_c0_seq1	NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 9	9.632465385	1.158312281	0.000524717	0.043563169	Q945M1	Arabidopsis thaliana	8.82567E-10	NaN	117	-	Complex I LYR family							
+comp37795_c0_seq1	"Oxygen-evolving enhancer protein 3, chloroplastic"	9.640404151	1.05880141	0.000981214	0.063579028	P12852	Chlamydomonas reinhardtii	1.08894E-13	NaN	199	-	PsbQ family							
+comp46778_c0_seq1	Protein AMN1 homolog	9.648299471	1.734949237	6.89565E-05	0.011007787	Q0P4D1	Danio rerio	3.71637E-06	NaN	249	-	AMN1 family							
+comp21130_c0_seq1	Transporter	9.648299471	1.596597956	7.32351E-05	0.011479994	E3RFI6	Pyrenophora teres f. teres (strain 0-1)	8.95665E-37	NaN	666	-	Sodium:neurotransmitter symporter (SNF) family							
+comp45955_c0_seq1	Uncharacterized protein	9.663961657	1.024867519	0.001390925	0.078142779	L1IM14	Guillardia theta CCMP2712	3.02084E-07	NaN	104	-	-							
+comp42194_c0_seq1	Translationally-controlled tumor protein homolog	9.671729446	1.824330003	0.000106273	0.014745883	Q7RYV5	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	1.05226E-55	NaN	170	-	TCTP family							
+comp42342_c0_seq1	Carbonic anhydrase 1	9.676213736	6.609412915	1.34627E-05	0.003371831	P20507	Chlamydomonas reinhardtii	4.4816E-09	NaN	377	-	Alpha-carbonic anhydrase family							
+comp20000_c0_seq1	"UPF0603 protein At1g54780, chloroplastic"	9.679455636	1.503329602	9.43849E-05	0.013562384	Q9ZVL6	Arabidopsis thaliana	2.17185E-50	NaN	285		UPF0603 family							
+comp42140_c0_seq1	LYR motif-containing protein 4	9.709953157	1.878110884	0.000135575	0.017516095	B5FZA8	Taeniopygia guttata	1.41911E-17	NaN	89	-	Complex I LYR family							
+comp14515_c0_seq1	Putative uncharacterized protein	9.724963515	1.295699063	0.000265489	0.027615783	B3RVE9	Trichoplax adhaerens	6.52931E-14	NaN	312	-	-							
+comp6254_c0_seq3	"Chlorophyll a-b binding protein of LHCII type I, chloroplastic"	9.739819306	1.7386819	4.03196E-05	0.007461052	P27517	Dunaliella tertiolecta	1.17569E-07	NaN	253	-	Light-harvesting chlorophyll a/b-binding (LHC) protein family							
+comp46779_c0_seq1	Putative uncharacterized protein	9.739819306	1.172936317	0.000574835	0.046350735	D8TS51	Volvox carteri	5.04332E-26	NaN	259	-	-							
+comp44972_c0_seq1	Uncharacterized protein YuxK	9.754523682	1.278629767	0.000303451	0.029963585	P40761	Bacillus subtilis (strain 168)	6.12279E-14	NaN	137	-	DCC thiol-disulfide oxidoreductase family							
+comp43694_c0_seq1	60S ribosomal protein L28	9.790642003	1.959758571	0.000100885	0.014222886	Q3T0L7	Bos taurus	1.27073E-09	NaN	137	-	Ribosomal protein L28e family							
+comp20191_c0_seq1	Protein translation factor SUI1 homolog	9.790642003	1.644029251	4.50878E-05	0.008022812	P56330	Zea mays	1.59572E-14	NaN	115	-	SUI1 family							
+comp15865_c0_seq1	"Superoxide dismutase [Fe], chloroplastic (Fragment)"	9.797758413	1.360962767	0.00019468	0.022436741	P22302	Nicotiana plumbaginifolia	1.20183E-88	NaN	202	-	Iron/manganese superoxide dismutase family							
+comp38004_c0_seq1	"Photosystem II repair protein PSB27-H1, chloroplastic"	9.804839892	1.405903904	0.000147997	0.018637599	Q9LR64	Arabidopsis thaliana	2.06793E-28	NaN	174	-	Psb27 family							
+comp15412_c0_seq1	"Iron-sulfur cluster assembly 2 homolog, mitochondrial"	9.811886782	1.392271606	0.000162902	0.019797423	Q5R788	Pongo abelii	2.30307E-31	NaN	154	-	HesB/IscA family							
+comp39752_c0_seq1	Uncharacterized protein	9.818899418	1.93038119	3.2211E-05	0.006306051	G9MWK8	Hypocrea virens (strain	1.08274E-40	NaN	155	-	-							
+comp14694_c1_seq1	Glutaredoxin	9.839735094	1.890427877	2.24655E-05	0.004865578	P55143	Ricinus communis	2.29492E-22	NaN	102	Glutaredoxin domain (1)	"Glutaredoxin family, CPYC subfamily"							
+comp46195_c0_seq1	Cytochrome b5	9.846613983	1.411203872	0.000149187	0.018682526	P49098	Nicotiana tabacum	8.88031E-25	NaN	136	Cytochrome b5 heme-binding domain (1)	Cytochrome b5 family							
+comp42527_c0_seq1	Profilin-A	9.867056016	2.040414178	9.16671E-05	0.013386376	P22271	Physarum polycephalum	2.13507E-14	NaN	125	-	Profilin family							
+comp12625_c0_seq1	Protein translation factor SUI1 homolog	9.887212441	1.435486796	0.000132654	0.01718828	O48650	Salix bakko	1.00227E-17	NaN	113		SUI1 family							
+comp44625_c0_seq1	Translationally-controlled tumor protein homolog	9.893869151	2.054349535	4.61475E-05	0.008177406	P0CR82	Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565)	1.1323E-36	NaN	167	-	TCTP family							
+comp47218_c0_seq1	Uncharacterized protein	9.907091129	1.325322954	0.000303364	0.029963585	M4CS76	Brassica rapa subsp. pekinensis	1.15828E-21	NaN	409	-	-							
+comp36280_c0_seq1	"SufE-like protein, chloroplastic"	9.933177017	1.318752083	0.00035891	0.033383132	Q84W65	Arabidopsis thaliana	1.6388E-65	NaN	371	-	SufE family							
+comp6467_c0_seq2	Putative uncharacterized protein	9.958799601	1.574981601	5.61722E-05	0.00960216	C3ZIE1	Branchiostoma floridae	6.6447E-10	NaN	519	-	-							
+comp39610_c0_seq1	UPF0587 protein GA18326	9.97144224	1.639449247	3.9294E-05	0.007340112	Q290L7	Drosophila pseudoobscura pseudoobscura	6.93831E-17	NaN	163	-	UPF0587 family							
+comp19303_c0_seq1	Uncharacterized protein	10.08050096	2.238380685	1.73147E-05	0.003960482	I0Z8G0	Coccomyxa subellipsoidea C-169	6.84974E-10	NaN	389	-	-							
+comp44913_c0_seq1	Protein-S-isoprenylcysteine O-methyltransferase B	10.09212495	2.267385014	4.03647E-05	0.007461052	Q93W54	Arabidopsis thaliana	2.00495E-09	NaN	197	-	"Class VI-like SAM-binding methyltransferase superfamily, Isoprenylcysteine carboxyl methyltransferase family"							
+comp6324_c1_seq1	"Glutaredoxin-2, mitochondrial"	10.10938721	1.437573059	0.000325522	0.031317215	Q5RC53	Pongo abelii	8.57185E-08	NaN	161	Glutaredoxin domain (1)	Glutaredoxin family							
+comp8167_c0_seq1	40S ribosomal protein S29	10.14888028	1.67777041	3.51314E-05	0.00678885	Q7XYB0	Griffithsia japonica	1.87204E-16	NaN	56		Ribosomal protein S14P family							
+comp7634_c0_seq1	"50S ribosomal protein L29, chloroplastic"	10.17097165	1.696534261	3.20037E-05	0.006306051	Q9SWI6	Zea mays	8.23629E-12	NaN	161		Ribosomal protein L29P family							
+comp23783_c0_seq1	Glutathione S-transferase	10.25092621	2.044784346	3.268E-06	0.00118154	B1N8I2	Chondrus crispus	1.01132E-09	NaN	210	-	GST superfamily							
+comp38331_c0_seq1	Enhancer of rudimentary homolog	10.28170724	1.683727121	5.25619E-05	0.009098288	Q96319	Arabidopsis thaliana	4.77122E-25	NaN	109	-	E(R) family							
+comp46929_c0_seq1	10 kDa chaperonin	10.32668138	1.713708009	4.85748E-05	0.008573635	Q96539	Brassica napus	2.57419E-12	NaN	98		GroES chaperonin family							
+comp14728_c0_seq1	Predicted protein	10.37029578	1.839352789	1.58612E-05	0.003722419	C1E4X4	Micromonas sp. (strain RCC299 /	2.5453E-06	NaN	102									
+comp42932_c0_seq1	Cytochrome b-c1 complex subunit 9	10.64345556	2.782281227	8.2286E-07	0.000387524	O74433	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	1.14232E-07	NaN	67	-	UQCR10/QCR9 family							
+comp20447_c0_seq1	"30S ribosomal protein S13, chloroplastic"	10.66696369	2.812269998	8.94119E-07	0.000409032	P42732	Arabidopsis thaliana	8.23358E-40	NaN	169	-	Ribosomal protein S13P family							
+comp50140_c0_seq1	60S ribosomal protein L36	10.78982732	2.954289084	1.18007E-06	0.000518677	Q9HFR7	Trichoderma hamatum	5.22353E-06	NaN	105	-	Ribosomal protein L36e family							
+comp37470_c0_seq1	60S acidic ribosomal protein P1	10.77908036	2.906664828	3.49529E-07	0.000210169	P52855	Zea mays	4.71185E-07	NaN	109	-	Ribosomal protein L12P family							
+comp7493_c0_seq1	60S ribosomal protein L26 (Fragment)	11.07398457	3.211625528	1.23729E-07	9.90542E-05	P47832	Gallus gallus	2.36971E-11	NaN	128	-	Ribosomal protein L24P family							
+comp7149_c0_seq1	Thioredoxin	11.15102598	3.191526669	1.53771E-08	2.08905E-05	O96952	Geodia cydonium	3.04636E-29	NaN	106	Thioredoxin domain (1)	Thioredoxin family							
+comp41007_c0_seq1	Uncharacterized protein	11.59887143	3.660894945	2.6455E-09	5.39105E-06	M4G761	Magnaporthe poae (strain ATCC 64411 / 73-15)	2.7412E-37	NaN	123	-	-							
+comp21803_c0_seq2	3-ketoacyl-CoA synthase 7	11.64891941	3.798147687	2.57543E-08	3.12058E-05	Q9C992	Arabidopsis thaliana	4.85966E-27	NaN	460	FAE (fatty acid elongase) domain (1)	Chalcone/stilbene synthases family							
+comp42834_c0_seq1	Putative uncharacterized protein	13.14218753	5.328494611	7.15439E-08	6.82438E-05	B7P992	Ixodes scapularis	1.49407E-07	NaN	84	-	-							
+comp15378_c0_seq1	"Ribulose bisphosphate carboxylase small chain 3, chloroplastic"	13.18420282	5.35123462	2.21657E-09	5.23017E-06	P16131	Acetabularia cliftonii	1.71458E-66	NaN	183	-	RuBisCO small chain family							
+comp38418_c0_seq1	Copper transport protein ATX1	13.50106761	5.689505202	1.75671E-07	0.000133486	Q94BT9	Arabidopsis thaliana	7.64287E-23	NaN	106									
+comp19163_c0_seq1	"ATP synthase subunit 9, mitochondrial"	14.29294913	6.481071627	2.4528E-08	3.12058E-05	P26855	Marchantia polymorpha	1.22408E-17	NaN	74	-	ATPase C chain family							
+comp16268_c0_seq2	-	-11.79636375	3.78281161	1.17E-07	9.55E-05	-	-	-	NaN	-									
+comp23790_c0_seq1	-	-11.61862983	3.47078377	1.06E-09	2.99E-06	-	-	-	NaN	-									
+comp32135_c0_seq2	-	-11.39828269	3.355335114	3.77E-08	4.02E-05	-	-	-	NaN	-									
+comp29121_c0_seq6	-	-10.60210635	2.0088529	0.000119617	0.015902675	-	-	-	NaN	-									
+comp9826_c0_seq1	-	-10.42029072	2.402236809	9.37E-06	0.002608552	-	-	-	NaN	-									
+comp12060_c0_seq1	-	-10.23882514	1.782801299	2.14E-05	0.004729269	-	-	-	NaN	-									
+comp14649_c0_seq1	-	-10.09571687	2.085856166	8.19E-05	0.012491109	-	-	-	NaN	-									
+comp24602_c0_seq1	-	-9.847429877	1.838577451	0.000267902	0.027674133	-	-	-	NaN	-									
+comp7399_c0_seq1	-	-9.818315491	1.501130308	8.80E-05	0.013056369	-	-	-	NaN	-									
+comp29579_c1_seq1	-	-9.623376001	1.468996412	0.000142865	0.018299737	-	-	-	NaN	-									
+comp7512_c0_seq1	-	-9.266128006	1.23760597	0.001019555	0.065112089	-	-	-	NaN	-									
+comp25569_c0_seq1	-	-9.204454316	1.150191263	0.001023779	0.065288868	-	-	-	NaN	-									
+comp20287_c0_seq1	-	-8.368548802	3.619365277	5.52E-07	0.000284228	-	-	-	NaN	-									
+comp42442_c0_seq1	-	-8.087713344	2.782182166	0.000154328	0.019135894	-	-	-	NaN	-									
+comp34495_c1_seq1	-	-7.933769112	3.150953164	4.23E-07	0.00024307	-	-	-	NaN	-									
+comp47412_c0_seq1	-	-7.392252336	3.217715809	0.000323085	0.031149603	-	-	-	NaN	-									
+comp29507_c0_seq2	-	-6.035899849	7.95576401	0.000146432	0.018544754	-	-	-	NaN	-									
+comp31624_c1_seq1	-	-5.683871741	2.835400397	0.000173082	0.020637322	-	-	-	NaN	-									
+comp12323_c0_seq1	-	-5.593052056	2.114666255	0.001093735	0.067676183	-	-	-	NaN	-									
+comp29415_c0_seq1	-	-5.490894975	10.30343867	0.000668734	0.050472528	-	-	-	NaN	-									
+comp25456_c0_seq1	-	-5.210120618	1.704988983	0.002130665	0.09981396	-	-	-	NaN	-									
+comp19157_c0_seq1	-	-4.473763189	3.441440565	0.001095934	0.067676183	-	-	-	NaN	-									
+comp24406_c0_seq1	-	3.194449551	4.406771491	0.001471347	0.081023977	-	-	-	NaN	-									
+comp24254_c0_seq1	-	3.200573403	3.516079146	0.001521013	0.082454709	-	-	-	NaN	-									
+comp21155_c1_seq1	-	3.309547445	3.486352092	0.00148543	0.081095691	-	-	-	NaN	-									
+comp16295_c0_seq1	-	3.362120709	4.412784618	0.001934295	0.095085859	-	-	-	NaN	-									
+comp22368_c0_seq1	-	3.447246436	4.010654741	0.001588523	0.084379924	-	-	-	NaN	-									
+comp7898_c0_seq1	-	3.448325231	4.066981298	0.001281456	0.075196655	-	-	-	NaN	-									
+comp5995_c0_seq1	-	3.562136914	2.692413613	0.002059094	0.09825164	-	-	-	NaN	-									
+comp11198_c0_seq1	-	3.600801072	3.284902768	0.00162734	0.085429635	-	-	-	NaN	-									
+comp23519_c0_seq1	-	3.623820312	3.401663632	0.001797374	0.090641001	-	-	-	NaN	-									
+comp24267_c0_seq1	-	3.635687333	3.404607625	0.001317436	0.07553415	-	-	-	NaN	-									
+comp30027_c0_seq1	-	3.697174056	5.987254298	0.001659289	0.086499127	-	-	-	NaN	-									
+comp21452_c0_seq1	-	3.727544638	3.062875864	0.001179345	0.071136781	-	-	-	NaN	-									
+comp19035_c0_seq1	-	3.756852768	3.457012892	0.001090849	0.067641679	-	-	-	NaN	-									
+comp7279_c0_seq1	-	3.760746124	3.027921796	0.002042013	0.097731287	-	-	-	NaN	-									
+comp14697_c0_seq1	-	3.802760901	5.208731512	0.000927804	0.061990056	-	-	-	NaN	-									
+comp19449_c0_seq1	-	3.814145525	4.147871469	0.00129561	0.075381057	-	-	-	NaN	-									
+comp9340_c0_seq1	-	3.817092339	3.597577336	0.000822362	0.057787012	-	-	-	NaN	-									
+comp28056_c0_seq1	-	3.820990175	4.092990498	0.000591847	0.047129121	-	-	-	NaN	-									
+comp7984_c0_seq1	-	3.830883252	6.034997617	0.001620291	0.085259245	-	-	-	NaN	-									
+comp41911_c0_seq1	-	3.859649166	4.76243318	0.000565726	0.045698392	-	-	-	NaN	-									
+comp23885_c0_seq1	-	3.873193652	5.712502327	0.000427887	0.038137205	-	-	-	NaN	-									
+comp36666_c0_seq1	-	3.899819174	3.069085189	0.00207239	0.098481871	-	-	-	NaN	-									
+comp14013_c1_seq1	-	3.909155556	3.804199532	0.001284353	0.075249761	-	-	-	NaN	-									
+comp9794_c0_seq1	-	3.915451896	2.628866736	0.002042608	0.097731287	-	-	-	NaN	-									
+comp35141_c0_seq2	-	3.920077963	3.73275485	0.0003041	0.029963585	-	-	-	NaN	-									
+comp7741_c0_seq1	-	3.944097077	2.627915969	0.001850402	0.092482961	-	-	-	NaN	-									
+comp31381_c0_seq1	-	3.944467118	2.684454529	0.001547639	0.083393944	-	-	-	NaN	-									
+comp11789_c0_seq1	-	3.952078805	3.76143588	0.001514552	0.082403366	-	-	-	NaN	-									
+comp41586_c0_seq1	-	3.959125024	3.605492477	0.001519639	0.082454709	-	-	-	NaN	-									
+comp7718_c0_seq1	-	3.96110128	4.563422492	0.00075576	0.054211564	-	-	-	NaN	-									
+comp29947_c0_seq2	-	3.971640204	2.459418992	0.000995231	0.06391851	-	-	-	NaN	-									
+comp9223_c0_seq1	-	3.986553967	4.144064537	0.000746056	0.053990131	-	-	-	NaN	-									
+comp22265_c0_seq1	-	3.998687189	2.175520783	0.001903549	0.093986664	-	-	-	NaN	-									
+comp24902_c0_seq6	-	4.028119992	4.2658518	0.001134908	0.069508465	-	-	-	NaN	-									
+comp18943_c0_seq1	-	4.032066847	3.759463397	0.000487826	0.041816877	-	-	-	NaN	-									
+comp28547_c0_seq1	-	4.040263563	3.385691634	0.000849923	0.058711451	-	-	-	NaN	-									
+comp37713_c0_seq1	-	4.051286017	4.998223666	0.00101199	0.064813631	-	-	-	NaN	-									
+comp8630_c0_seq1	-	4.096541363	2.551755976	0.0017358	0.088531743	-	-	-	NaN	-									
+comp14992_c0_seq1	-	4.101168464	3.073167248	0.001585671	0.084348566	-	-	-	NaN	-									
+comp7242_c0_seq1	-	4.103516699	2.716340529	0.001533084	0.083008732	-	-	-	NaN	-									
+comp7387_c0_seq1	-	4.104204091	4.023909312	0.001048897	0.066138073	-	-	-	NaN	-									
+comp21879_c0_seq1	-	4.148612197	4.432593261	0.00035986	0.033402191	-	-	-	NaN	-									
+comp14532_c0_seq1	-	4.176928872	3.688176123	0.000167814	0.020208734	-	-	-	NaN	-									
+comp22290_c0_seq1	-	4.202585886	2.241189892	0.001172027	0.070814431	-	-	-	NaN	-									
+comp21059_c0_seq1	-	4.204980165	2.612448825	0.00073304	0.053523881	-	-	-	NaN	-									
+comp39487_c0_seq1	-	4.210974794	2.695552326	0.001574861	0.084052572	-	-	-	NaN	-									
+comp32250_c0_seq1	-	4.216412666	2.126660099	0.00132802	0.075747828	-	-	-	NaN	-									
+comp35700_c0_seq1	-	4.219405146	3.280568709	0.000180212	0.021152185	-	-	-	NaN	-									
+comp28911_c0_seq2	-	4.221611015	2.400104942	0.001617372	0.08520567	-	-	-	NaN	-									
+comp47365_c0_seq1	-	4.221807475	2.570279979	0.001480027	0.081095691	-	-	-	NaN	-									
+comp16620_c0_seq1	-	4.23080559	4.915576808	0.000853387	0.058769676	-	-	-	NaN	-									
+comp14107_c0_seq1	-	4.234091756	3.356351708	0.000102678	0.014430272	-	-	-	NaN	-									
+comp7099_c0_seq1	-	4.236783745	2.744073658	0.002052581	0.098103742	-	-	-	NaN	-									
+comp7336_c0_seq1	-	4.246142652	5.462207576	0.000418211	0.037423658	-	-	-	NaN	-									
+comp19721_c0_seq1	-	4.247776557	2.838144074	0.001603561	0.084877041	-	-	-	NaN	-									
+comp15100_c0_seq1	-	4.258319852	2.776247002	0.000847428	0.058711451	-	-	-	NaN	-									
+comp16427_c0_seq1	-	4.284580916	2.707702407	0.001919121	0.094547268	-	-	-	NaN	-									
+comp31103_c0_seq9	-	4.29909256	4.114081372	0.000204103	0.02310689	-	-	-	NaN	-									
+comp26694_c0_seq1	-	4.306440647	2.473872423	0.001374316	0.077728545	-	-	-	NaN	-									
+comp24591_c0_seq6	-	4.318095022	8.706226789	0.000120807	0.015976509	-	-	-	NaN	-									
+comp9064_c0_seq1	-	4.318722225	2.671607284	0.001161527	0.070560393	-	-	-	NaN	-									
+comp47491_c0_seq1	-	4.324946482	2.722961278	0.001160493	0.070560393	-	-	-	NaN	-									
+comp36141_c0_seq1	-	4.32861799	2.798863581	0.000652074	0.049717288	-	-	-	NaN	-									
+comp14512_c0_seq1	-	4.348371006	3.208256708	0.000625879	0.048666306	-	-	-	NaN	-									
+comp25544_c0_seq1	-	4.352865067	4.237890878	0.002127403	0.099765392	-	-	-	NaN	-									
+comp15157_c0_seq4	-	4.355537215	2.587265799	0.001753754	0.089192558	-	-	-	NaN	-									
+comp45930_c0_seq1	-	4.356012199	3.36565202	0.000788957	0.055966044	-	-	-	NaN	-									
+comp7293_c0_seq1	-	4.358381047	3.242378891	0.000437556	0.03877293	-	-	-	NaN	-									
+comp20807_c0_seq1	-	4.363489403	2.839334998	0.001415682	0.079235794	-	-	-	NaN	-									
+comp32341_c0_seq2	-	4.396425346	3.749913861	0.001254095	0.074075851	-	-	-	NaN	-									
+comp5783_c0_seq1	-	4.416143605	4.498253614	0.000180724	0.021154577	-	-	-	NaN	-									
+comp8134_c1_seq1	-	4.421919258	4.156141551	0.002010995	0.097151864	-	-	-	NaN	-									
+comp31628_c0_seq4	-	4.457610611	2.471722347	0.002079998	0.098481871	-	-	-	NaN	-									
+comp40947_c0_seq1	-	4.459177937	3.076460178	0.000523322	0.043527949	-	-	-	NaN	-									
+comp20884_c0_seq1	-	4.49454025	2.311593192	0.000993751	0.06391851	-	-	-	NaN	-									
+comp48101_c0_seq1	-	4.512068666	2.169176685	0.001704473	0.087898315	-	-	-	NaN	-									
+comp14474_c0_seq1	-	4.527826702	3.676446209	0.000339276	0.032137982	-	-	-	NaN	-									
+comp42836_c0_seq1	-	4.549037641	3.288388712	0.000991679	0.063877798	-	-	-	NaN	-									
+comp34372_c0_seq1	-	4.571011729	8.623529826	0.000123296	0.01617761	-	-	-	NaN	-									
+comp14783_c0_seq1	-	4.580585514	2.212059475	0.001334851	0.075944187	-	-	-	NaN	-									
+comp12339_c0_seq1	-	4.58909693	3.32683928	0.00088719	0.060223462	-	-	-	NaN	-									
+comp29569_c0_seq1	-	4.634535344	3.902999663	0.000344604	0.032388438	-	-	-	NaN	-									
+comp22573_c0_seq2	-	4.636381046	2.315408382	0.000766992	0.054750781	-	-	-	NaN	-									
+comp27840_c0_seq1	-	4.644728438	2.704496193	0.000385803	0.035012836	-	-	-	NaN	-									
+comp22912_c0_seq1	-	4.648459428	2.351952191	0.0014249	0.079553078	-	-	-	NaN	-									
+comp36037_c0_seq1	-	4.650758914	2.907605937	0.002001944	0.096869358	-	-	-	NaN	-									
+comp42475_c0_seq1	-	4.66610823	2.584224046	0.000463958	0.040232412	-	-	-	NaN	-									
+comp21294_c1_seq1	-	4.689065693	3.029178641	0.000230465	0.025017435	-	-	-	NaN	-									
+comp22452_c0_seq1	-	4.697341998	2.394358931	0.000562695	0.045617946	-	-	-	NaN	-									
+comp22934_c0_seq1	-	4.711167293	2.385597025	0.000648509	0.049571023	-	-	-	NaN	-									
+comp41386_c0_seq1	-	4.715893233	2.119696704	0.001228396	0.073039072	-	-	-	NaN	-									
+comp27756_c0_seq1	-	4.716324782	2.154985009	0.000836575	0.058305725	-	-	-	NaN	-									
+comp5805_c0_seq1	-	4.725534263	2.550431527	0.001323959	0.075708866	-	-	-	NaN	-									
+comp24417_c0_seq1	-	4.771134135	3.692386539	0.000153897	0.019135894	-	-	-	NaN	-									
+comp9792_c0_seq1	-	4.794816564	2.987816443	0.00064279	0.049345173	-	-	-	NaN	-									
+comp37125_c0_seq1	-	4.804378832	2.140380771	0.000938742	0.062351745	-	-	-	NaN	-									
+comp12905_c0_seq1	-	4.8419816	2.234885123	0.001624926	0.085402905	-	-	-	NaN	-									
+comp38843_c0_seq1	-	4.848890255	2.52694026	0.000985959	0.063692368	-	-	-	NaN	-									
+comp6071_c0_seq1	-	4.865891852	2.08955353	0.000898988	0.060667069	-	-	-	NaN	-									
+comp28842_c0_seq1	-	4.874711333	2.639338046	0.000243035	0.025747413	-	-	-	NaN	-									
+comp47368_c0_seq1	-	4.915810959	2.101448419	0.001035576	0.065760527	-	-	-	NaN	-									
+comp18223_c0_seq1	-	4.926556945	2.009580627	0.002064442	0.09825164	-	-	-	NaN	-									
+comp14041_c0_seq1	-	4.930294251	1.994850438	0.000887931	0.060223462	-	-	-	NaN	-									
+comp44322_c0_seq1	-	4.936173396	2.166498102	0.001209291	0.072479873	-	-	-	NaN	-									
+comp6216_c0_seq1	-	4.989357104	1.820364921	0.001975435	0.096239265	-	-	-	NaN	-									
+comp22847_c0_seq1	-	4.997454095	1.767276081	0.001313823	0.07553415	-	-	-	NaN	-									
+comp21050_c0_seq1	-	5.009493724	2.065010716	0.001273353	0.074832626	-	-	-	NaN	-									
+comp23198_c0_seq1	-	5.013211932	2.455655423	0.000204949	0.02314432	-	-	-	NaN	-									
+comp37214_c0_seq1	-	5.035945062	1.882880702	0.001443197	0.080075988	-	-	-	NaN	-									
+comp16454_c0_seq1	-	5.094413235	1.803934047	0.001951622	0.095727719	-	-	-	NaN	-									
+comp15530_c0_seq1	-	5.095810651	1.910875413	0.001313636	0.07553415	-	-	-	NaN	-									
+comp17082_c0_seq1	-	5.102884605	3.530580335	2.31E-05	0.004954333	-	-	-	NaN	-									
+comp40101_c0_seq1	-	5.157978952	2.543557129	0.000309011	0.030182135	-	-	-	NaN	-									
+comp18932_c0_seq2	-	5.175897289	2.244950768	0.000779749	0.055488423	-	-	-	NaN	-									
+comp7987_c0_seq1	-	5.204239942	3.024083831	0.000866551	0.059402463	-	-	-	NaN	-									
+comp7709_c0_seq1	-	5.204365034	2.464173971	0.001859877	0.092556842	-	-	-	NaN	-									
+comp22175_c0_seq1	-	5.230989637	2.212064628	0.000278793	0.028455324	-	-	-	NaN	-									
+comp16336_c0_seq1	-	5.234224021	2.49444104	0.000148794	0.018682526	-	-	-	NaN	-									
+comp18588_c0_seq1	-	5.272830428	3.074853826	3.54E-05	0.006802661	-	-	-	NaN	-									
+comp48799_c0_seq1	-	5.277388035	1.911448404	0.00129179	0.075381057	-	-	-	NaN	-									
+comp28222_c0_seq1	-	5.277470856	3.919057629	3.58E-05	0.006864742	-	-	-	NaN	-									
+comp46705_c0_seq1	-	5.291216956	1.957054489	0.000656861	0.049997295	-	-	-	NaN	-									
+comp26495_c0_seq1	-	5.297297654	1.565976019	0.002087441	0.098509624	-	-	-	NaN	-									
+comp37070_c0_seq1	-	5.30106039	2.032026374	0.000663055	0.050179758	-	-	-	NaN	-									
+comp37802_c0_seq1	-	5.30106039	1.855385602	0.002019285	0.097354512	-	-	-	NaN	-									
+comp41622_c0_seq1	-	5.328963838	1.866164092	0.002019533	0.097354512	-	-	-	NaN	-									
+comp36347_c0_seq1	-	5.331346039	1.539202413	0.001881715	0.093423096	-	-	-	NaN	-									
+comp40750_c0_seq1	-	5.34614423	1.784865842	0.00203361	0.097731287	-	-	-	NaN	-									
+comp37435_c0_seq1	-	5.354126923	1.735320693	0.001582281	0.084348196	-	-	-	NaN	-									
+comp39735_c0_seq1	-	5.363923447	4.355369761	0.000279272	0.028455324	-	-	-	NaN	-									
+comp21322_c0_seq1	-	5.377813356	1.616080313	0.001586051	0.084348566	-	-	-	NaN	-									
+comp22648_c0_seq1	-	5.387631207	2.240274247	0.000227496	0.02492752	-	-	-	NaN	-									
+comp38223_c0_seq1	-	5.410697353	1.819546735	0.000606901	0.047650726	-	-	-	NaN	-									
+comp12112_c0_seq1	-	5.424050542	1.838579531	0.001311528	0.07553415	-	-	-	NaN	-									
+comp45223_c0_seq1	-	5.44825241	2.025173608	0.000881972	0.060183484	-	-	-	NaN	-									
+comp8179_c0_seq1	-	5.477108883	2.362791118	0.000785583	0.055814965	-	-	-	NaN	-									
+comp18903_c0_seq1	-	5.498073774	1.727620456	0.000816529	0.057487209	-	-	-	NaN	-									
+comp39868_c0_seq1	-	5.518595632	2.080781726	0.000716251	0.052727357	-	-	-	NaN	-									
+comp22632_c1_seq1	-	5.529154484	1.8174697	0.000945151	0.062497071	-	-	-	NaN	-									
+comp16357_c0_seq1	-	5.584316166	2.518597142	0.000596021	0.047209946	-	-	-	NaN	-									
+comp25491_c0_seq1	-	5.589704981	3.166463347	0.000971304	0.063455842	-	-	-	NaN	-									
+comp5961_c0_seq1	-	5.599001291	1.833699928	0.00096326	0.06315621	-	-	-	NaN	-									
+comp35792_c0_seq1	-	5.606028352	3.502626112	4.35E-05	0.007866227	-	-	-	NaN	-									
+comp21863_c0_seq1	-	5.608778329	1.721494515	0.000886914	0.060223462	-	-	-	NaN	-									
+comp23127_c1_seq1	-	5.619952179	2.064010698	0.000184305	0.021406157	-	-	-	NaN	-									
+comp15061_c0_seq1	-	5.663618469	3.130307849	2.76E-05	0.005620915	-	-	-	NaN	-									
+comp14369_c0_seq1	-	5.663801748	1.620059826	0.001891442	0.093677692	-	-	-	NaN	-									
+comp44803_c0_seq1	-	5.674098029	1.549978817	0.001715242	0.088100563	-	-	-	NaN	-									
+comp26131_c0_seq2	-	5.702204613	3.258309116	6.28E-05	0.010161228	-	-	-	NaN	-									
+comp5896_c0_seq1	-	5.70563659	2.084345259	0.000227407	0.02492752	-	-	-	NaN	-									
+comp43303_c0_seq1	-	5.712262141	1.872062259	0.001754725	0.089192558	-	-	-	NaN	-									
+comp16352_c0_seq1	-	5.735654012	2.297757194	0.000254409	0.026773891	-	-	-	NaN	-									
+comp5880_c0_seq1	-	5.748663411	2.223266286	0.001918273	0.094547268	-	-	-	NaN	-									
+comp40244_c0_seq1	-	5.749485346	3.015215549	0.000122017	0.016089026	-	-	-	NaN	-									
+comp22113_c1_seq2	-	5.75800823	2.359495114	8.05E-05	0.012313934	-	-	-	NaN	-									
+comp7787_c0_seq1	-	5.76880273	2.039709729	0.000316589	0.030721466	-	-	-	NaN	-									
+comp43986_c0_seq1	-	5.771708338	1.521444134	0.002062654	0.09825164	-	-	-	NaN	-									
+comp49839_c0_seq1	-	5.781279865	1.522030285	0.001860138	0.092556842	-	-	-	NaN	-									
+comp42859_c0_seq1	-	5.800234495	1.559471626	0.002080263	0.098481871	-	-	-	NaN	-									
+comp44959_c0_seq1	-	5.800234495	1.559474094	0.002082898	0.098502253	-	-	-	NaN	-									
+comp22496_c0_seq2	-	5.812438405	2.015638861	0.000181311	0.021168102	-	-	-	NaN	-									
+comp20350_c0_seq2	-	5.825431197	2.87234528	4.46E-05	0.007993547	-	-	-	NaN	-									
+comp8272_c0_seq1	-	5.850999604	1.424455509	0.001857764	0.092556842	-	-	-	NaN	-									
+comp15743_c0_seq1	-	5.85564848	1.61981092	0.001866203	0.092755682	-	-	-	NaN	-									
+comp42437_c0_seq1	-	5.85564848	1.500363693	0.001168227	0.070680072	-	-	-	NaN	-									
+comp48853_c0_seq1	-	5.912333913	2.046233504	0.000333496	0.031947249	-	-	-	NaN	-									
+comp38774_c0_seq1	-	5.932212602	2.10091393	0.001778476	0.090297423	-	-	-	NaN	-									
+comp37168_c0_seq1	-	5.933812124	1.919344421	0.000437692	0.03877293	-	-	-	NaN	-									
+comp19114_c0_seq1	-	5.983921073	1.497072526	0.001437404	0.079853399	-	-	-	NaN	-									
+comp48630_c0_seq1	-	5.985530664	1.734660749	0.000953248	0.062847109	-	-	-	NaN	-									
+comp15023_c0_seq1	-	6.007658934	2.225560708	0.000136693	0.017609874	-	-	-	NaN	-									
+comp42510_c0_seq1	-	6.026350132	1.725575181	0.000594259	0.047153672	-	-	-	NaN	-									
+comp27364_c0_seq1	-	6.045457054	3.44121387	1.49E-05	0.003542982	-	-	-	NaN	-									
+comp15452_c0_seq1	-	6.058194019	1.328641936	0.001517001	0.082436613	-	-	-	NaN	-									
+comp16445_c0_seq1	-	6.089350184	1.275482564	0.001970322	0.096208706	-	-	-	NaN	-									
+comp38918_c0_seq1	-	6.141779555	3.157946545	3.93E-06	0.001325674	-	-	-	NaN	-									
+comp16700_c0_seq1	-	6.157208353	1.766057926	0.000361406	0.033407357	-	-	-	NaN	-									
+comp40483_c0_seq1	-	6.188278414	1.359538045	0.001299291	0.0754531	-	-	-	NaN	-									
+comp47015_c0_seq1	-	6.203186788	3.327948098	0.000388449	0.035181668	-	-	-	NaN	-									
+comp29743_c0_seq3	-	6.205436706	4.275869661	4.51E-06	0.001479618	-	-	-	NaN	-									
+comp5692_c0_seq1	-	6.224144493	2.569796379	1.47E-05	0.003542982	-	-	-	NaN	-									
+comp7386_c0_seq1	-	6.23577268	1.365780529	0.001400969	0.07851032	-	-	-	NaN	-									
+comp5693_c0_seq1	-	6.256508531	1.973593853	0.000233323	0.025145042	-	-	-	NaN	-									
+comp12257_c0_seq1	-	6.26888092	1.477466697	0.001090142	0.067641679	-	-	-	NaN	-									
+comp6437_c0_seq1	-	6.275487058	2.003767434	0.000267154	0.027660602	-	-	-	NaN	-									
+comp20203_c0_seq1	-	6.278646823	1.21493367	0.001308279	0.07553415	-	-	-	NaN	-									
+comp41252_c0_seq1	-	6.288347062	1.483460852	0.000932794	0.06213823	-	-	-	NaN	-									
+comp45858_c0_seq1	-	6.297982516	1.07857004	0.002085087	0.098502253	-	-	-	NaN	-									
+comp8096_c0_seq1	-	6.316985677	1.610668568	0.000790474	0.055985016	-	-	-	NaN	-									
+comp11551_c0_seq1	-	6.335893411	1.301035125	0.000930853	0.062101171	-	-	-	NaN	-									
+comp38718_c0_seq1	-	6.345217496	1.565025834	0.001698508	0.087727546	-	-	-	NaN	-									
+comp23230_c0_seq1	-	6.387126239	3.057218122	3.76E-06	0.001285354	-	-	-	NaN	-									
+comp44285_c0_seq1	-	6.424733425	1.526472453	0.000680627	0.051197756	-	-	-	NaN	-									
+comp20174_c0_seq1	-	6.461246293	1.679103574	0.001094522	0.067676183	-	-	-	NaN	-									
+comp44566_c0_seq1	-	6.461246293	1.712696533	0.001719038	0.088142727	-	-	-	NaN	-									
+comp29299_c0_seq1	-	6.495545462	6.980542505	9.98E-05	0.014116265	-	-	-	NaN	-									
+comp22032_c0_seq2	-	6.520061654	1.295371053	0.001791864	0.090464928	-	-	-	NaN	-									
+comp22410_c0_seq1	-	6.520879505	3.457874371	0.000219151	0.024375158	-	-	-	NaN	-									
+comp26052_c0_seq1	-	6.558774825	1.490684067	0.001726151	0.088341113	-	-	-	NaN	-									
+comp8176_c0_seq1	-	6.569862797	1.614784708	0.00050568	0.042660438	-	-	-	NaN	-									
+comp8851_c0_seq2	-	6.569862797	2.349971033	0.000516022	0.043160999	-	-	-	NaN	-									
+comp15877_c0_seq2	-	6.5808662	1.909888023	7.70E-05	0.01191113	-	-	-	NaN	-									
+comp11260_c0_seq1	-	6.623309395	1.377797765	0.000563961	0.045638106	-	-	-	NaN	-									
+comp8843_c0_seq1	-	6.629368644	1.932286095	6.90E-05	0.011007787	-	-	-	NaN	-									
+comp18836_c0_seq1	-	6.668579259	1.909811479	0.000626349	0.048666306	-	-	-	NaN	-									
+comp26587_c0_seq1	-	6.70718255	3.80498313	1.62E-07	0.000127503	-	-	-	NaN	-									
+comp39832_c0_seq1	-	6.719659042	1.94572534	0.000215088	0.024107034	-	-	-	NaN	-									
+comp38898_c0_seq1	-	6.73392714	1.967107325	0.000241608	0.025747413	-	-	-	NaN	-									
+comp6231_c0_seq1	-	6.823381167	2.038138196	0.000110178	0.015049948	-	-	-	NaN	-									
+comp19227_c0_seq1	-	6.849825679	1.51759112	0.000274824	0.028194274	-	-	-	NaN	-									
+comp37418_c0_seq1	-	6.883890841	1.192925589	0.002105144	0.098928531	-	-	-	NaN	-									
+comp7438_c0_seq1	-	6.938741192	2.189754923	0.000379501	0.034651307	-	-	-	NaN	-									
+comp42469_c0_seq1	-	7.025430866	1.914688885	0.001638439	0.085811311	-	-	-	NaN	-									
+comp14716_c0_seq1	-	7.060615543	5.398497604	1.13E-05	0.002929553	-	-	-	NaN	-									
+comp7365_c0_seq1	-	7.079472896	1.48967756	0.000738696	0.053761717	-	-	-	NaN	-									
+comp40150_c0_seq1	-	7.107140378	2.358207031	0.000237729	0.025497261	-	-	-	NaN	-									
+comp8253_c0_seq1	-	7.12348971	2.32127091	2.20E-05	0.004817671	-	-	-	NaN	-									
+comp14523_c0_seq1	-	7.154091974	1.086287033	0.00189758	0.093795278	-	-	-	NaN	-									
+comp39614_c0_seq1	-	7.182246983	1.541938953	0.000709036	0.05245465	-	-	-	NaN	-									
+comp42874_c0_seq1	-	7.191511193	1.510991551	0.000604876	0.047650726	-	-	-	NaN	-									
+comp5856_c0_seq1	-	7.21038936	2.990015898	0.000110444	0.015049948	-	-	-	NaN	-									
+comp6982_c0_seq1	-	7.321477686	7.045045473	7.45E-06	0.002197122	-	-	-	NaN	-									
+comp14626_c0_seq1	-	7.34052999	1.593807676	0.000301403	0.029905222	-	-	-	NaN	-									
+comp21471_c0_seq1	-	7.397680906	1.186020554	0.001273583	0.074832626	-	-	-	NaN	-									
+comp44148_c0_seq1	-	7.43715987	1.816497988	0.000308477	0.030182135	-	-	-	NaN	-									
+comp35118_c0_seq41	-	7.643393147	5.541845765	4.51E-06	0.001479618	-	-	-	NaN	-									
+comp40248_c0_seq1	-	7.775770679	1.398841839	0.000712826	0.052561528	-	-	-	NaN	-									
+comp38021_c0_seq1	-	7.876854258	1.488430912	0.000504155	0.042645803	-	-	-	NaN	-									
+comp42675_c0_seq1	-	8.020336368	5.30301714	1.09E-05	0.002894736	-	-	-	NaN	-									
+comp25087_c0_seq1	-	8.031518189	4.718791137	1.41E-06	0.000594715	-	-	-	NaN	-									
+comp23040_c0_seq1	-	8.213376713	2.625275307	0.00010469	0.014588706	-	-	-	NaN	-									
+comp12694_c0_seq1	-	8.296458628	6.203455726	1.07E-05	0.002844061	-	-	-	NaN	-									
+comp7180_c0_seq1	-	8.902003982	0.961372725	0.001799773	0.090660003	-	-	-	NaN	-									
+comp45061_c0_seq1	-	8.915151954	1.065351401	0.002100249	0.098802046	-	-	-	NaN	-									
+comp49253_c0_seq1	-	8.928181183	1.047327522	0.001720309	0.088142727	-	-	-	NaN	-									
+comp5717_c0_seq1	-	8.928181183	0.854324278	0.002063419	0.09825164	-	-	-	NaN	-									
+comp20233_c0_seq1	-	8.938050415	3.248762039	1.05E-07	8.74E-05	-	-	-	NaN	-									
+comp49064_c0_seq1	-	8.953891861	1.111114941	0.001989899	0.096444506	-	-	-	NaN	-									
+comp27090_c1_seq1	-	8.966577392	1.075074664	0.001448741	0.080185134	-	-	-	NaN	-									
+comp46059_c0_seq1	-	8.979152352	1.12470618	0.001615507	0.08520567	-	-	-	NaN	-									
+comp15276_c0_seq2	-	8.991618652	1.095319475	0.001305937	0.07553415	-	-	-	NaN	-									
+comp36945_c0_seq1	-	9.003978152	1.156114712	0.00157037	0.084018136	-	-	-	NaN	-									
+comp39915_c0_seq1	-	9.003978152	1.071908398	0.001224436	0.073039072	-	-	-	NaN	-									
+comp44880_c0_seq1	-	9.003978152	1.108353656	0.001240817	0.073388286	-	-	-	NaN	-									
+comp44655_c0_seq1	-	9.016232668	1.139102169	0.00123732	0.073278101	-	-	-	NaN	-									
+comp16634_c0_seq2	-	9.028383968	1.145870649	0.001166612	0.070677783	-	-	-	NaN	-									
+comp37751_c0_seq1	-	9.028383968	1.145866892	0.001164603	0.070651535	-	-	-	NaN	-									
+comp19730_c0_seq2	-	9.052383774	1.217141349	0.001630311	0.08548548	-	-	-	NaN	-									
+comp51483_c0_seq1	-	9.052383774	1.07604451	0.001047467	0.066138073	-	-	-	NaN	-									
+comp16523_c0_seq1	-	9.064235602	1.217635888	0.001296369	0.075381057	-	-	-	NaN	-									
+comp44859_c0_seq1	-	9.064235602	0.963322352	0.001315718	0.07553415	-	-	-	NaN	-									
+comp21001_c0_seq1	-	9.087651105	1.219058886	0.000996588	0.06391851	-	-	-	NaN	-									
+comp35998_c0_seq1	-	9.087651105	1.247164838	0.001295117	0.075381057	-	-	-	NaN	-									
+comp15122_c0_seq1	-	9.110692628	1.123247092	0.000834965	0.058305725	-	-	-	NaN	-									
+comp20605_c0_seq1	-	9.122076842	0.8254759	0.002038744	0.097731287	-	-	-	NaN	-									
+comp26707_c0_seq1	-	9.122076842	0.825475135	0.002037153	0.097731287	-	-	-	NaN	-									
+comp18709_c0_seq1	-	9.144579269	1.212236884	0.000708812	0.05245465	-	-	-	NaN	-									
+comp49589_c0_seq1	-	9.144579269	1.299580569	0.000979947	0.063579028	-	-	-	NaN	-									
+comp8565_c0_seq1	-	9.155700218	0.946638619	0.001308327	0.07553415	-	-	-	NaN	-									
+comp25351_c0_seq1	-	9.177688198	1.349431927	0.001293211	0.075381057	-	-	-	NaN	-									
+comp47392_c0_seq1	-	9.177688198	1.306920007	0.000686468	0.051431225	-	-	-	NaN	-									
+comp6008_c0_seq2	-	9.177688198	1.328032604	0.000816813	0.057487209	-	-	-	NaN	-									
+comp46608_c0_seq1	-	9.199346086	1.249778315	0.000554447	0.045276775	-	-	-	NaN	-									
+comp43847_c0_seq1	-	9.220683646	0.830357845	0.002002987	0.096869358	-	-	-	NaN	-									
+comp14557_c0_seq1	-	9.231235238	1.387890253	0.00072549	0.053145713	-	-	-	NaN	-									
+comp15630_c0_seq1	-	9.241710217	1.393499352	0.00064905	0.049571023	-	-	-	NaN	-									
+comp15305_c0_seq4	-	9.247388376	5.000374257	4.32E-08	4.40E-05	-	-	-	NaN	-									
+comp14028_c0_seq1	-	9.252109688	1.302186905	0.000438479	0.03877293	-	-	-	NaN	-									
+comp38525_c0_seq1	-	9.252109688	0.937795527	0.00131061	0.07553415	-	-	-	NaN	-									
+comp35750_c0_seq1	-	9.272686407	0.966591412	0.001138754	0.069648889	-	-	-	NaN	-									
+comp48128_c0_seq1	-	9.272686407	0.87225781	0.001689127	0.087545605	-	-	-	NaN	-									
+comp13913_c0_seq1	-	9.282865748	0.824045181	0.002135485	0.099935347	-	-	-	NaN	-									
+comp23205_c1_seq1	-	9.282865748	0.987233476	0.001046898	0.066138073	-	-	-	NaN	-									
+comp47498_c0_seq1	-	9.282865748	1.219108511	0.00046888	0.04058073	-	-	-	NaN	-									
+comp38964_c0_seq1	-	9.303011462	1.465851415	0.000621187	0.048433128	-	-	-	NaN	-									
+comp9558_c1_seq1	-	9.303011462	1.226558371	0.00044188	0.038949596	-	-	-	NaN	-									
+comp7244_c0_seq1	-	9.312979799	1.148882568	0.000558639	0.045371197	-	-	-	NaN	-									
+comp9033_c0_seq1	-	9.312979799	0.842346716	0.001960184	0.095937754	-	-	-	NaN	-									
+comp14980_c0_seq1	-	9.322879732	1.004772511	0.000965022	0.063158904	-	-	-	NaN	-									
+comp6077_c0_seq1	-	9.322879732	1.452497168	0.000378671	0.034646042	-	-	-	NaN	-									
+comp6308_c0_seq1	-	9.322879732	1.438098877	0.000350421	0.032813644	-	-	-	NaN	-									
+comp6371_c0_seq1	-	9.322879732	0.959599515	0.001180535	0.071136781	-	-	-	NaN	-									
+comp15301_c0_seq1	-	9.332712193	0.927705884	0.001372018	0.077728545	-	-	-	NaN	-									
+comp23293_c0_seq3	-	9.342478096	1.505860252	0.000531959	0.044001417	-	-	-	NaN	-									
+comp47647_c0_seq1	-	9.342478096	1.415448945	0.000291697	0.029134771	-	-	-	NaN	-									
+comp13653_c0_seq1	-	9.36181379	1.460067512	0.000282555	0.02859876	-	-	-	NaN	-									
+comp50157_c0_seq1	-	9.36181379	1.193811637	0.00045279	0.03957015	-	-	-	NaN	-									
+comp11937_c0_seq1	-	9.371385317	0.91251622	0.00148637	0.081095691	-	-	-	NaN	-									
+comp16215_c0_seq1	-	9.371385317	1.45133468	0.000258587	0.027086414	-	-	-	NaN	-									
+comp49249_c0_seq1	-	9.371385317	1.539867936	0.000548631	0.044975807	-	-	-	NaN	-									
+comp16093_c0_seq1	-	9.390339946	0.86692698	0.001884655	0.093465564	-	-	-	NaN	-									
+comp19789_c0_seq1	-	9.390339946	1.08091648	0.000703577	0.05230972	-	-	-	NaN	-									
+comp25967_c0_seq1	-	9.390339946	1.110768257	0.000615947	0.048108233	-	-	-	NaN	-									
+comp8592_c0_seq1	-	9.390339946	1.04427842	0.000828686	0.058140264	-	-	-	NaN	-									
+comp16180_c0_seq1	-	9.399724684	0.923026816	0.001465072	0.080789774	-	-	-	NaN	-									
+comp43941_c0_seq1	-	9.399724684	0.875186204	0.001839721	0.092335362	-	-	-	NaN	-									
+comp12611_c0_seq1	-	9.427518079	0.992306349	0.001052575	0.066276718	-	-	-	NaN	-									
+comp15716_c0_seq1	-	9.427518079	1.15005235	0.000514544	0.043151147	-	-	-	NaN	-									
+comp20695_c0_seq1	-	9.436664818	1.272469778	0.000314631	0.030664201	-	-	-	NaN	-									
+comp19031_c0_seq1	-	9.445753932	1.17497384	0.000461483	0.040197776	-	-	-	NaN	-									
+comp15826_c1_seq1	-	9.454786141	0.970077735	0.001194545	0.07178798	-	-	-	NaN	-									
+comp24784_c0_seq1	-	9.454786141	1.263778563	0.00031842	0.030832457	-	-	-	NaN	-									
+comp6924_c0_seq1	-	9.463762155	1.594048776	0.000202619	0.023055312	-	-	-	NaN	-									
+comp6948_c0_seq1	-	9.463762155	0.925022446	0.001557953	0.083648087	-	-	-	NaN	-									
+comp15386_c0_seq1	-	9.472682667	1.464676325	0.000167154	0.020199041	-	-	-	NaN	-									
+comp15972_c0_seq1	-	9.481548361	1.018435316	0.000972389	0.063455842	-	-	-	NaN	-									
+comp48814_c0_seq1	-	9.481548361	1.642513811	0.000285432	0.028691684	-	-	-	NaN	-									
+comp44078_c0_seq1	-	9.490359906	1.503068191	0.000145452	0.018520648	-	-	-	NaN	-									
+comp46909_c0_seq1	-	9.499117959	1.008144741	0.001026278	0.065355225	-	-	-	NaN	-									
+comp7278_c0_seq1	-	9.499117959	1.41505473	0.000176504	0.020823711	-	-	-	NaN	-									
+comp6769_c0_seq1	-	9.507823166	1.677775422	0.000343031	0.032376362	-	-	-	NaN	-									
+comp17735_c0_seq1	-	9.525077566	0.906632981	0.001972158	0.096208706	-	-	-	NaN	-									
+comp43851_c0_seq1	-	9.525077566	1.091620057	0.000687172	0.051431225	-	-	-	NaN	-									
+comp44122_c0_seq1	-	9.525077566	1.073557402	0.000754193	0.054211564	-	-	-	NaN	-									
+comp46824_c0_seq1	-	9.525077566	1.690941897	0.000273131	0.028084928	-	-	-	NaN	-									
+comp21000_c0_seq1	-	9.533627993	1.66231459	0.000145829	0.018520648	-	-	-	NaN	-									
+comp41968_c0_seq1	-	9.533627993	1.044085696	0.000893242	0.06040091	-	-	-	NaN	-									
+comp10590_c0_seq1	-	9.542128042	1.679374102	0.000152026	0.018985023	-	-	-	NaN	-									
+comp44160_c0_seq1	-	9.542128042	1.633797799	0.000116458	0.01563181	-	-	-	NaN	-									
+comp8740_c0_seq1	-	9.550578305	1.331425684	0.000220922	0.024455208	-	-	-	NaN	-									
+comp19183_c0_seq1	-	9.558979359	1.285954714	0.000275746	0.028224278	-	-	-	NaN	-									
+comp16699_c0_seq1	-	9.567331777	0.998440003	0.001205855	0.072370678	-	-	-	NaN	-									
+comp19660_c0_seq1	-	9.592102753	1.703055193	9.96E-05	0.014116265	-	-	-	NaN	-									
+comp39985_c0_seq1	-	9.592102753	1.141502888	0.000551672	0.045132406	-	-	-	NaN	-									
+comp15003_c0_seq1	-	9.600266124	1.592179308	8.59E-05	0.012947032	-	-	-	NaN	-									
+comp37587_c0_seq1	-	9.600266124	1.77113831	0.000243507	0.025747413	-	-	-	NaN	-									
+comp44652_c0_seq1	-	9.600266124	1.707651754	9.42E-05	0.013562384	-	-	-	NaN	-									
+comp29583_c0_seq1	-	9.616455584	1.450700636	0.000127347	0.016596616	-	-	-	NaN	-									
+comp16705_c0_seq1	-	9.624482692	0.961185933	0.001988512	0.096444506	-	-	-	NaN	-									
+comp45639_c0_seq1	-	9.624482692	1.795596627	0.000224536	0.024794047	-	-	-	NaN	-									
+comp24990_c1_seq1	-	9.632465385	0.962329018	0.002079302	0.098481871	-	-	-	NaN	-									
+comp46757_c0_seq1	-	9.632465385	1.186609416	0.000443963	0.038949596	-	-	-	NaN	-									
+comp47168_c0_seq1	-	9.663961657	1.488091252	0.000104781	0.014588706	-	-	-	NaN	-									
+comp21118_c0_seq1	-	9.671729446	1.278490283	0.00028419	0.028631047	-	-	-	NaN	-									
+comp9859_c0_seq1	-	9.679455636	1.749046492	5.67E-05	0.009635955	-	-	-	NaN	-									
+comp5795_c0_seq1	-	9.687140669	1.851271395	0.000130617	0.016973334	-	-	-	NaN	-									
+comp50681_c0_seq1	-	9.694784982	1.04805422	0.001319219	0.07553415	-	-	-	NaN	-									
+comp16672_c0_seq1	-	9.709953157	1.31958007	0.000230312	0.025017435	-	-	-	NaN	-									
+comp7877_c0_seq2	-	9.709953157	1.437448553	0.000125727	0.01643316	-	-	-	NaN	-									
+comp13892_c0_seq1	-	9.732410532	1.86106191	5.59E-05	0.00960216	-	-	-	NaN	-									
+comp20529_c0_seq1	-	9.754523682	1.511493221	8.39E-05	0.012754785	-	-	-	NaN	-									
+comp42089_c0_seq1	-	9.761820047	1.866714852	4.08E-05	0.007461052	-	-	-	NaN	-									
+comp6292_c0_seq1	-	9.761820047	1.909271529	6.20E-05	0.010109101	-	-	-	NaN	-									
+comp9193_c0_seq1	-	9.761820047	1.916350886	7.17E-05	0.011353789	-	-	-	NaN	-									
+comp17094_c0_seq1	-	9.769079697	1.391773731	0.000159789	0.019596484	-	-	-	NaN	-									
+comp47290_c0_seq1	-	9.783490315	1.850458356	3.22E-05	0.006306051	-	-	-	NaN	-									
+comp38960_c0_seq1	-	9.804839892	1.929398826	3.84E-05	0.007238302	-	-	-	NaN	-									
+comp13698_c0_seq1	-	9.853460228	1.638353095	4.25E-05	0.007754171	-	-	-	NaN	-									
+comp19229_c0_seq1	-	9.860274137	1.450827518	0.000117613	0.015739842	-	-	-	NaN	-									
+comp7143_c0_seq1	-	9.860274137	1.398506361	0.000163389	0.019797423	-	-	-	NaN	-									
+comp45337_c0_seq1	-	9.887212441	2.060756349	8.61E-05	0.012947032	-	-	-	NaN	-									
+comp20208_c0_seq2	-	9.900495287	2.067556568	5.63E-05	0.00960216	-	-	-	NaN	-									
+comp10689_c1_seq1	-	9.913656953	1.39590104	0.000182855	0.021292904	-	-	-	NaN	-									
+comp34713_c0_seq1	-	9.923373507	6.088490109	5.89E-06	0.001796817	-	-	-	NaN	-									
+comp20440_c0_seq1	-	9.92669963	2.100569725	7.29E-05	0.011460588	-	-	-	NaN	-									
+comp15450_c0_seq1	-	9.946045191	1.507547103	8.68E-05	0.012977815	-	-	-	NaN	-									
+comp39401_c0_seq1	-	9.954081383	6.116876463	2.33E-07	0.000166126	-	-	-	NaN	-									
+comp35859_c0_seq1	-	9.977722255	1.360491608	0.000300746	0.029905222	-	-	-	NaN	-									
+comp36302_c0_seq1	-	9.996399926	1.301619766	0.000841633	0.058408785	-	-	-	NaN	-									
+comp43652_c0_seq1	-	10.00257247	1.417773508	0.0001953	0.022450536	-	-	-	NaN	-									
+comp26905_c0_seq1	-	10.02093319	2.109171507	9.18E-06	0.002572188	-	-	-	NaN	-									
+comp15364_c0_seq1	-	10.05102449	1.736164017	2.22E-05	0.004841206	-	-	-	NaN	-									
+comp15007_c0_seq1	-	10.05696816	1.815351573	1.44E-05	0.003534461	-	-	-	NaN	-									
+comp23335_c0_seq1	-	10.08050096	2.166943699	6.48E-06	0.001948767	-	-	-	NaN	-									
+comp35759_c0_seq1	-	10.0953936	5.849232947	1.74E-08	2.30E-05	-	-	-	NaN	-									
+comp26098_c0_seq1	-	10.10365604	1.585141036	6.53E-05	0.010529404	-	-	-	NaN	-									
+comp14436_c0_seq1	-	10.1150957	1.419022805	0.000548755	0.044975807	-	-	-	NaN	-									
+comp9656_c0_seq1	-	10.13208688	1.707256987	2.77E-05	0.005629247	-	-	-	NaN	-									
+comp15113_c0_seq1	-	10.14888028	1.608173169	6.09E-05	0.010026304	-	-	-	NaN	-									
+comp10439_c0_seq1	-	10.18732098	2.363370865	2.98E-05	0.005961251	-	-	-	NaN	-									
+comp24189_c1_seq2	-	10.18732098	2.331522916	7.80E-06	0.002270698	-	-	-	NaN	-									
+comp43807_c0_seq1	-	10.2194741	2.31792175	3.49E-06	0.001211713	-	-	-	NaN	-									
+comp48053_c0_seq1	-	10.22476396	2.377731656	7.87E-06	0.00227625	-	-	-	NaN	-									
+comp7318_c0_seq1	-	10.2300345	2.398526506	1.41E-05	0.003504214	-	-	-	NaN	-									
+comp19071_c0_seq1	-	10.23528586	2.252413201	2.11E-06	0.000830279	-	-	-	NaN	-									
+comp16186_c0_seq1	-	10.2612597	1.892120927	7.95E-06	0.002283856	-	-	-	NaN	-									
+comp7681_c0_seq1	-	10.30686575	2.461730469	5.66E-06	0.0017507	-	-	-	NaN	-									
+comp20070_c0_seq3	-	10.32175293	2.484153423	6.93E-06	0.002057228	-	-	-	NaN	-									
+comp8950_c0_seq1	-	10.32175293	2.498831765	1.89E-05	0.004283746	-	-	-	NaN	-									
+comp27829_c0_seq1	-	10.39865635	2.073574685	2.36E-06	0.000911045	-	-	-	NaN	-									
+comp6189_c0_seq1	-	10.39865635	2.578754601	2.13E-05	0.004729269	-	-	-	NaN	-									
+comp44250_c0_seq1	-	10.40798732	2.551528211	2.57E-06	0.000977627	-	-	-	NaN	-									
+comp37691_c0_seq1	-	10.42187159	2.599693641	1.38E-05	0.003449431	-	-	-	NaN	-									
+comp15206_c0_seq1	-	10.4356235	1.98395445	5.00E-06	0.001569083	-	-	-	NaN	-									
+comp21263_c0_seq1	-	10.44924557	2.62272029	8.07E-06	0.002304235	-	-	-	NaN	-									
+comp8212_c0_seq1	-	10.45465136	7.570983681	8.41E-08	7.39E-05	-	-	-	NaN	-									
+comp24611_c0_seq1	-	10.48935665	2.364351365	4.71E-07	0.00025463	-	-	-	NaN	-									
+comp15138_c0_seq2	-	10.64740028	2.769061789	5.60E-07	0.0002854	-	-	-	NaN	-									
+comp37684_c0_seq1	-	10.66307218	2.840613679	5.57E-06	0.001734944	-	-	-	NaN	-									
+comp14935_c0_seq1	-	10.71662078	2.04710311	1.59E-05	0.003722419	-	-	-	NaN	-									
+comp38991_c0_seq1	-	10.80403319	2.40141568	2.43E-07	0.000167544	-	-	-	NaN	-									
+comp9343_c0_seq1	-	10.92595828	3.087895745	5.75E-07	0.000286206	-	-	-	NaN	-									
+comp43997_c0_seq1	-	10.99095003	5.406904127	2.46E-06	0.000941986	-	-	-	NaN	-									
+comp40602_c0_seq1	-	11.01719332	3.131824139	8.34E-08	7.39E-05	-	-	-	NaN	-									
+comp17968_c0_seq2	-	11.02327772	3.206539302	4.56E-06	0.001480949	-	-	-	NaN	-									
+comp8664_c0_seq1	-	11.11729221	3.285407944	4.17E-07	0.000242916	-	-	-	NaN	-									
+comp25113_c0_seq4	-	11.16760162	3.000099967	7.13E-09	1.17E-05	-	-	-	NaN	-									
+comp22909_c0_seq3	-	11.19481136	3.291633996	2.56E-08	3.12E-05	-	-	-	NaN	-									
+comp46621_c0_seq1	-	11.30878905	3.448250998	5.06E-08	4.93E-05	-	-	-	NaN	-									
+comp42959_c0_seq1	-	11.62311123	3.73444961	7.30E-09	1.17E-05	-	-	-	NaN	-									
+comp39319_c0_seq1	-	11.65676839	3.124918684	4.43E-09	8.27E-06	-	-	-	NaN	-									
+comp7843_c0_seq1	-	12.08532903	4.224313809	5.95E-09	1.07E-05	-	-	-	NaN	-									
+comp25541_c0_seq1	-	12.45860966	4.034571256	4.15E-11	1.86E-07	-	-	-	NaN	-									
+comp7228_c1_seq1	-	12.47930165	9.411657199	4.52E-06	0.001479618	-	-	-	NaN	-									
+comp48088_c0_seq1	-	12.63783051	4.818327612	4.02E-08	4.19E-05	-	-	-	NaN	-									
+comp25388_c0_seq1	-	12.80077378	4.985258725	7.41E-08	6.92E-05	-	-	-	NaN	-									
+comp45415_c0_seq1	-	12.89834652	4.742239311	5.82E-12	3.73E-08	-	-	-	NaN	-									
+comp38532_c0_seq1	-	13.76071658	5.948277998	4.43E-08	4.42E-05	-	-	-	NaN	-									
+comp7276_c0_seq1	-	13.94226703	6.130885691	9.32E-08	7.88E-05	-	-	-	NaN	-									
+comp7813_c0_seq1	-	14.92729225	7.116424064	3.48E-08	3.81E-05	-	-	-	NaN	-									
+																			
+																			
+																			
+																			
+																			
+																			
