@@ -73,18 +73,15 @@
     - /DataSheet4Replica-all-p-val.tab : This is our replica of datasheet 4 with no p-value cut off. 
     - /DataSheet4Replica.tab: This is our replica of datasheet 4 with a 0.1 p-value cut off. 
     - /DEgenes_coral_filttxm.tsv: This is our output file from edgeR listing all the DE genes recovered. This is from the filtered txm.
-    - /DEgenes_pval0.1_coral_filttxm.tsv: This is the output file from edgeR listing all DE 
-genes recovered with a p-value < 0.1. This is from the filtered txm.
--/output/Longest.TPMfilt.SAMBAMfiles/ : Bowtie2 and SAMtools output - SAM and BAM files of the TPM filtered sequences. 
--/output/QC : This folder contains all of the .html and .zip files for each of the samples following the quality control step using FastQC.
--/output/salmon : This contains the outputs for salmon.
-    - /Quant.sf : This is the output of interest from salmon that will be used to filter based on TPM. 
--/output/salmon/ : 
+    - /DEgenes_pval0.1_coral_filttxm.tsv: This is the output file from edgeR listing all DE genes recovered with a p-value < 0.1. This is from the filtered txm.
+- /output/Longest.TPMfilt.SAMBAMfiles/ : Bowtie2 and SAMtools output - SAM and BAM files of the TPM filtered sequences. 
+- /output/QC : This folder contains all of the .html and .zip files for each of the samples following the quality control step using FastQC.
+- /output/salmon/ : 
     - /quant.sf :  salmon pseduo-alignment output. 
     - /salmon_quant.isoform.counts.matrix :  salmon output converted to a matrix for TPM filtering. 
     - /salmon_quant.isoform.TPM.not_cross_norm : salmon output normalized for TPM filtering. 
--/output/swissprot_TrEMBL_DB/: contains the files to make the swissprot TrEMBLE database.   
--/output/transcriptome-database
+- /output/swissprot_TrEMBL_DB/: contains the files to make the swissprot TrEMBLE database.   
+- /output/transcriptome-database
     - /algaeAnnotate.tab : Trinity annotations against algae database
     - /algaefastas/ :folder that contains each of the algae genomes used to create a custom algae database.                 
     - /Algae.tab: tab file of trinity annotations that have been assigned to algae based on e-value and bitscore using Split-algae-coral.ipynb. 
