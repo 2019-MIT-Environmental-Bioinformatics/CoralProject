@@ -104,6 +104,9 @@ genes recovered with a p-value < 0.1. This is from the filtered txm.
 - /output/trinity_out_dir : trinity assembly output files
 - /output/untrimFastq : orphaned reads that were not included in analysis 	
 
+### Coral.gitignore
+- This file contains paths to all files over 50Mb that are ignored, and not pushed to GitHub.
+
 ## Procedure and Instructions for Reproducing our Pipeline and Analysis
 
 #### Raw sequence files were not uploaded properly to NCBI, so we had to reach out to the author to retrieve them. The files were downloaded to a local computer and copied onto the HPC using the `scp` command. All gzipped, raw files are located in the CoralProject folder (/env-bio/collaboration/CoralProject/) on the HPC at **/data/origfastq/**. In the following instructions, all files are in folders within the parent directory `/env-bio/collaboration/CoralProject/`.
