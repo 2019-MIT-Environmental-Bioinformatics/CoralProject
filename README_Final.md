@@ -8,6 +8,8 @@
         After beginning the project, we ran into difficulty with MG-RAST, so we decided to move forward analyzing the algal and coral component of the holobiont, rather than the bacterial and coral components. As a result, we focused on recreating figure 1 and Data Sheet 4, which summarizes the differentially expressed genes that map to both the coral and algal compartments of the holobiont. The overarching goal was to reproduce an analysis that investigated how genes were differentially expressed based on the disease state of a coral host.    
 
 ## Folder Structure and outline of documents.
+**Note**: The majority of /data/ and /output/ files were too large to push to GitHub. These are located in the files on the HPC as outlined below. 
+
 ### /data/:Contains raw data. We did NOT push this to GitHub due to large file sizes
 - /data/origfastq/ : original, untrimmed, unfiltered data files
 - /data/TrimCorrectedFastq/ : contains all of the trimmed and corrected sequences. 
