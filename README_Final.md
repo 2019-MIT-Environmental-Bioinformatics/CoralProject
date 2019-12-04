@@ -60,7 +60,7 @@
     - /salmonindex_495414.log : log from salmon index step. 
 - /logs/transcriptlog/: Notes for commands we used and files we created as we went through the project. We treated it like a lab notebook for our computer pipeline.
 - /logs/trimmed_489211.log: output from Trimmomatic analysis.
-- /logs/Trinitydenovo_490484.log : **NOT PUSHED** because this log file from the trinity de novo assembly is 70Mb. 
+- /logs/Trinitydenovo_490484.log : Note this log file from the trinity de novo assembly is 70Mb. 
 - /logs/unfixable/ : These logs are output log files generated from the `FilterUnfixableSeqs.txt` script and describe how many sequences were kept after filtering. 	   
 	
 ### /output/ : contains the output of all analyses.
@@ -96,13 +96,13 @@ genes recovered with a p-value < 0.1. This is from the filtered txm.
     - /coralfastas/ :folder that contains each of the algae genomes used to create a custom coral database.        
     - /coral.tab : tab file of trinity annotations that have been assigned to coral based on e-value and bitscore using Split-algae-coral.ipynb. 
     - /Trinity.fasta : De novo transcriptome needed for splitting it into algae and coral parts
--/output/Transcriptomes/ : contains our trinity transcriptomes and the assembly statistics that correspond with each. 
--/output/trimFastqc : Folder that contains the trimmed fastq files for each sample.  
--/output/trinity.fasta-index: trinity output containing all isoforms.  
--/output/trinity-longest-index : trinity output against the longest isoforms only. 
--/output/TrinityIndex_TPMfilt_forBT2 : indexed transcriptome files for bowtie2
--/output/trinity_out_dir : trinity assembly output files
--/output/untrimFastq : orphaned reads that were not included in analysis 	
+- /output/Transcriptomes/ : contains our trinity transcriptomes and the assembly statistics that correspond with each. 
+- /output/trimFastqc : Folder that contains the trimmed fastq files for each sample.  
+- /output/trinity.fasta-index: trinity output containing all isoforms.  
+- /output/trinity-longest-index : trinity output against the longest isoforms only. 
+- /output/TrinityIndex_TPMfilt_forBT2 : indexed transcriptome files for bowtie2
+- /output/trinity_out_dir : trinity assembly output files
+- /output/untrimFastq : orphaned reads that were not included in analysis 	
 
 ## Procedure and Instructions for Reproducing our Pipeline and Analysis
 
@@ -117,7 +117,7 @@ genes recovered with a p-value < 0.1. This is from the filtered txm.
 
 **Note:** The paper above, Daniels et al. (2015), uses the **ALLPATHS-LG** standalone error correction module, `ErrorCorrectReads.pl`, which is part of the package. Currently, this standalone module is no longer supported, so we used a different package for error correction, called **rCorrector v1.0.4**, which is available for a conda installation.     
 
-**Error Correction. ** Use the `/scripts/rCorrectScript.txt` to perform error correction. 
+**Error Correction.** Use the `/scripts/rCorrectScript.txt` to perform error correction. 
 ```
 USAGE: sbatch rCorrectScript.txt <comma-sep list of Forward reads> <comma-sep list of Reverse reads>
 ```
